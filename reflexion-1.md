@@ -2,7 +2,7 @@
 
 > *«Un viaje de mil millas comienza desde debajo de los pies.»* Tao Te Ching, Capítulo 64. Lao-Tse (571 a.C.-470 a.C.).
 
-<img src="images/reflection-i.jpg" alt="Bay Horseand White Dog (George Stubbs)" style="width:75%;" />
+<img src="images/reflection-i.jpg" alt="Bay Horseand White Dog (George Stubbs)" style="width:500px; height:auto; display:block; margin:0 auto;" />
 
 ![img](uraijm4iyggf1 "Bay Horseand White Dog (George Stubbs)")
 
@@ -167,7 +167,7 @@ comenzando por este primer acto de distinción que da origen a todo lo tangible.
 
 # Sobre gatos, plantas y luz
 
-<img src="images/reflection-i-ii.jpg" alt="White Cat (M.C.Escher, 1919)" style="width:75%;" />
+<img src="images/reflection-i-ii.jpg" alt="White Cat (M.C.Escher, 1919)" style="width:500px; height:auto; display:block; margin:0 auto;" />
 
 ![img](13fb8uyr7dqf1 "White Cat (M.C.Escher, 1919)")
 

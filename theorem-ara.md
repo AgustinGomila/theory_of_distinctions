@@ -1,6 +1,6 @@
 # Teoría de Distinciones: Marco Fundamental
 
-<img src="images/theorem_ara.jpg" alt="L. Art de la conversation (René Magritte, 1963)" style="width:75%;" />
+<img src="images/theorem_ara.jpg" alt="L. Art de la conversation (René Magritte, 1963)" style="width:500px; height:auto; display:block; margin:0 auto;" />
 
 ![img](scp7auj73kqf1 "L. Art de la conversation (René Magritte, 1963)")
 

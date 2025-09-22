@@ -2,7 +2,7 @@
 
 *(Unicidad primordial → Proyección discreta)*
 
-<img src="images/est.png" alt="Ciclo EST en 9₄₀" style="width:75%;" />
+<img src="images/est.png" alt="Ciclo EST en 9₄₀" style="width:500px; height:auto; display:block; margin:0 auto;" />
 
 ![img](4g2ouqycrdif1 "Ciclo EST en 9₄₀")
 
@@ -287,7 +287,7 @@ El señor de Delfos no revela ni oculta: da señales.
 | **Cenital**        | Yin-Yang / ∞ (Infinito) | Taoísmo (Yin-Yang-Taiji)<br>Tradiciones indoeuropeas (Ouroboros)<br>Alquimia (Solve et coagula) | **Taiji** como fuente generadora de la tríada:<br>**↑E** (Yang, impulso creativo)<br>**•T** (Yin, receptividad)<br>**↻S** (Qi, flujo armónico) | *Ciclo 0→4*: Nada (0) -> Lógica (1) → Matemáticas (2) → Física (3) → Universo (4)           |
 | **Lateral**        | Pez (Ichthys)           | Cristianismo primitivo, Mitologías universales                                                  | Flujo existencial: **↑E** (cabeza/propósito), **↻S** (cuerpo/espacio-tiempo), **•T** (cola/inercia)                                            | *Transmisión del conocimiento*: Logos (↑E) → Símbolos (↻S) → Tradición (•T)                 |
 
-<img src="images/comp.png" alt="Vistas de 3₁ y 9₄₀ (KnotPlot)" style="width:75%;" />
+<img src="images/comp.png" alt="Vistas de 3₁ y 9₄₀ (KnotPlot)" style="width:750px; height:auto; display:block; margin:0 auto;" />
 
 ![img](tv7ojq1zoskf1 "Vistas de 3₁ y 9₄₀ (KnotPlot)")
 
@@ -355,7 +355,7 @@ El señor de Delfos no revela ni oculta: da señales.
     - **9₄₀**: Nudo estable individual dentro de la red universal. Codifica la máxima complejidad triádica local.
       Equilibrio global (fractalidad compensada).
 
-<img src="images/940_beauty.png" alt="9₄₀ en The Beauty of Knots, Carlo H. Sequin (2010)" style="width:75%;" />
+<img src="images/940_beauty.png" alt="9₄₀ en The Beauty of Knots, Carlo H. Sequin (2010)" style="width:750px; height:auto; display:block; margin:0 auto;" />
 
 ![img](iaone0f66mkf1 "9₄₀ en The Beauty of Knots, Carlo H. Sequin (2010)")
 

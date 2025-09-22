@@ -1,6 +1,6 @@
 # Diagramas de Venn Ontológicos
 
-<img src="images/venn-diagrams.jpg" alt="Mobius strip 1 (Maurits Cornelis Escher, 1961)" style="width:75%;" />
+<img src="images/venn-diagrams.jpg" alt="Mobius strip 1 (Maurits Cornelis Escher, 1961)" style="width:500px; height:auto; display:block; margin:0 auto;" />
 
 ![img](px24lmclnmof1 "Mobius strip 1 (Maurits Cornelis Escher, 1961)")
 

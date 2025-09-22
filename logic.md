@@ -2,7 +2,7 @@
 
 *Ontología de la Distinción y sus Manifestaciones Lógicas y Matemáticas*
 
-<img src="images/distinción-lógica-y-matemáticas-i.jpg" alt="Knot (M.C. Escher, 1966)" style="width:75%;" />
+<img src="images/distinción-lógica-y-matemáticas-i.jpg" alt="Knot (M.C. Escher, 1966)" style="width:500px; height:auto; display:block; margin:0 auto;" />
 
 ![img](qwm4rwku18mf1 "Knot (M.C. Escher, 1966)")
 
@@ -579,7 +579,7 @@ manifestará con el 3 como "firma ontológica mínima para materializar cualquie
 confirma que _"el tres engendra todos los seres"_, mostrando cómo A(3,n) representa el primer nivel donde la función
 muestra crecimiento exponencial, correspondiendo a la completitud triádica.
 
-<img src="images/distinción-lógica-y-matemáticas-ii.jpg" alt="Path of Life III (Maurits Cornelis Escher, 1966)" style="width:75%;" />
+<img src="images/distinción-lógica-y-matemáticas-ii.jpg" alt="Path of Life III (Maurits Cornelis Escher, 1966)" style="width:500px; height:auto; display:block; margin:0 auto;" />
 
 ![img](ttick5hj28mf1 "Path of Life III (Maurits Cornelis Escher, 1966)")
 

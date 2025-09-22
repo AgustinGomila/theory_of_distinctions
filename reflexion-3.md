@@ -1,6 +1,6 @@
 # Nuestra existencia es un juego de espejos en múltiples dimensiones
 
-<img src="images/reflection-iii.jpg" alt="Life in Reflection (M.C, Escher, 1934)" style="width:75%;" />
+<img src="images/reflection-iii.jpg" alt="Life in Reflection (M.C, Escher, 1934)" style="width:500px; height:auto; display:block; margin:0 auto;" />
 
 ![img](1dej4mz2d0hf1 "Life in Reflection (M.C, Escher, 1934)")
 
@@ -32,17 +32,17 @@ Comprendí entonces que las reglas no cambian. Solo la **escala**.
 Pensé cómo la física se convierte en química al cambiar la escala del espacio. En las estrellas, el hidrógeno —como
 manifestación del Espacio (S)— se comprime hasta fusionarse, liberando Energía (E) en forma de luz durante millones de
 años, un Tiempo (T) cósmico. En las plantas, esa misma luz (E) es capturada por la clorofila (S) y convertida en glucosa
-en fracciones de segundo (T). Así comprendí que fotosíntesis y fusión estelar son manifestaciones de una misma **
-transición entre escalas. La estrella y la hoja no son opuestas: son eslabones de una cadena cósmica donde los límites
-entre físico y químico se desdibujan al cambiar la escala.
+en fracciones de segundo (T). Así comprendí que fotosíntesis y fusión estelar son manifestaciones de una misma
+**transición entre escalas**. La estrella y la hoja no son opuestas: son eslabones de una cadena cósmica donde los
+límites entre físico y químico se desdibujan al cambiar la escala.
 
 > *Me pregunté: ¿Qué dinámica subyace a esta conexión entre escalas?*
 
 Reflexioné que toda acción se inicia en niveles profundos del pensamiento —estimulado por los sentidos y experiencias—.
 Este impulso genera acciones que ascienden desde lo **particular** hacia sistemas cada vez más **generales**,
-transformando la realidad en mi escala. La transformación continúa luego en sistemas próximos, avanzando desde lo *
-*superficial** hasta lo **profundo**, lo que finalmente provoca una respuesta al cambio. Así, mi escala se revela como
-un **punto de conexión** entre niveles de realidad que trascienden los sentidos**.
+transformando la realidad en mi escala. La transformación continúa luego en sistemas próximos, avanzando desde lo
+**superficial** hasta lo **profundo**, lo que finalmente provoca una respuesta al cambio. Así, mi escala se revela como
+un **punto de conexión** entre niveles de realidad que **trascienden los sentidos**.
 
 > *Me pregunté: ¿Estas etapas se reflejan internamente en los sistemas?*
 
@@ -54,7 +54,7 @@ galaxia espiral son modelados por el mismo proceso dinámico, solo que en escala
 
 > *Me pregunté: ¿Las mismas dinámicas gobiernan los sistemas humanos?*
 
-Reflexioné sobre las civilizaciones como **transiciones de fase en sistemas complejos humanos. Pequeños cambios
+Reflexioné sobre las civilizaciones como **transiciones de fase** en sistemas complejos humanos. Pequeños cambios
 acumulados que, al alcanzar un umbral crítico, provocan saltos cualitativos reconfigurando el escenario para el próximo
 ciclo. Visualicé ese impulso primordial expandiéndose hasta su apogeo, para luego disolverse progresivamente en el
 tiempo y el espacio: contrayéndose, colapsando, dispersando sus componentes hacia nuevas configuraciones sociales.
@@ -141,15 +141,14 @@ que el acto de medir (T) las define. Medir no es observar pasivamente: es partic
 Reflexioné que Einstein, Darwin y los pioneros cuánticos no fueron visionarios por ver más, sino por ver a través de
 escalas. Esa transición —attosegundos a milenios, átomos a galaxias— no es una ilusión: es la llave que desvela
 paradojas. Un electrón, una ciudad y una espiral estelar no son reinos aislados; son la misma tríada resonando en tres
-escalas: vértigo cuántico, ritmo humano y paciencia cósmica. Cambiar de lente no es negar la realidad, sino **descubrir
-** su textura profunda —aquella donde todos los hilos vibran en la misma red viva.
+escalas: vértigo cuántico, ritmo humano y paciencia cósmica. Cambiar de lente no es negar la realidad, sino
+**descubrir** su textura profunda —aquella donde todos los hilos vibran en la misma red viva.
 
 > *Me pregunté: ¿Por qué observamos distancia entre las escalas?*
 
 Al mover mi cama esta mañana, noté que la planta giraba sus hojas hacia la nueva luz y el gato buscó otro rincón cálido.
 Me di cuenta de que no percibimos como **significativo** aquello que permanece uniforme en la escala del observador: la
-velocidad
-constante del viento, el olor familiar de mi habitación, incluso mis propias rutinas. Estos elementos, por su
+velocidad constante del viento, el olor familiar de mi habitación, incluso mis propias rutinas. Estos elementos, por su
 estabilidad, se vuelven invisibles para mí, como si fueran inexistentes. Así acepto comportamientos como normales e
 incluso dogmas sin cuestionarlos, hasta que **algo** los interrumpe y revela los **límites** que antes no veía.
 
@@ -314,8 +313,8 @@ Lo que dentro era secuencia, fuera era simultaneidad: una **cuerda continua vibr
 Fijé la mirada en sus cruces: primero la energía sobre el espacio, luego el espacio sobre el tiempo, y finalmente el
 tiempo sobre la energía. En cada cruce los efectos se entrelazaban sin fusionar sus trayectorias. Entonces recorrí
 mentalmente los lóbulos del nudo: El alejamiento —emergiendo bajo un cruce— como **expansión** inicial, la curva
-—flotando entre
-dos tensiones— como punto de **inflexión**, el regreso —sumergiéndose sobre otro cruce— como **confinamiento**.
+—flotando entre dos tensiones— como punto de **inflexión**, el regreso —sumergiéndose sobre otro cruce— como
+**confinamiento**.
 
 Recordé mi experiencia en el túnel: primero quietud, luego movimiento. Ahora imaginé completar el ciclo: ser el pulso
 que nace bajo un cruce del nudo, se expande en la periferia, y vuelve al centro pasando sobre el último umbral. Cada
@@ -375,7 +374,11 @@ Finalmente, inicié la caída. El espacio se comprimió rápidamente hasta colap
 pasar sobre el túnel del Tiempo, configuré su flujo: como péndulos que oscilan más rápido cuando su hilo se acorta. Al
 emerger, había completado el ciclo: el Espacio se había transformado en nueva energía.
 
-# La La realidad cuantizada
+En cada fase experimenté la misma fuerza en distintas formas e **intensidades**. En las fases extremas parecía imposible
+oponerse a la fuerza y maniobrar, en cambio, en la fase de curvatura, al perder empuje, aparece la capacidad de
+controlar los movimientos y las acciones. Por lo tanto, de **cambiar las cosas**.
+
+# La realidad cuantizada
 
 La realidad que percibimos es **cuantizada** no porque el universo sea cuantizado en su esencia, sino porque nuestra
 capacidad de observación tiene **límites naturales**. Por debajo de la **escala de Planck** —donde el espacio, el tiempo
@@ -415,7 +418,7 @@ espacio que la contiene. Como el agua que hace nuevos cauces mientras el cauce e
 diálogo perpetuo entre forma y fuerza.
 
 Observé cómo lo simple se vuelve complejo. Moléculas de agua, insignificantes por sí mismas, generan remolinos que
-ninguna gota podría crear sola. Así emergen galaxias desde partículas o pensamientos desde neuronas: **la colectividad
+ninguna gota podría crear sola. Así emergen galaxias desde partículas o pensamientos desde neuronas: **la colectividad**
 descubre leyes que el individuo desconoce.
 
 Finalmente, comprendí el **caos generativo**. El aleteo de una mariposa puede desencadenar tormentas continentales; un

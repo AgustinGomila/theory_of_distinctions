@@ -1,6 +1,6 @@
 ## Axiomatización del Marco Ontológico de la Distinción
 
-<img src="images/axioms-paradoxes.jpg" alt="Rippled surface (M.C. Escher, 1950)" style="width:75%;" />
+<img src="images/axioms-paradoxes.jpg" alt="Rippled surface (M.C. Escher, 1950)" style="width:500px; height:auto; display:block; margin:0 auto;" />
 
 ![img](ycprnb3xbcof1 "Rippled surface (M.C. Escher, 1950)")
 
@@ -151,17 +151,28 @@ propiedades deben verificarse en cada calibración si se requiere rigor.
 Las leyes fundamentales del Cálculo de Distinciones de Spencer-Brown emergen como manifestaciones específicas de la
 tríada ontológica:
 
-1. Ley de Llamada: $(A)(A) = (A)$ corresponde a la identidad de una estabilización triádica consigo misma; en la
+1. **Ley de Llamada**: $(A)(A) = (A)$
+   corresponde a la identidad de una estabilización triádica consigo misma; en la
    calibración local: $$\tau\big(A^{(n)},A^{(n)}\big)\le\varepsilon,$$ donde $\varepsilon\ge0$ es la tolerancia
    subumbral que define indistinguibilidad en este documento.
 
-2. **Ley de Cruce**: $((A)) = A$ se deriva de la simetría ontológica:
-   $$((A)) = \left(\tilde{A} \overset{R}{\longleftrightarrow} A\right) \overset{R}{\longleftrightarrow} \left(A \overset{R}{\longleftrightarrow} \tilde{A}\right) = A$$
+2. **Ley de Cruce**: $((A)) = A$
+   se deriva de la simetría
+   ontológica: $$((A)) = \left(\tilde{A} \overset{R}{\longleftrightarrow} A\right) \overset{R}{\longleftrightarrow} \left(A \overset{R}{\longleftrightarrow} \tilde{A}\right) = A$$
    Donde la doble aplicación de la distinción completa el ciclo ontológico, retornando a la configuración original con
    mayor complejidad relacional.
 
+3. **Ley de Re-entry (Autorreferencia Estabilizada)**: $A = \mathcal{D}(A)$
+   se deriva de la tensión ontológica
+   crítica: $$A = \bigg(\tilde{A} \overset{R}{\longleftrightarrow} \big(A \overset{R}{\longleftrightarrow} \tilde{A}\big)\bigg) \quad \text{si y solo si} \quad \tau(A) < \theta_c$$
+   Donde el re-entry representa la autorreferencia que completa la tríada ontológica mediante una fractura mínima,
+   permitiendo que el sistema se incorpore a sí mismo sin paradojas cuando la tensión permanece por debajo del umbral
+   crítico. Ontológicamente, corresponde a la estabilización del observador como parte constitutiva del sistema
+   observado.
+
 *Interpretación*: Estas leyes no son axiomas independientes, sino proyecciones estabilizadas del proceso ontológico
-fundamental, explicando por qué $(-1) \times (-1) = 1$.
+fundamental, explicando por qué $(-1) \times (-1) = 1$ y resolviendo las paradojas lógicas mediante el principio de
+reconfiguración mínima.
 
 #### Teorema de la Emergencia Aritmética
 
@@ -413,7 +424,7 @@ conjuntos.
 - **Conclusión**: El axioma es permitido porque representa una cadena infinita de distinciones estables, no una
   verdadera completitud de TODO.
 
-<img src="images/axioms-paradoxes-ii.jpg" alt="Still Life and Street (Maurits Cornelis Escher, 1937)" style="width:75%;" />
+<img src="images/axioms-paradoxes-ii.jpg" alt="Still Life and Street (Maurits Cornelis Escher, 1937)" style="width:500px; height:auto; display:block; margin:0 auto;" />
 
 ![img](x682njeqdcof1 "Still Life and Street (Maurits Cornelis Escher, 1937)")
 

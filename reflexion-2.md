@@ -1,6 +1,6 @@
 # Nuestra ventana al mundo
 
-<img src="images/reflection-ii.jpg" alt="Lacondition humaine (René Magritte, 1935)" style="width:75%;" />
+<img src="images/reflection-ii.jpg" alt="Lacondition humaine (René Magritte, 1935)" style="width:500px; height:auto; display:block; margin:0 auto;" />
 
 ![img](3lollc3wglgf1 "Lacondition humaine (René Magritte, 1935)")
 
@@ -258,8 +258,8 @@ adapta a mis deseos, esos mundos se desvanecen al primer contacto con la realida
 sus hojas; el gato, desplazado, busca refugio lejos de mí; y el espacio, lejos de obedecer, revela su naturaleza: un
 entramado de límites y equilibrios que no negocia con fantasías.
 
-Entendí que la reflexión deshonesta —aquella que omite preguntas o silencia las necesidades ajenas— solo alimenta *
-*espejismos**. La mente, al proyectar consecuencias, puede navegar en dos aguas. Si sigue el cauce de la honestidad,
+Entendí que la reflexión deshonesta —aquella que omite preguntas o silencia las necesidades ajenas— solo alimenta
+**espejismos**. La mente, al proyectar consecuencias, puede navegar en dos aguas. Si sigue el cauce de la honestidad,
 anticipa **efectos en cadena**: hojas que se tuercen buscando supervivencia, hábitos que se quiebran, ciclos que exigen
 ajustes lentos. Si se hunde en la deshonestidad, inventa un teatro efímero donde las cosas callan y los seres se
 someten, hasta que el telón se abre y la realidad entra en escena.
@@ -340,7 +340,7 @@ fusiones atómicas lo impulsaron hacia el espacio. Viajó 150 millones de kilóm
 la Tierra, activando una cadena que hoy sostiene cada hoja. Así, lo que llamamos “crecer” es un diálogo entre escalas:
 lo **subatómico** se vuelve químico, lo **químico** se hace visible, y lo **cósmico** se manifiesta en lo **cotidiano**.
 
-# un flujo continuo**. Un mismo ritmo que resonaba al adentrarme en las cosas
+# Un flujo continuo
 
 Reflexioné sobre aquel pulso formando **un flujo continuo**. Un mismo ritmo que resonaba al adentrarme en las cosas
 o alejarme de ellas, tomando formas distintas en todas las escalas y tiempos. Un único mecanismo que regula cómo E, S y

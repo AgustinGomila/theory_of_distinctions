@@ -1,6 +1,6 @@
 # El hilo dialéctico del pensamiento humano
 
-<img src="images/reflection-iv.jpg" alt="Three Spheres I (M. C. Escher, 1945)" style="width:75%;" />
+<img src="images/reflection-iv.jpg" alt="Three Spheres I (M. C. Escher, 1945)" style="width:500px; height:auto; display:block; margin:0 auto;" />
 
 ![img](vo0myvm0bfhf1 "Three Spheres I (M. C. Escher, 1945)")
 
@@ -146,7 +146,7 @@ el **caos aparente** en una danza geométrica de **causas naturales**.
 # La humanidad como espejo fractal del cosmos
 
 **Reflexioné** que los saltos revolucionarios son transiciones entre escalas donde el pensamiento humano replica
-patrones cósmicos. **Yajnavalkya**, con su *neti neti*, desarmó categorías para revelar la interdependencia absoluta. **
+patrones cósmicos. **Yajnavalkya**, con su *neti neti*, desarmó categorías para revelar la interdependencia absoluta.
 **Tales** buscó el agua como energía unificadora. **Heráclito** vio en el fuego la dinámica de los opuestos.
 
 # El velo de lo evidente
