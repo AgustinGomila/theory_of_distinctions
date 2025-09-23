@@ -18,11 +18,9 @@ soluciones específicas.
 Pura actividad que crea soluciones de continuidad - fracturas específicas que generan diferencias operativas sin
 postular multiplicidad ontológica.
 
+## Emergencias de la Distinción
+
 ### Carácter Fronterizo Fundamental de la Distinción
-
-<img src="images/laws_of_form_1.png" alt="La Forma en Las Leyes de la Forma"  style="width:500px; height:auto; display:block; margin:0 auto;" />
-
-![img](2d8cj1dswlmf1 "La Forma en Las Leyes de la Forma")
 
 **Principio de Co-Definición Binaria**: Toda frontera co-define necesariamente dos espacios/conjuntos:
 $F_{S1|S2}: \mathcal{C} \rightarrow \{S_1, S_2\} \text{ donde } S_1 \cap S_2 = \emptyset \text{ y } S_1 \cup S_2 = \mathcal{C}$
@@ -51,6 +49,10 @@ modificaciones se propagan automáticamente.
 **Eliminación de Exterioridad**: No existe posición meta-sistémica externa. La teorización de este marco es ella misma
 un proceso fronterizo - emerge de la frontera entre el sistema teorizador y su complemento conceptual, propagando
 efectos que modifican ambos.
+
+<img src="images/laws_of_form_2.png" alt="Laws of Form (G. Spencer-Brown)" style="width:500px; height:auto; display:block; margin:0 auto;" />
+
+![img](b8p1yhyiyyqf1 "Laws of Form (G. Spencer-Brown)")
 
 ## Individuación Sistémica
 
@@ -139,9 +141,32 @@ $F_S: \text{tensiones extremas} \rightarrow \text{procesamiento no-lineal} \righ
 - **Creatividad sistémica**: Generación de nuevas configuraciones imposibles en el centro
 - **Paradoja aparente**: Efectos que contradicen la lógica lineal del interior sistémico
 
-**Capacidad de Procesamiento Fronterizo**: A pesar de la inestabilidad, las fronteras procesan y traducen tensiones
-entre regiones, funcionando como interfaces activas que mantienen diferenciación sistémica mientras permiten
-intercambio.
+### Principio de Selectividad Fronteriza
+
+**Definición**: Las fronteras no procesan todas las tensiones uniformemente - filtran, amplifican, atenúan o transforman
+selectivamente según la coherencia interna del sistema:
+$F_S: \text{tensiones} \rightarrow \text{procesamiento selectivo} \rightarrow \text{respuestas diferenciadas}$
+
+**Dependencia de Coherencia**: La selectividad fronteriza depende de la coherencia sistémica interna - la capacidad
+estructural del sistema para soportar transformaciones dinámicas sin perder su individuación.
+
+### Coherencia Sistémica
+
+**Definición**: Medida en que las distinciones internas de un sistema se refuerzan mutuamente versus se interfieren
+destructivamente:
+$\text{Coherencia}(S) = \frac{\text{distinciones que se refuerzan}}{\text{distinciones que interfieren destructivamente}}$
+
+**Prueba Continua**: Los sistemas continuamente ponen a prueba su capacidad estructural a través de las transformaciones
+dinámicas que procesan. La **individuación sistémica se pierde cuando la frontera pierde su solución de continuidad** -
+cuando ya no puede mantener la discontinuidad específica que diferencia interior de exterior.
+
+**Crítico de Individuación**: El umbral crítico $\theta_{c,S}$ no solo marca límites de procesamiento sino el punto
+donde la frontera colapsa como solución de continuidad, eliminando la individuación sistémica.
+
+**Relación Coherencia-Selectividad**:
+
+- Alta coherencia → Mayor selectividad sofisticada (procesamiento complejo)
+- Baja coherencia → Selectividad restrictiva (procesamiento simple/defensivo)
 
 ### Umbral Crítico y Capacidad Operativa
 
