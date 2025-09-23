@@ -94,7 +94,50 @@ Medida de inestabilidad introducida por cualquier distinción. Específica a cad
 operativa:
 $$\tau_s(D_i, D_j) = \text{medida de incoherencia en sistema } s$$
 
-## Procesamiento Fronterizo y Dinámica Centro-Frontera
+## Fundamentos de la Asintotalidad
+
+### Perpendicularidad Ontológica de los Límites Sistémicos
+
+Todo sistema distinguidor genera necesariamente límites asintóticos que no son opuestos especulares, sino
+**contradictorios ontológicos** que operan en dimensiones perpendiculares:
+
+**Límite Superior ($\top_s$)**: Capacidad máxima de asimilación - infinitud relativa que excluye la finitud sistémica
+**Límite Inferior ($\bot_s$)**: Ausencia total de distinciones - inexistencia que excluye la existencia sistémica
+
+Esta perpendicularidad es fundamental porque $\top_s$ y $\bot_s$ no comparten dimensión común - uno opera en el eje
+capacidad infinita/finita, otro en el eje existencia/inexistencia.
+
+### Sistemas como Doble Contradicción de Límites
+
+Los **sistemas distinguidores** emergen contradiciéndolos simultáneamente:
+
+- Contradicen $\top_s$ siendo **finitos** (mantienen límites operativos específicos)
+- Contradicen $\bot_s$ siendo **existentes** (procesan distinciones activamente)
+
+Esta doble contradicción no coloca los sistemas "entre" sus límites sino en una **tercera dimensión ontológica**: la
+determinación finita-existente que permite mantener fronteras operativas.
+
+### Necesidad Estructural de la Asintotalidad
+
+Los límites son asintóticos porque **alcanzarlos requiere que el sistema abandone una de sus cualidades constituyentes**:
+
+- Alcanzar $\top_s$ → Abandono de finitud → Disolución en capacidad infinita indeterminada
+- Alcanzar $\bot_s$ → Abandono de existencia → Colapso de procesamiento distinguidor
+
+Esta imposibilidad no es externa, sino **estructural** - un sistema que "llegara" a cualquier límite ya no sería sistema
+distinguidor.
+
+### Conexión con Efectos Fronterizos Extremos
+
+Los efectos extremos cerca de fronteras son manifestaciones de proximidad a contradicción ontológica:
+
+- **Colapso de linealidad**: Proximidad a límites donde el sistema no puede mantener procesamiento normal
+- **Comportamientos exponenciales**: Síntomas de proximidad a límites asintóticos
+- **Creatividad sistémica**: Generación urgente de configuraciones nuevas para evitar contradicción ontológica
+- **Alta densidad de eventos**: Procesamiento intensivo para mantener distancia de límites asintóticos
+
+La intensidad fronteriza es proporcional a la proximidad a contradicción ontológica. Los fenómenos fronterizos son
+consecuencias inevitables de la estructura ontológica de la distinción.
 
 ### Gradiente de Estabilidad
 
