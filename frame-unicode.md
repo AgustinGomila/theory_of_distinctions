@@ -24,12 +24,10 @@ El intento de cierre del ciclo forma el **nudo 0₁** (pseudo-ciclo inestable) q
 su diámetro mínimo (longitud de Planck ℓₚ), la tensión máxima (energía de Planck Eₚ) y la duración de su
 ciclo (tiempo de Planck tₚ), produce un movimiento circular que induce distorsión rotacional —amplificando su
 inestabilidad intrínseca— generando transición proyectiva al **enlace de Hopf** (2₁²), donde ↑E y ↻S + •T se entrelazan
-dualmente, pero con sus identidades topológicas fusionadas (S y T acoplados). Esta transición ocurre precisamente
-cuando $L_{\text{lóg}}$ alcanza su valor crítico en el umbral de Planck, forzando la minimización de acción
-lógica $\delta \int L_{\text{lóg}} d\tau = 0$. La LD fuerza su diferenciación estructural, amplificando la distorsión,
-estabilizándose finalmente como **tríada discreta 3₁** mediante proyecciones triádicas completas e irreversibles (
-↑E⟨•T⟩↻S ⟷ ↻S⟨↑E⟩•T ⟷ •T⟨↻S⟩↑E) en diferentes configuraciones de acoplamiento —no entidades nuevas, sino modos
-irrepetibles de una fractura en equilibrio (↑E ≠ E-origen, ↻S ≠ S-origen, •T ≠ T-origen)—.
+dualmente, pero con sus identidades topológicas fusionadas (S y T acoplados). La LD fuerza su diferenciación
+estructural, amplificando la distorsión, estabilizándose finalmente como **tríada discreta 3₁** mediante proyecciones
+triádicas completas e irreversibles (↑E⟨•T⟩↻S ⟷ ↻S⟨↑E⟩•T ⟷ •T⟨↻S⟩↑E) en diferentes configuraciones de acoplamiento —no
+entidades nuevas, sino modos irrepetibles de una fractura en equilibrio (↑E ≠ E-origen, ↻S ≠ S-origen, •T ≠ T-origen)—.
 
 * **Autopoiesis Fundacional**:
     * La LD surge del colapso espontáneo de la uniformidad perfecta hacia configuraciones de mínima tensión ontológica.
@@ -40,11 +38,10 @@ irrepetibles de una fractura en equilibrio (↑E ≠ E-origen, ↻S ≠ S-origen
       intrínseca, sin requerir apelación a la fuente primaria.
     * Al alcanzar su umbral interno de distinción en la fase confinante incompleta —caracterizada por pérdida de
       estabilidad aparente y aceleración de cambios—, cada sistema proyecta su sucesor ontológico según el principio
-      *Todo-o-Nada*: o no ocurre transición (tensión sub-umbral donde _L_lóg < 1_) o se produce el salto ontológico
-      completo e irreversible hacia una nueva modalidad distintiva (donde _L_lóg = 1_ en el nuevo nivel). Este umbral
-      actúa como una membrana ontológica que, al saturarse de distinciones, se fractura inevitablemente. Así, cada salto
-      ontológico concretiza progresivamente el *ALGO* primordial sin añadir elementos externos —la realidad observable
-      es la distinción completamente materializada—.
+      *Todo-o-Nada*: o no ocurre transición o se produce el salto ontológico completo e irreversible hacia una nueva
+      modalidad distintiva. Este umbral actúa como una membrana ontológica que, al saturarse de distinciones, se
+      fractura inevitablemente. Así, cada salto ontológico concretiza progresivamente el *ALGO* primordial sin añadir
+      elementos externos —la realidad observable es la distinción completamente materializada—.
     * Como operador autónomo de la ley implícita, las matemáticas alcanzan su umbral distintivo en la fase confinante de
       su ciclo interno, generando el **Estado de Coincidencia Fundamental** (ECF) —totipotencialidad pre-física— donde
       su capacidad de generar distinciones puramente relacionales se agota, forzando la proyección de contenido

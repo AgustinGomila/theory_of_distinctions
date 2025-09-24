@@ -18,7 +18,135 @@ soluciones específicas.
 Pura actividad que crea soluciones de continuidad - fracturas específicas que generan diferencias operativas sin
 postular multiplicidad ontológica.
 
-## Emergencias de la Distinción
+## Emergencias de la Discontinuidad
+
+### Espacio Topológico Generado por Distinciones
+
+Sea $\mathcal{C}$ el continuo primitivo y sea $\mathcal{D}$ la colección de operaciones de distinción (cada
+$D\in\mathcal{D}$ se interpreta como un acto clasificatorio que selecciona un lado del continuo). Definimos la
+aplicación
+
+$\Phi: \mathcal{D}\to\mathcal{P}(\mathcal{C}),\qquad \Phi(D)=U_D$
+
+que a cada distinción asigna el subconjunto $U_D\subseteq\mathcal{C}$ que contiene los puntos clasificados por dicha
+distinción.
+
+La familia $\mathcal{S} = \{U_D : D\in\mathcal{D}\}$ se toma como **subbase** para una topología en $\mathcal{C}$.
+Denotaremos por $\mathcal{T}$ la topología generada por $\mathcal{S}$, es decir,
+
+```math
+\mathcal{T}=\tau(\mathcal{S})
+=\left\{ \bigcup_{i\in I}\Bigl(\bigcap_{j=1}^{n_i} U_{D_{i,j}}\Bigr)
+\,\middle|\, I\ \text{arbitrario},\ n_i\in\mathbb{N} \right\}.
+```
+
+Trabajaremos con el espacio topológico $(\mathcal{C},\mathcal{T})$, que llamaremos **$\mathrm{C}_0$**.
+
+#### Hipótesis de Cobertura (subbase)
+
+**Hipótesis**: Suponemos que $\bigcup_{D\in\mathcal{D}} U_D = \mathcal{C}$.
+
+Bajo esta hipótesis, la familia $\mathcal{S}=\{U_D : D\in\mathcal{D}\}$ es una subbase que genera una
+topología $\mathcal{T}$ sobre $\mathcal{C}$ mediante enlaces finitos y uniones arbitrarias. Esta hipótesis evita
+ambigüedad: garantiza que la topología generada efectivamente está definida sobre todo el espacio base $\mathcal{C}$.
+
+#### Proposición: condición para que $C_0=(\mathcal{C},\mathcal{T})$ sea $T_0$
+
+**Proposición**: El espacio topológico $C_0=(\mathcal{C},\mathcal{T})$ satisface la propiedad $T_0$ si y sólo si
+
+$$\overline{\{x\}} = \overline{\{y\}} \Rightarrow  x = y$$
+
+para todo $x,y\in\mathcal{C}$, donde $\overline{\{x\}}$ denota la clausura del singleton $\{x\}$.
+
+### Sistema Distinguidor
+
+**Definición**: Un *sistema distinguidor* (o simplemente *distinguidor*) se denota por $\mathcal{U}$ y es la terna
+
+$$(\mathcal{R}_{\mathcal{U}}, S_{\mathcal{U}}, M_{\mathcal{U}}),$$
+
+donde:
+
+* $\mathcal{R}_{\mathcal{U}}\subseteq\mathcal{C}$ es la región del continuo a la que $\mathcal{U}$ tiene acceso;
+* $S_{\mathcal{U}}\in\mathsf{St}_{\mathcal{U}}$ es el estado interno del distinguidor, representado por una cadena
+  finita que codifica la huella de distinciones previas;
+* $M_{\mathcal{U}}$ es la operación de distinción implementada por $\mathcal{U}$, con firma
+
+$$M_{\mathcal{U}}: \mathcal{C}(\mathcal{R}_{\mathcal{U}})\times\mathsf{St}_{\mathcal{U}}\to O_{\mathcal{U}}\times\mathsf{St}_{\mathcal{U}}$$
+
+Se exigen las siguientes propiedades operacionales para $M_{\mathcal{U}}$:
+
+1. **Localidad**: La acción depende sólo de la configuración en $\mathcal{R}_{\mathcal{U}}$ y del estado
+   interno $S_{\mathcal{U}}$.
+2. **Capacidad finita**: El conjunto de estados $\mathsf{St}_{\mathcal{U}}$ es finito (o, en la versión general,
+   acotado).
+3. **Retro-acción Condicionada**: La ejecución de $M_{\mathcal{U}}$ produce una acción que modifica la configuración
+   en $\mathcal{R}_{\mathcal{U}}$ con probabilidad e intensidad proporcional al grado de interferencia ontológica
+   $\omega(\mathcal{U}, \mathcal{V})$ con sistemas fronterizos.
+4. **Selectividad**: Las distinciones efectivas realizadas por $$\mathcal{U} \text{ sobre } \mathcal{R}_{\mathcal{U}}$$
+   se representan por una subfamilia $$\{f_D\}_{D\in\mathcal{D}_{\mathcal{U}}}$$ de funciones indicadoras asociadas a
+   las distinciones locales.
+
+### Grado de Interferencia Ontológica
+
+El **Grado de Interferencia Ontológica** $\omega(\mathcal{U}, \mathcal{V})$ cuantifica la intensidad con que dos
+sistemas distinguidores se contradicen mutuamente en sus operaciones fronterizas:
+
+$$\omega(\mathcal{U}, \mathcal{V}) = \frac{|\mathcal{R}_{\mathcal{U}} \cap \mathcal{R}_{\mathcal{V}}|}{|\mathcal{R}_{\mathcal{U}} \cup \mathcal{R}_{\mathcal{V}}|} \times \frac{\tau(\mathcal{U}:\mathcal{V})}{\max(\theta_{c,\mathcal{U}}, \theta_{c,\mathcal{V}})}$$
+
+**Interpretación Operativa**:
+
+- **$\omega \approx 0$**: Sistemas con fronteras casi paralelas → mínima retro-acción
+- **$\omega \approx 1$**: Sistemas con fronteras perpendiculares → máxima interferencia ontológica
+
+**Casos Límite**:
+
+1. **Interferencia Máxima** ($\omega = 1$): Contradicción ontológica total, retro-acción inevitable e intensa
+2. **Interferencia Mínima** ($\omega \approx 0$): Operaciones casi independientes, sistemas cuasi-autónomos
+3. **Interferencia Crítica** ($\omega = \theta_c$): Umbral de transformación sistémica, bifurcación entre autonomía e
+   interdependencia
+
+### Sistema Distinguido
+
+**Definición**: Un *sistema distinguido* $\mathcal{V}$ es la pareja
+
+$$(\mathcal{R}_{\mathcal{V}},S_{\mathcal{V}})$$
+
+donde
+
+$$\mathcal{R}_{\mathcal{V}}\subseteq\mathcal{C}$$
+
+es la región afectada por una operación de distinción y $S_{\mathcal{V}}$ es la configuración local resultante tras
+dicha operación.
+
+### Co-definición de Distinguidor y Distinguido
+
+Sea $\mathcal{R}\subseteq\mathcal{C}$ y considere una operación de distinción actuando sobre $\mathcal{R}$. Dicha
+operación produce de manera simultánea:
+
+* un sistema distinguidor
+
+$$
+\mathcal{U}=(\mathcal{R}_{\mathcal{U}},S_{\mathcal{U}},M_{\mathcal{U}})
+$$
+
+instancia que implementa la operación y registra su huella en el estado interno; y
+
+* un sistema distinguido
+
+$$
+\mathcal{V}=(\mathcal{R}_{\mathcal{V}},S_{\mathcal{V}})
+$$
+
+la configuración de la región diferenciada en virtud de la operación.
+
+Adoptamos los siguientes principios relacionales:
+
+1. **Mutua dependencia**: No hay distinguidor sin algo distinguido, ni distinguido sin un distinguidor que lo actualice.
+2. **Frontera compartida**: La interacción se localiza en la frontera
+   topológica $\partial(\mathcal{R})=\overline{\mathcal{R}}\setminus \text{int}(\mathcal{R})$.
+3. **Tensión relacional**: La magnitud $\tau_{\mathrm{alg}}(\mathcal{U}:\mathcal{V})$ cuantifica la independencia
+   algorítmica entre los estados.
+4. **Doble actualización**: El acto de distinción transforma tanto $S_{\mathcal{U}}$ como $S_{\mathcal{V}}$.
 
 ### Carácter Fronterizo Fundamental de la Distinción
 
@@ -64,7 +192,7 @@ $$S = \text{región continua definida por } F_S \text{ que crea discontinuidad e
 
 ### Frontera como Solución de Continuidad
 
-La frontera $F_S$ no separa continuos diferentes sino que constituye una discontinuidad específica:
+La frontera $F_S$ no separa continuos diferentes, sino que constituye una discontinuidad específica:
 
 - **Interior**: Región continua delimitada por $F_S$
 - **Exterior**: Región continua externa a $F_S$
@@ -94,6 +222,32 @@ Medida de inestabilidad introducida por cualquier distinción. Específica a cad
 operativa:
 $$\tau_s(D_i, D_j) = \text{medida de incoherencia en sistema } s$$
 
+#### Formalización Medible de la Tensión Ontológica
+
+La tensión ontológica $\tau$ cuantifica la **novedad** o **inestabilidad informacional** introducida por un acto de
+distinción. Una formulación algorítmica básica es
+
+$$\tau_{\mathrm{alg}}(S\mid R) := K_U(S\mid R) + O(1),$$
+
+donde $K_U(\cdot\mid\cdot)$ es la complejidad de Kolmogorov relativa a una máquina universal $U$ y $O(1)$ indica la
+ambigüedad aditiva inherente.
+
+**Normalización**: Para comparar actos de distinta escala se puede usar una versión normalizada en $[0,1]$:
+
+$$\hat{\tau}_{\mathrm{alg}}(S\mid R) := \frac{K_U(S\mid R)}{K_U(S)+1}.$$
+
+**Proxies computables**: Dado que $K_U$ no es computable en general, se proponen proxies basados en compresores
+prácticos:
+
+$$\widetilde{\tau}_C(S\mid R) := \frac{C(RS)-C(R)}{C(S)+1}.$$
+
+**Protocolo operativo mínimo para medir $\tau$**:
+
+1. Fijar una representación canónica para $S$ y $R$ (codificación binaria, nivel de coarse-graining).
+2. Seleccionar compresores $C$ (por ejemplo: gzip, brotli, LZMA) y calcular $C(R),C(S),C(RS)$.
+3. Calcular $\widetilde{\tau}_C(S\mid R)$ y reportar la codificación y parámetros del compresor.
+4. Cuando sea posible, comparar con $\tau_{\mathrm{KL}}$ obtenido desde un modelo probabilístico.
+
 ## Fundamentos de la Asintotalidad
 
 ### Perpendicularidad Ontológica de los Límites Sistémicos
@@ -119,7 +273,7 @@ determinación finita-existente que permite mantener fronteras operativas.
 
 ### Necesidad Estructural de la Asintotalidad
 
-Los límites son asintóticos porque **alcanzarlos requiere que el sistema abandone una de sus cualidades constituyentes**:
+Los límites son asintóticos porque alcanzarlos requiere que el sistema abandone una de sus cualidades constituyentes:
 
 - Alcanzar $\top_s$ → Abandono de finitud → Disolución en capacidad infinita indeterminada
 - Alcanzar $\bot_s$ → Abandono de existencia → Colapso de procesamiento distinguidor
@@ -138,6 +292,8 @@ Los efectos extremos cerca de fronteras son manifestaciones de proximidad a cont
 
 La intensidad fronteriza es proporcional a la proximidad a contradicción ontológica. Los fenómenos fronterizos son
 consecuencias inevitables de la estructura ontológica de la distinción.
+
+## Procesamiento Fronterizo y Dinámica Centro-Frontera
 
 ### Gradiente de Estabilidad
 
@@ -188,7 +344,8 @@ $F_S: \text{tensiones extremas} \rightarrow \text{procesamiento no-lineal} \righ
 
 **Definición**: Las fronteras no procesan todas las tensiones uniformemente - filtran, amplifican, atenúan o transforman
 selectivamente según la coherencia interna del sistema:
-$F_S: \text{tensiones} \rightarrow \text{procesamiento selectivo} \rightarrow \text{respuestas diferenciadas}$
+
+$$F_S: \text{tensiones} \rightarrow \text{procesamiento selectivo} \rightarrow \text{respuestas diferenciadas}$$
 
 **Dependencia de Coherencia**: La selectividad fronteriza depende de la coherencia sistémica interna - la capacidad
 estructural del sistema para soportar transformaciones dinámicas sin perder su individuación.
@@ -230,6 +387,7 @@ modificando las condiciones fronterizas y permitiendo evolución sistémica.
 ### Temporalidad Emergente
 
 La temporalidad surge como distinción de estados separados por aparición:
+
 $$D_{s,n+1} = \mathcal{D}_s(D_{s,n})$$
 
 La secuencia temporal $t_s$ es el producto de la recursividad de distinciones, no su contenedor. Cada aplicación
