@@ -41,8 +41,8 @@ Denotaremos por $\mathcal{T}$ la topología generada por $\mathcal{S}$, es decir
 
 ```math
 \mathcal{T}=\tau(\mathcal{S})
-=\left\{ \bigcup_{i\in I}\Bigl(\bigcap_{j=1}^{n_i} U_{D_{i,j}}\Bigr)
-\,\middle|\, I\ \text{arbitrario},\ n_i\in\mathbb{N} \right\}.
+=\left\{ \bigcup_{i\in I}\left(\bigcap_{j=1}^{n_i} U_{D_{i,j}}\right)
+\middle| I\ \text{arbitrario},\ n_i\in\mathbb{N} \right\}.
 ```
 
 Trabajaremos con el espacio topológico $(\mathcal{C},\mathcal{T})$, que llamaremos **$\mathrm{C}_0$**.
@@ -80,16 +80,25 @@ $$M_{\mathcal{U}}: \mathcal{C}(\mathcal{R}_{\mathcal{U}})\times\mathsf{St}_{\mat
 
 Se exigen las siguientes propiedades operacionales para $M_{\mathcal{U}}$:
 
-1. **Localidad**: La acción depende sólo de la configuración en $\mathcal{R}_{\mathcal{U}}$ y del estado
-   interno $S_{\mathcal{U}}$.
+1. **Localidad**: La acción depende sólo de la configuración en
+
+$$\mathcal{R}_{\mathcal{U}}$$
+
+y del estado interno $S_{\mathcal{U}}$.
+
 2. **Capacidad finita**: El conjunto de estados $\mathsf{St}_{\mathcal{U}}$ es finito (o, en la versión general,
    acotado).
 3. **Retro-acción Condicionada**: La ejecución de $M_{\mathcal{U}}$ produce una acción que modifica la configuración
    en $\mathcal{R}_{\mathcal{U}}$ con probabilidad e intensidad proporcional al grado de interferencia ontológica
    $\omega(\mathcal{U}, \mathcal{V})$ con sistemas fronterizos.
-4. **Selectividad**: Las distinciones efectivas realizadas por $$\mathcal{U} \text{ sobre } \mathcal{R}_{\mathcal{U}}$$
-   se representan por una subfamilia $$\{f_D\}_{D\in\mathcal{D}_{\mathcal{U}}}$$ de funciones indicadoras asociadas a
-   las distinciones locales.
+4. **Selectividad**: Las distinciones efectivas realizadas por
+
+$$\mathcal{U} \text{ sobre } \mathcal{R}_{\mathcal{U}}$$
+se representan por una subfamilia
+
+$$\{f_D\}_{D\in\mathcal{D}_{\mathcal{U}}}$$
+
+de funciones indicadoras asociadas a las distinciones locales.
 
 ### Grado de Interferencia Ontológica
 
