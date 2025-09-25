@@ -18,6 +18,11 @@ soluciones específicas.
 Pura actividad que crea soluciones de continuidad - fracturas específicas que generan diferencias operativas sin
 postular multiplicidad ontológica.
 
+**Axioma de Distinción Continua**: $\mathcal{D}(\mathcal{C}) \rightarrow \mathcal{O}$
+La operación de distinción sobre el continuo único genera necesariamente oscilación como manifestación de la distinción
+continua. La operación $\mathcal{D}$ sobre $\mathcal{C}$ debe ser continua porque cualquier "pausa" eliminaría la
+distinción misma.
+
 ## Emergencias de la Discontinuidad
 
 ### Espacio Topológico Generado por Distinciones
@@ -255,11 +260,18 @@ $$\widetilde{\tau}_C(S\mid R) := \frac{C(RS)-C(R)}{C(S)+1}.$$
 Todo sistema distinguidor genera necesariamente límites asintóticos que no son opuestos especulares, sino
 **contradictorios ontológicos** que operan en dimensiones perpendiculares:
 
-**Límite Superior ($\top_s$)**: Capacidad máxima de asimilación - infinitud relativa que excluye la finitud sistémica
-**Límite Inferior ($\bot_s$)**: Ausencia total de distinciones - inexistencia que excluye la existencia sistémica
+- **Límite Superior ($\top_s$)**: Capacidad máxima de asimilación - infinitud relativa que excluye la finitud sistémica
+- **Límite Inferior ($\bot_s$)**: Ausencia total de distinciones - inexistencia que excluye la existencia sistémica
+
+**Principio de Perpendicularidad Relacional**: La perpendicularidad ontológica es inherentemente fronteriza - siempre
+diádica entre dos términos específicos. Los sistemas complejos mantienen múltiples perpendicularidades binarias
+simultáneas:
+
+$$\mathcal{S} = \{(\mathcal{C}_i \perp \mathcal{D}_j)_k\}$$
 
 Esta perpendicularidad es fundamental porque $\top_s$ y $\bot_s$ no comparten dimensión común - uno opera en el eje
-capacidad infinita/finita, otro en el eje existencia/inexistencia.
+capacidad infinita/finita, otro en el eje existencia/inexistencia. La complejidad sistémica emerge de múltiples
+perpendicularidades binarias operando simultáneamente, no de relaciones múltiples directas.
 
 ### Sistemas como Doble Contradicción de Límites
 
@@ -416,6 +428,25 @@ Las relaciones espaciales emergen de la tensión ontológica entre distinciones 
 
 Para cualquier configuración $A$ en $\mathcal{C}_s$ existe una distinción $\mathcal{D}_s(A) = (A, \tilde{A})$ tal
 que $\tau_s(A, \tilde{A}) > 0$.
+
+### Axioma de Mínima Acción Distinguidora
+
+**Principio Generativo Fundamental**:
+
+$$
+\mathcal{D}_{n+1} = \min_{\delta}[\mathcal{D}_n + \delta] \text{ tal que } \tau(\mathcal{D}_{n+1}, \mathcal{D}_n) > 0
+$$
+
+Toda nueva distinción es la diferenciación mínima que mantiene diferencia operativa. Este principio explica la
+emergencia fractal automática y fundamenta por qué surgen funciones simples que se propagan en niveles. La complejidad
+emerge por acumulación de diferencias mínimas, donde cada nivel hereda patrones de niveles anteriores pero con
+variaciones mínimas necesarias para mantener distinción operativa.
+
+**Consecuencias Estructurales**:
+
+- Los patrones deben ser auto-similares a diferentes escalas (fractales)
+- Los grados de variación aumentan como función de la complejidad acumulada del nivel
+- Las funciones simples se propagan por iteración de diferenciación mínima
 
 ### Axioma de Minimización Relativa
 
