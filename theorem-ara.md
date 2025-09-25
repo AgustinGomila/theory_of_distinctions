@@ -53,12 +53,19 @@ $$\Phi: \mathcal{D}\to\mathcal{P}(\mathcal{C}),\qquad \Phi(D)=U_D$$
 que a cada distinción asigna el subconjunto $U_D\subseteq\mathcal{C}$ que contiene los puntos clasificados por dicha
 distinción.
 
-La familia $\mathcal{S} = {U_D : D\in\mathcal{D}}$ se toma como subbase para una topología en $\mathcal{C}$.
+La familia
+
+```math
+\mathcal{S} = \{\, U_D : D\in\mathcal{D} \,\},\qquad
+\mathcal{T}=\tau(\mathcal{S})=\Bigl\{\bigcup_{\alpha\in A}\bigcap_{k=1}^{n_\alpha}U_{D_{\alpha,k}}\ \Bigm|\ A\ \text{arbitrario},\ n_\alpha\in\mathbb{N}\Bigr\}.
+```
+
+se toma como subbase para una topología en $\mathcal{C}$.
 
 Denotaremos por $\mathcal{T}$ la topología generada por $\mathcal{S}$, es decir:
 
 ```math
-\mathcal{T}=\tau(\mathcal{S})=\left\{ \bigcup_{i\in I}\left(\bigcap_{j=1}^{n_i} U_{D_{i,j}}\right) \middle| I\ \text{arbitrario},\ n_i\in\mathbb{N} \right\}.
+\mathcal{T}=\tau(\mathcal{S})=\Bigl\{\bigcup_{\alpha\in A}\bigcap_{k=1}^{n_\alpha}U_{D_{\alpha,k}}\ \Bigm|\ A\ \text{arbitrario},\ n_\alpha\in\mathbb{N}\Bigr\}.
 ```
 
 Trabajaremos con el espacio topológico $(\mathcal{C},\mathcal{T})$, que llamaremos $\mathrm{C}_0$.
@@ -67,7 +74,7 @@ Trabajaremos con el espacio topológico $(\mathcal{C},\mathcal{T})$, que llamare
 
 **Hipótesis**: Suponemos que $\bigcup_{D\in\mathcal{D}} U_D = \mathcal{C}$.
 
-Bajo esta hipótesis, la familia $\mathcal{S}={U_D : D\in\mathcal{D}}$ es una subbase que genera una
+Bajo esta hipótesis, la familia $\mathcal{S} = \{\, U_D : D\in\mathcal{D} \,\}$ es una subbase que genera una
 topología $\mathcal{T}$ sobre $\mathcal{C}$ mediante enlaces finitos y uniones arbitrarias. Esta hipótesis evita
 ambigüedad: garantiza que la topología generada efectivamente está definida sobre todo el espacio base $\mathcal{C}$.
 
@@ -177,7 +184,7 @@ la configuración de la región diferenciada en virtud de la operación.
 ## 5. Carácter Fronterizo Fundamental de la Distinción
 
 **Principio de Co-Definición Binaria**: Toda frontera co-define necesariamente dos espacios/conjuntos:
-$$F_{S1|S2}: \mathcal{C} \rightarrow {S_1, S_2} \text{ donde } S_1 \cap S_2 = \emptyset \text{ y } S_1 \cup S_2 = \mathcal{C}$$
+$$F_{S1|S2}: \mathcal{C} \\to \\{S_1,S_2\\} \text{ donde } S_1 \cap S_2 = \emptyset \text{ y } S_1 \cup S_2 = \mathcal{C}$$
 
 **Recursividad Topológica**: La recursividad emerge automáticamente porque cualquier modificación fronteriza afecta
 ambos lados simultáneamente:
@@ -237,7 +244,10 @@ dependiente de $U$.
 El Grado de Interferencia Ontológica $\omega(\mathcal{U}, \mathcal{V})$ cuantifica la intensidad con que dos sistemas
 distinguidores se contradicen mutuamente en sus operaciones fronterizas:
 
-$$\omega(\mathcal{U},\mathcal{V}) = J_{\mu}(\mathcal{R}_{\mathcal U},\mathcal{R}_{\mathcal V}) \cdot \frac{\tau_{\mathrm{alg}}(\mathcal{U}:\mathcal{V})}{\max{\theta_{c,\mathcal{U}},\ \theta_{c,\mathcal{V}}}}$$
+$$
+\omega(\mathcal{U},\mathcal{V}) = J_\mu(\mathcal R_{\mathcal U},\mathcal R_{\mathcal V})\cdot
+\min\!\left(1,\; \frac{\tau_{\mathrm{alg}}(\mathcal{U}:\mathcal{V})}{\max(\theta_{c,\mathcal{U}},\theta_{c,\mathcal{V}})}\right).
+$$
 
 donde
 
@@ -446,7 +456,10 @@ que $\tau_s(A, \tilde{A}) > 0$.
 
 **Principio Generativo Fundamental**:
 
-$$\mathcal{D}{n+1} = \min{\delta}[\mathcal{D}_n + \delta] \text{ tal que } \tau(\mathcal{D}_{n+1}, \mathcal{D}_n) > 0$$
+$$
+\mathcal{D}_{n+1} = \arg\min_{\delta:\ \tau(\mathcal{D}_n+\delta,\mathcal{D}_n)>0}
+\ \ \tau(\mathcal{D}_n+\delta,\mathcal{D}_n).
+$$
 
 Toda nueva distinción es la diferenciación mínima que mantiene diferencia operativa. Este principio explica la
 emergencia fractal automática y fundamenta por qué surgen funciones simples que se propagan en niveles. La complejidad
