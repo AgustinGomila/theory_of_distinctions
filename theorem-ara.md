@@ -103,7 +103,23 @@ donde:
   finita que codifica la huella de distinciones previas;
 * $M_{\mathcal{U}}$ es la operación de distinción implementada por $\mathcal{U}$, con firma
 
-$$M_{\mathcal{U}}: \mathcal{C}(\mathcal{R}_{\mathcal{U}})\times\mathsf{St}_{\mathcal{U}}\to O_{\mathcal{U}}\times\mathsf{St}_{\mathcal{U}}$$
+$$
+M_{\mathcal{U}}: \mathcal{C}(\mathcal{R}_{\mathcal{U}})\times\mathsf{St}_{\mathcal{U}}\to O_{\mathcal{U}}\times\mathsf{St}_{\mathcal{U}}
+$$
+
+**Interpretación mediante transformaciones**:
+La operación $M_{\mathcal{U}}$ puede descomponerse en un conjunto de transformaciones $T_i$ que modifican la
+configuración local, análogas a las usadas en NCCD (e.g., ajustes de contraste, afinaciones geométricas, registro
+local). Cada transformación $T_i$ busca minimizar la descripción algorítmica necesaria para
+alinear $\mathcal{R}_{\mathcal{U}}$ con su entorno, actuando como un **acto de distinción minimal** que reduce la
+tensión ontológica. Formalmente:
+
+```math
+M_{\mathcal{U}}(c, s) = \arg\min_{T_i} \left\{ C[c - T_i(c)] + C^p_i[p(T_i, c)] \right\},
+```
+
+donde $C$ es un compresor de datos y $C^p_i$ comprime los parámetros de $T_i$. Esto refleja el axioma de mínima acción
+distinguidora.
 
 Se exigen las siguientes propiedades operacionales para $M_{\mathcal{U}}$:
 
@@ -111,7 +127,7 @@ Se exigen las siguientes propiedades operacionales para $M_{\mathcal{U}}$:
 
 $$\mathcal{R}_{\mathcal{U}}$$
 
-   y del estado interno $S_{\mathcal{U}}$.
+y del estado interno $S_{\mathcal{U}}$.
 
 2. **Capacidad finita**: El conjunto de estados $\mathsf{St}_{\mathcal{U}}$ es finito (o, en la versión general,
    acotado).
@@ -119,13 +135,13 @@ $$\mathcal{R}_{\mathcal{U}}$$
    en $\mathcal{R}_{\mathcal{U}}$ con probabilidad e intensidad proporcional al grado de interferencia ontológica
    $\omega(\mathcal{U}, \mathcal{V})$ con sistemas fronterizos.
 4. **Selectividad**: Las distinciones efectivas realizadas por
- 
+
 $$\mathcal{U} \text{ sobre } \mathcal{R}_{\mathcal{U}}$$
-   se representan por una subfamilia
+se representan por una subfamilia
 
 $$\{f_D\}_{D\in\mathcal{D}_{\mathcal{U}}}$$
 
-   de funciones indicadoras asociadas a las distinciones locales.
+de funciones indicadoras asociadas a las distinciones locales.
 
 ### Grado de Interferencia Ontológica
 
@@ -142,6 +158,20 @@ donde
 $$
 J_{\mu}(\mathcal R_{\mathcal U},\mathcal R_{\mathcal V}) := \frac{\mu(\mathcal R_{\mathcal U}\cap\mathcal R_{\mathcal V})}{\mu(\mathcal R_{\mathcal U}\cup\mathcal R_{\mathcal V})},\quad\text{if }\mu(\mathcal R_{\mathcal U}\cup\mathcal R_{\mathcal V})>0.
 $$
+
+**Alternativa computable para sistemas digitales**:
+Cuando los sistemas $\mathcal{U}$ y $\mathcal{V}$ tienen estados representables como datos (e.g., configuraciones
+codificadas), el grado de interferencia puede aproximarse mediante la **Distancia de Compresión Condicional
+Normalizada (NCCD)**:
+
+$$
+\omega_{\text{NCCD}}(\mathcal{U},\mathcal{V}) = \text{NCCD}(S_{\mathcal{U}}, S_{\mathcal{V}}) \cdot \frac{\widehat{\tau}_{\text{NCCD}}(S_{\mathcal{U}} \mid S_{\mathcal{V}})}{\max\{\theta_{c,\mathcal{U}},\ \theta_{c,\mathcal{V}}\}},
+$$
+
+donde $\text{NCCD}(S_{\mathcal{U}}, S_{\mathcal{V}})$ es la medida de similitud entre los estados $S_{\mathcal{U}}$
+y $S_{\mathcal{V}}$, y $\widehat{\tau}_{\text{NCCD}}$ es la proxy de tensión ontológica definida anteriormente. Esta
+formulación captura la interferencia como la dificultad de transformar un estado en otro, resonando con la percepción
+humana de diferencias estructurales.
 
 **Interpretación Operativa**:
 
@@ -288,8 +318,31 @@ donde $K_U(\cdot\mid\cdot)$ es la complejidad de Kolmogórov condicional relativ
 
 *Nota metodológica*:
 La definición ideal de tensión basada en la complejidad de Kolmogórov $K_U(\cdot\mid\cdot)$
-se mantiene como ideal teórico no computable. En implementaciones empíricas se usarán proxies computables notables (p.
-ej. $\mathrm{NCD}_C$ con un compresor $C$ o modelos de lenguaje que actúan como estimadores).
+se mantiene como ideal teórico no computable. En implementaciones empíricas se usarán proxies computables notables, como
+la **Complejidad de Kolmogórov Normalizada (KC)** o la **Distancia de Compresión Condicional Normalizada (NCCD)**, que
+aproximan $\tau_{\mathrm{alg}}$ mediante compresión de datos y transformaciones estructurales.
+
+**Proxy basado en Complejidad de Kolmogórov Normalizada (KC)**:
+Para objetos representables digitalmente (e.g., configuraciones de sistemas), se define:
+
+$$
+\widehat{\tau}_{\text{KC}}(S\mid R) = \frac{KC(S)}{S_{\text{size}}},
+$$
+
+donde $KC(S)$ es la complejidad de Kolmogórov estimada mediante compresión sin pérdida (e.g., algoritmo PNG)
+y $S_{\text{size}}$ es el tamaño del objeto $S$ en bytes, normalizando así la medida para hacerla invariante a la
+escala.
+
+**Proxy basado en Distancia de Compresión Condicional Normalizada (NCCD)**:
+Para sistemas cuyos estados pueden relacionarse mediante transformaciones, se define:
+
+$$
+\widehat{\tau}_{\text{NCCD}}(S\mid R) = \frac{\max\{C_T(S\mid R), C_T(R\mid S)\}}{\max\{C(S), C(R)\}},
+$$
+
+donde $C_T$ es un compresor condicional que busca la transformación más simple entre $S$ y $R$, y $C$ es un compresor
+base. Esta medida captura la mínima descripción necesaria para convertir un estado en otro, alineándose con el principio
+de mínima acción distinguidora.
 
 Cuando se presenten resultados numéricos documentar el compresor/modelo $C$ empleado, ya que los valores de las proxies
 dependen de esa elección.
