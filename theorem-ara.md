@@ -4,6 +4,17 @@
 
 ![img](scp7auj73kqf1 "L. Art de la conversation (René Magritte, 1963)")
 
+*Hipótesis de medida*:
+Se fija una medida $\mu$ definida sobre una $\sigma$-\'algebra que contiene todas las regiones
+relevantes $\mathcal R_{\mathcal U}$. Asumimos, salvo que se indique lo contrario, que $\mu$ es finita y normalizada (es
+decir, opcionalmente $\mu(\mathcal C)=1$).
+
+Para evitar indeterminaciones, toda fórmula que divida por $\mu(\mathcal R_{\mathcal U}\cup\mathcal R_{\mathcal V})$
+requiere la condición
+$$\mu(\mathcal R_{\mathcal U}\cup\mathcal R_{\mathcal V})>0.$$
+Si el denominador fuese cero, la expresión se interpreta por continuidad o por convención contextual (p. ej. tomar el
+cociente como cero cuando procede).
+
 ## Primitivos Ontológicos
 
 ### Continuo Único ($\mathcal{C}$)
@@ -41,8 +52,8 @@ Denotaremos por $\mathcal{T}$ la topología generada por $\mathcal{S}$, es decir
 
 ```math
 \mathcal{T}=\tau(\mathcal{S})
-=\left\{ \bigcup_{i\in I}\Bigl(\bigcap_{j=1}^{n_i} U_{D_{i,j}}\Bigr)
-\,\middle|\, I\ \text{arbitrario},\ n_i\in\mathbb{N} \right\}.
+=\left\{ \bigcup_{i\in I}\left(\bigcap_{j=1}^{n_i} U_{D_{i,j}}\right)
+\middle| I\ \text{arbitrario},\ n_i\in\mathbb{N} \right\}.
 ```
 
 Trabajaremos con el espacio topológico $(\mathcal{C},\mathcal{T})$, que llamaremos **$\mathrm{C}_0$**.
@@ -57,17 +68,33 @@ ambigüedad: garantiza que la topología generada efectivamente está definida s
 
 #### Proposición: condición para que $C_0=(\mathcal{C},\mathcal{T})$ sea $T_0$
 
-**Proposición**: El espacio topológico $C_0=(\mathcal{C},\mathcal{T})$ satisface la propiedad $T_0$ si y sólo si
+**Proposición $T_0$**:
+El espacio topológico $(\mathcal C,\mathcal T)$ es $T_0$ si y sólo si para todo par $x\neq y$ existe un abierto que
+contiene a uno y no al otro.
 
-$$\overline{\{x\}} = \overline{\{y\}} \Rightarrow  x = y$$
-
-para todo $x,y\in\mathcal{C}$, donde $\overline{\{x\}}$ denota la clausura del singleton $\{x\}$.
+**Esbozo de prueba**:
+Si la propiedad de $T_0$ se cumple entonces, por definición, para $x\neq y$ existe un abierto que separa los puntos, lo
+que implica que las cerraduras de singletons no pueden coincidir; recíprocamente, si las cerraduras de singletons son
+distintas entonces la preorden de especialización es antisimétrica y, por tanto, existe un abierto que separa cada par
+distinto, lo que da $T_0$.
 
 ### Sistema Distinguidor
 
 **Definición**: Un *sistema distinguidor* (o simplemente *distinguidor*) se denota por $\mathcal{U}$ y es la terna
 
-$$(\mathcal{R}_{\mathcal{U}}, S_{\mathcal{U}}, M_{\mathcal{U}}),$$
+Sea $\mathcal{Conf}(\mathcal R)$ el espacio de configuraciones sobre $\mathcal R$
+(por ejemplo, funciones $\mathcal R\to\{0,1\}$ o medidas sobre $\mathcal R$).
+Se reescribe la operación de actualización local como
+
+$$
+M_{\mathcal U}:\ \mathcal{Conf}(\mathcal R_{\mathcal U})\times \mathsf{St}_{\mathcal U}
+\longrightarrow
+\mathcal{Conf}(\mathcal R_{\mathcal U})\times \mathsf{St}_{\mathcal U},
+$$
+
+especificando que la primera componente es la actualización de la configuración local y la segunda es la actualización
+del estado interno. Las salidas observables $O_{\mathcal U}$ pueden identificarse con proyecciones apropiadas
+de $\mathcal{Conf}(\mathcal R_{\mathcal U})$.
 
 donde:
 
@@ -80,23 +107,41 @@ $$M_{\mathcal{U}}: \mathcal{C}(\mathcal{R}_{\mathcal{U}})\times\mathsf{St}_{\mat
 
 Se exigen las siguientes propiedades operacionales para $M_{\mathcal{U}}$:
 
-1. **Localidad**: La acción depende sólo de la configuración en $\mathcal{R}_{\mathcal{U}}$ y del estado
-   interno $S_{\mathcal{U}}$.
+1. **Localidad**: La acción depende sólo de la configuración en
+
+$$\mathcal{R}_{\mathcal{U}}$$
+
+   y del estado interno $S_{\mathcal{U}}$.
+
 2. **Capacidad finita**: El conjunto de estados $\mathsf{St}_{\mathcal{U}}$ es finito (o, en la versión general,
    acotado).
 3. **Retro-acción Condicionada**: La ejecución de $M_{\mathcal{U}}$ produce una acción que modifica la configuración
    en $\mathcal{R}_{\mathcal{U}}$ con probabilidad e intensidad proporcional al grado de interferencia ontológica
    $\omega(\mathcal{U}, \mathcal{V})$ con sistemas fronterizos.
-4. **Selectividad**: Las distinciones efectivas realizadas por $$\mathcal{U} \text{ sobre } \mathcal{R}_{\mathcal{U}}$$
-   se representan por una subfamilia $$\{f_D\}_{D\in\mathcal{D}_{\mathcal{U}}}$$ de funciones indicadoras asociadas a
-   las distinciones locales.
+4. **Selectividad**: Las distinciones efectivas realizadas por
+ 
+$$\mathcal{U} \text{ sobre } \mathcal{R}_{\mathcal{U}}$$
+   se representan por una subfamilia
+
+$$\{f_D\}_{D\in\mathcal{D}_{\mathcal{U}}}$$
+
+   de funciones indicadoras asociadas a las distinciones locales.
 
 ### Grado de Interferencia Ontológica
 
 El **Grado de Interferencia Ontológica** $\omega(\mathcal{U}, \mathcal{V})$ cuantifica la intensidad con que dos
 sistemas distinguidores se contradicen mutuamente en sus operaciones fronterizas:
 
-$$\omega(\mathcal{U}, \mathcal{V}) = \frac{|\mathcal{R}_{\mathcal{U}} \cap \mathcal{R}_{\mathcal{V}}|}{|\mathcal{R}_{\mathcal{U}} \cup \mathcal{R}_{\mathcal{V}}|} \times \frac{\tau(\mathcal{U}:\mathcal{V})}{\max(\theta_{c,\mathcal{U}}, \theta_{c,\mathcal{V}})}$$
+$$
+\omega(\mathcal{U},\mathcal{V}) = J_{\mu}(\mathcal{R}_{\mathcal U},\mathcal{R}_{\mathcal V}) \cdot
+\frac{\tau_{\mathrm{alg}}(\mathcal{U}:\mathcal{V})}{\max\{\theta_{c,\mathcal{U}},\ \theta_{c,\mathcal{V}}\}}
+$$
+
+donde
+
+$$
+J_{\mu}(\mathcal R_{\mathcal U},\mathcal R_{\mathcal V}) := \frac{\mu(\mathcal R_{\mathcal U}\cap\mathcal R_{\mathcal V})}{\mu(\mathcal R_{\mathcal U}\cup\mathcal R_{\mathcal V})},\quad\text{if }\mu(\mathcal R_{\mathcal U}\cup\mathcal R_{\mathcal V})>0.
+$$
 
 **Interpretación Operativa**:
 
@@ -230,28 +275,85 @@ $$\tau_s(D_i, D_j) = \text{medida de incoherencia en sistema } s$$
 #### Formalización Medible de la Tensión Ontológica
 
 La tensión ontológica $\tau$ cuantifica la **novedad** o **inestabilidad informacional** introducida por un acto de
-distinción. Una formulación algorítmica básica es
+distinción.
 
-$$\tau_{\mathrm{alg}}(S\mid R) := K_U(S\mid R) + O(1),$$
+Sea $S$ el acto (o señal) cuya novedad queremos medir respecto de un contexto $R$. La tensión ontológica algorítmica se
+define como
 
-donde $K_U(\cdot\mid\cdot)$ es la complejidad de Kolmogorov relativa a una máquina universal $U$ y $O(1)$ indica la
-ambigüedad aditiva inherente.
+$$
+\tau_{\mathrm{alg}}(S\mid R)\;:=\;K_U(S\mid R)+O(1),
+$$
 
-**Normalización**: Para comparar actos de distinta escala se puede usar una versión normalizada en $[0,1]$:
+donde $K_U(\cdot\mid\cdot)$ es la complejidad de Kolmogórov condicional relativa a una máquina universal $U$.
 
-$$\hat{\tau}_{\mathrm{alg}}(S\mid R) := \frac{K_U(S\mid R)}{K_U(S)+1}.$$
+*Nota metodológica*:
+La definición ideal de tensión basada en la complejidad de Kolmogórov $K_U(\cdot\mid\cdot)$
+se mantiene como ideal teórico no computable. En implementaciones empíricas se usarán proxies computables notables (p.
+ej. $\mathrm{NCD}_C$ con un compresor $C$ o modelos de lenguaje que actúan como estimadores).
 
-**Proxies computables**: Dado que $K_U$ no es computable en general, se proponen proxies basados en compresores
-prácticos:
+Cuando se presenten resultados numéricos documentar el compresor/modelo $C$ empleado, ya que los valores de las proxies
+dependen de esa elección.
 
-$$\widetilde{\tau}_C(S\mid R) := \frac{C(RS)-C(R)}{C(S)+1}.$$
+**Nota breve:** $K_U$ es teóricamente fundacional pero incomputable y está definida solo hasta una constante aditiva
+dependiente de $U$.
 
-**Protocolo operativo mínimo para medir $\tau$**:
+#### Medida de superposición topológica (Jaccard generalizado)
 
-1. Fijar una representación canónica para $S$ y $R$ (codificación binaria, nivel de coarse-graining).
-2. Seleccionar compresores $C$ (por ejemplo: gzip, brotli, LZMA) y calcular $C(R),C(S),C(RS)$.
-3. Calcular $\widetilde{\tau}_C(S\mid R)$ y reportar la codificación y parámetros del compresor.
-4. Cuando sea posible, comparar con $\tau_{\mathrm{KL}}$ obtenido desde un modelo probabilístico.
+Si $\mathcal R_{\mathcal U},\mathcal R_{\mathcal V}\subset\mathcal C$ son regiones en el continuo
+operacional $\mathcal C$ asociadas a dos subcubiertas, definimos su coeficiente de solapamiento por
+
+$$
+J_{\mu}(\mathcal R_{\mathcal U},\mathcal R_{\mathcal V})
+:=\frac{\mu(\mathcal R_{\mathcal U}\cap\mathcal R_{\mathcal V})}
+{\mu(\mathcal R_{\mathcal U}\cup\mathcal R_{\mathcal V})},
+\qquad\text{con }\mu(\mathcal R_{\mathcal U}\cup\mathcal R_{\mathcal V})>0.
+$$
+
+Condiciones sobre $\mu$: Se asume que $\mu$ es una medida finita y normalizada en $\mathcal C$ (por
+ejemplo $\mu(\mathcal C)=1$) o, en su defecto, que se normaliza localmente sobre conjuntos de interés. Es necesario
+que $\mu(\mathcal R_{\mathcal U}\cup\mathcal R_{\mathcal V})>0$. Bajo estas hipótesis $J_{\mu}\in[0,1]$, con $J_{\mu}=0$
+si las regiones son $\mu$-disjuntas y $J_{\mu}=1$ si coinciden salvo un conjunto de medida nula.
+
+#### Proxy computable y normalizada
+
+Sea $C$ un compresor o modelo que permita (idealmente) compresión condicional $C(R\|S)$. Definimos la proxy condicional
+tipo–NCD
+
+$$
+\mathrm{NCD}_C(S\mid R)\;=\;
+\frac{C(R\|S)-C(R)}{C(S)}.
+$$
+
+Si no existe compresión condicional directa, use la concatenación canónica con separador explícito $\texttt{SEP}$ y
+considere la variante
+
+$$
+\mathrm{NCD}_C^{\mathrm{concat}}(S,R)
+\;=\;
+\frac{C(R\ \texttt{||}\ S)-\min\{C(R),C(S)\}}{\max\{C(R),C(S)\}}.
+$$
+
+Para mapear la medida a un rango compacto $[0,1]$ proponemos la normalización
+
+$$
+\widehat{\tau}_C(S\mid R)\;=\;
+\frac{\mathrm{NCD}_C(S\mid R)}{1+\mathrm{NCD}_C(S\mid R)},
+$$
+
+que satisface $\widehat{\tau}_C\in[0,1)$ y escala monótonamente con la novedad relativa de $S$ respecto de $R$.
+Análogamente se puede aplicar la misma transformación a $\mathrm{NCD}_C^{\mathrm{concat}}$.
+
+#### Interpretación operativa
+
+* $\widehat{\tau}_C$ cercano a $0$: $S$ aporta poca información nueva sobre $R$.
+* $\widehat{\tau}_C$ mayor (acercándose a 1): $S$ es fuertemente novedoso/informacionalmente independiente respecto
+  de $R$.
+
+**Advertencia**:
+Estas proxies son computables pero dependen de la elección de $\mu$, de la codificación de los datos (separador,
+representación) y del compresor/modelo $C$. La definición teórica $\tau_{\mathrm{alg}}$ proporciona la justificación
+conceptual; las versiones $\widehat{\tau}_C$ son aproximaciones prácticas cuya validez empírica debe evaluarse caso por
+caso.
 
 ## Fundamentos de la Asintotalidad
 
