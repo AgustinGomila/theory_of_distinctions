@@ -1,5 +1,7 @@
 # Distinción Continua: Un marco ontológico más fundamental que las matemáticas
 
+![🇺🇸](https://flagcdn.com/w20/za.png) [🇪🇳](README.en.md)
+
 <img src="images/est.png" alt="Teoría de Distinciones" style="width:500px; height:auto; display:block; margin:0 auto;" />
 
 ## Un marco que busca la sencillez en lo complejo
@@ -15,7 +17,7 @@ Las matemáticas, la lógica y los números no son el fundamento, sino proyeccio
 ontológico fundamental. El tiempo, por ejemplo, es la emergencia de la propagación de las distinciones. Lo que
 observamos son patrones emergentes de una distinción continua.
 
-Lejos de ser una "Teoría del Todo", este marco es una **Teoría del Algo** que explica cómo emerge la estructura desde la
+Lejos de ser una "Teoría del Todo", este marco es una "*teoría del algo*" que explica cómo emerge la estructura desde la
 indiferenciación, cómo se manifiestan las paradojas y cómo diferentes sistemas matemáticos y lógicos son proyecciones
 complementarias de un mismo proceso fundamental.
 
@@ -26,7 +28,7 @@ No se construye sobre axiomas matemáticos, sino que explica cómo las estructur
 un proceso ontológico primario.
 
 El universo no es una colección de entidades separadas, sino un proceso continuo donde las distinciones emergen
-naturalmente como soluciones específicas del continuo. Cada distinción crea una frontera que co-defina necesariamente
+naturalmente como soluciones específicas del continuo. Cada distinción crea una frontera que co-define necesariamente
 dos sistemas: un interior y un exterior. Por esto, la dinámica del universo es esencialmente recursiva: cada sistema
 procesa distinciones que surgen en sus fronteras, las asimila en su propio continuo y las propaga a otros sistemas
 mediante sus fronteras compartidas.
@@ -34,21 +36,24 @@ mediante sus fronteras compartidas.
 ## Archivos y Contenido
 
 Las reflexiones que originaron este marco se presentan en orden a través de los siguientes archivos. El mismo marco se
-reproduce en la dinámica de su propia concepción. Empieza con una pregunta simple: *"¿Por qué dos cosas son
-distintas?"*. Cada nivel es una abstracción del anterior que agrega profundidad conceptual. Cualquiera de estas etapas
-del desarrollo reproducen un marco coherente y sirvieron de base para el desarrollo siguiente. En su conjunto, todas
-ofrecen perspectivas nuevas de las anteriores y viceversa. El último archivo muestra el nivel más abstracto y general
-del marco.
+reproduce en la dinámica de su propia concepción. Empieza con una pregunta simple:
+
+> *¿Por qué dos cosas son distintas?*
+
+Cada nivel es una abstracción del anterior que agrega profundidad conceptual. Cualquiera de estas etapas del desarrollo
+reproducen un marco coherente y sirvieron de base para el desarrollo siguiente. En su conjunto, todas ofrecen
+perspectivas nuevas de las anteriores y viceversa. Para comprender el proceso reflexivo completo es aconsejable leer
+cada parte en el orden que aquí se presenta. El **último archivo** muestra el nivel más abstracto y general del marco.
 
 ### Reflexiones Prácticas
 
 * **[reflexion-1.md](reflexion-1.md): Sobre perros y caballos / Sobre gatos, plantas y luz**  
   Este documento explora dos perspectivas reflexivas interconectadas. La primera parte examina la distinción inicial
   entre objetos aparentemente diferentes (perro/caballo), mostrando cómo las particularidades esenciales definen las
-  diferencias y cómo la escala determina nuestra percepción de la realidad. La segunda parte profundiza en la dinámica
-  de energía, espacio y tiempo mediante la observación de una habitación con una planta, un gato y la luz del sol,
-  revelando cómo estas mismas fuerzas operan en múltiples escalas de la existencia humana y conectan lo individual con
-  lo universal.
+  diferencias y cómo la escala determina nuestra percepción de la realidad. Explora la definición de los absolutos:
+  TODO/NADA. La segunda parte profundiza en la dinámica de energía, espacio y tiempo mediante la observación de una
+  habitación con una planta, un gato y la luz del sol, revelando cómo estas mismas fuerzas operan en múltiples escalas
+  de la existencia humana y conectan lo individual con lo universal.
 
 * **[reflexion-2.md](reflexion-2.md): Nuestra ventana al mundo**  
   Este documento explora la subjetividad inherente a la percepción humana y cómo cada individuo construye su propia

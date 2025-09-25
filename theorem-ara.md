@@ -1,5 +1,7 @@
 # Teoría de Distinciones: Marco Fundamental
 
+![🇺🇸](https://flagcdn.com/w20/za.png) [🇪🇳](theorem-ara.en.md)
+
 <img src="images/theorem_ara.jpg" alt="L. Art de la conversation (René Magritte, 1963)" style="width:500px; height:auto; display:block; margin:0 auto;" />
 
 ![img](scp7auj73kqf1 "L. Art de la conversation (René Magritte, 1963)")
@@ -123,7 +125,7 @@ y del estado interno $S_{\mathcal{U}}$.
   ontológica $\omega(\mathcal{U}, \mathcal{V})$ con sistemas fronterizos.
 - **Selectividad**: Las distinciones efectivas realizadas por
 
-$$\mathcal{U}$ \text{ sobre } $\mathcal{R}_{\mathcal{U}}$$
+$$\mathcal{U} \text{ sobre } \mathcal{R}_{\mathcal{U}}$$
 
 se representan por una subfamilia
 
@@ -287,12 +289,8 @@ contradictorios ontológicos que operan en dimensiones perpendiculares:
 **Principio de Perpendicularidad Relacional**: La perpendicularidad ontológica es inherentemente fronteriza - siempre
 diádica entre dos términos específicos. Los sistemas complejos mantienen múltiples perpendicularidades binarias
 simultáneas:
-$$\mathcal{S} = \{(\mathcal{C}_i \perp \mathcal{D}_j)_k\}$$
-
-**Principio de Perpendicularidad Relacional**: La perpendicularidad ontológica es inherentemente fronteriza - siempre
-diádica entre dos términos específicos. Los sistemas complejos mantienen múltiples perpendicularidades binarias
-simultáneas:
 $$\mathcal{S} = {(\mathcal{C}_i \perp \mathcal{D}_j)_k}$$
+
 Esta perpendicularidad es fundamental porque $\top_s$ y $\bot_s$ no comparten dimensión común - uno opera en el eje
 capacidad infinita/finita, otro en el eje existencia/inexistencia. La complejidad sistémica emerge de múltiples
 perpendicularidades binarias operando simultáneamente, no de relaciones múltiples directas.
