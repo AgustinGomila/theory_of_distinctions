@@ -368,19 +368,29 @@ donde la frontera colapsa como solución de continuidad, eliminando la individua
 - Alta coherencia → Mayor selectividad sofisticada (procesamiento complejo)
 - Baja coherencia → Selectividad restrictiva (procesamiento simple/defensivo)
 
-### Umbral Crítico y Capacidad Operativa
+### Umbral Crítico y Capacidad de Recomposición
 
-**Umbral Crítico ($\theta_{c,S}$)**: Límite de tensión asimilable determinado por la capacidad de continencia de la
-frontera. Al excederse, se produce reconfiguración mínima.
+**Umbral Crítico**: Medida dinámica de la **capacidad de recomposición disponible** en un momento
+dado. No es un límite fijo, sino que fluctúa según:
 
-**Capacidad de Filtrado**: Los umbrales operativos determinan qué tensiones el sistema puede procesar internamente sin
-generar observables (cambios estructurales):
+$\theta_{c,S}(t) = f\left(\text{Coherencia}(S,t), \sum_i \omega(S, S_i, t), \text{Estado de Recomposición}(S,t)\right)$
 
-- Tensiones subumbral: Asimilación recursiva interna
-- Tensiones supraumbral: Generación de emergencias observables
+**Mecanismo de Recomposición**: Los sistemas procesan tensiones y se recomponen a estados de mayor capacidad. Las
+interferencias ontológicas simultáneas **bloquean** este proceso de recomposición, reduciendo el umbral disponible.
+
+**Distribución de Tensiones**: En sistemas coherentes, las tensiones se distribuyen como gradientes a través de la
+estructura interna, permitiendo procesamiento distribuido. En sistemas incoherentes, se concentran en "cuellos de
+botella" estructurales.
+
+**Estados de Capacidad**:
+
+- **Tensiones subumbral**: Asimilación con recomposición → umbral se mantiene o eleva
+- **Tensiones supraumbral**: Recomposición bloqueada → generación de emergencias observables
+- **Interferencias altas**: Capacidad de recomposición reducida → umbral crítico descendente
 
 **Retroalimentación Sistémica**: El procesamiento interno genera necesariamente respuestas hacia el complemento,
-modificando las condiciones fronterizas y permitiendo evolución sistémica.
+modificando las condiciones fronterizas y los grados de interferencia ontológica, lo que afecta dinámicamente la
+capacidad de recomposición disponible.
 
 ## Emergencia Espacio-Temporal
 
