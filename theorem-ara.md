@@ -22,10 +22,6 @@ postular multiplicidad ontológica.
 
 **Axioma de Distinción Continua**: $\mathcal{D}(\mathcal{C}) \rightarrow \mathcal{O}$
 
-La operación de distinción sobre el continuo único genera necesariamente oscilación como manifestación de la distinción
-continua. La operación $\mathcal{D}$ sobre $\mathcal{C}$ debe ser continua porque cualquier "pausa" eliminaría la
-distinción misma.
-
 ## 2. Hipótesis de Medida
 
 Se fija una medida $\mu$ definida sobre una $\sigma$-'algebra que contiene todas las regiones
@@ -287,6 +283,11 @@ contradictorios ontológicos que operan en dimensiones perpendiculares:
 
 - **Límite Superior ($\top_s$)**: Capacidad máxima de asimilación - infinitud relativa que excluye la finitud sistémica
 - **Límite Inferior ($\bot_s$)**: Ausencia total de distinciones - inexistencia que excluye la existencia sistémica
+
+**Principio de Perpendicularidad Relacional**: La perpendicularidad ontológica es inherentemente fronteriza - siempre
+diádica entre dos términos específicos. Los sistemas complejos mantienen múltiples perpendicularidades binarias
+simultáneas:
+$$\mathcal{S} = \{(\mathcal{C}_i \perp \mathcal{D}_j)_k\}$$
 
 **Principio de Perpendicularidad Relacional**: La perpendicularidad ontológica es inherentemente fronteriza - siempre
 diádica entre dos términos específicos. Los sistemas complejos mantienen múltiples perpendicularidades binarias
