@@ -154,7 +154,7 @@ Discreto:
 ```
 
 * **[theorem-ara.md](theorem-ara.md): Teoría de Distinciones**
-  Presenta el marco en términos formales, definiendo sistemas distinguidores y distinguidos. Establece la estructura
+  Explora el marco en términos formales, definiendo sistemas distinguidores y distinguidos. Establece la estructura
   triádica universal A-R-Ã y explica la tensión ontológica como medida de inestabilidad introducida por cualquier
   distinción. Este documento proporciona la formalización matemática del marco ontológico.
 

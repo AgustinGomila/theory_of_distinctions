@@ -90,7 +90,7 @@ each part in the order presented here. The **last file** shows the most abstract
   transformations that reconfigure the relational structure of the system.
 
 * **[axioms-paradoxes.md](axioms-paradoxes.md): Axiomatization of the Framework**
-  Presents the ontological primitives (single continuum, distinction operator), defines fundamental concepts (
+  Explore the ontological primitives (single continuum, distinction operator), defines fundamental concepts (
   ontological tension, critical threshold, stabilized relation), and formulates emergent axioms. Resolves logical and
   mathematical paradoxes through the principle "what is not permitted, —generally— is prohibited." Includes a detailed
   analysis of how mathematical axioms naturally emerge from the ontological process.
