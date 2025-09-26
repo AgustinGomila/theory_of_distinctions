@@ -170,6 +170,29 @@ tríada ontológica:
    crítico. Ontológicamente, corresponde a la estabilización del observador como parte constitutiva del sistema
    observado.
 
+```
+Ley de Llamada:
+       A       R       Ã
+  ⟷ ---────────═════════=== ⇔
+
+  ↓                   ↓                   ↓
+  │ A        R        │ A        R        │ A        R
+  └────────╖        ⇔ └────────╖        ≡ └────────╖
+         ↗ ║                 ↗ ║                 ↗ ║
+           ║ Ã                 ║ Ã                 ║ Ã
+           ╚=== ==⇒            ╚=== ==⇒            ╚=== ==⇒
+Ley de Cruce:
+       A       R       Ã
+  ⟷ ---────────═════════=== ⇔
+
+  ↓                   ←-- ---┐
+  │ A        R             A │                  A       R       Ã
+  └────────╖        ⇔        │ ↙        ≡ ⟷ ---────────═════════=== ⇔
+         ↗ ║                 ╘════════╗
+           ║ Ã             R        Ã ‖   Re-entry es consecuencia
+           ╚=== ==⇒                   ⇑   de la oscilación ↗↙.
+```
+
 *Interpretación*: Estas leyes no son axiomas independientes, sino proyecciones estabilizadas del proceso ontológico
 fundamental, explicando por qué $(-1) \times (-1) = 1$ y resolviendo las paradojas lógicas mediante el principio de
 reconfiguración mínima.

@@ -114,7 +114,7 @@ Law of Crossing:
   │ A        R             A │                  A       R       Ã
   └────────╖        ⇔        │ ↙        ≡ ⟷ ---────────═════════=== ⇔
          ↗ ║                 ╘════════╗
-           ║ Ã             R        Ã ‖   Reentry is a consequence
+           ║ Ã             R        Ã ‖   Re-entry is a consequence
            ╚=== ==⇒                   ⇑   of oscillation.
 ```
 

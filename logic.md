@@ -176,7 +176,7 @@ Ley de Cruce:
   │ A        R             A │                  A       R       Ã
   └────────╖        ⇔        │ ↙        ≡ ⟷ ---────────═════════=== ⇔
          ↗ ║                 ╘════════╗
-           ║ Ã             R        Ã ‖   Reentry es consecuencia
+           ║ Ã             R        Ã ‖   Re-entry es consecuencia
            ╚=== ==⇒                   ⇑   de la oscilación.
 ```
 
