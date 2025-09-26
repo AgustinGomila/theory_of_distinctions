@@ -4,7 +4,7 @@
 
 <img src="images/est.png" alt="Ciclo EST en 9₄₀" style="width:500px; height:auto; display:block; margin:0 auto;" />
 
-![img](4g2ouqycrdif1 "Ciclo EST en 9₄₀")
+![img](z5pfd1clukrf1 "Ciclo EST en 9₄₀")
 
 # **Génesis Cuántica**
 

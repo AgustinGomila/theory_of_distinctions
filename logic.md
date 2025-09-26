@@ -145,6 +145,19 @@ ontológica $\tau$ permanece constante. Ontológicamente, se manifiesta como el 
 recursivo: la primera aplicación ($p ↓ p = \neg p$) representa la distinción primaria (A→R), y la
 segunda ($\neg p ↓ \neg p = p$) completa el ciclo (R→Ã→A), dando origen a la lógica y aritmética.
 
+```
+Ley de Llamada:
+       A       R       Ã
+  ⟷ ---────────═════════=== ⇔
+      
+  ↓                   ↓                   ↓
+  │ A        R        │ A        R        │ A        R
+  └────────╖        ⇔ └────────╖        ≡ └────────╖
+         ↗ ║                 ↗ ║                 ↗ ║
+           ║ Ã                 ║ Ã                 ║ Ã
+           ╚=== ==⇒            ╚=== ==⇒            ╚=== ==⇒
+```
+
 #### Ley de Cruce: (( )) =
 
 Esta ley indica que cruzar dos veces una frontera **cancela** el cruce, lo que equivale a no cruzarla, correspondiendo a
@@ -153,6 +166,19 @@ como $A \overset{R}{\longleftrightarrow} \tilde{A} \overset{R}{\longleftrightarr
 cruza la frontera ($A \rightarrow R \rightarrow \tilde{A}$) y la segunda completa el
 ciclo ($\tilde{A} \rightarrow R \rightarrow A$), resultando en $A$ con mayor complejidad relacional. Esto explica por
 qué $(-1) \times (-1) = 1$ es una manifestación del ciclo ontológico, no un convenio arbitrario.
+
+```
+Ley de Cruce:
+       A       R       Ã
+  ⟷ ---────────═════════=== ⇔
+  
+  ↓                   ←-- ---┐
+  │ A        R             A │                  A       R       Ã
+  └────────╖        ⇔        │ ↙        ≡ ⟷ ---────────═════════=== ⇔
+         ↗ ║                 ╘════════╗
+           ║ Ã             R        Ã ‖   Reentry es consecuencia
+           ╚=== ==⇒                   ⇑   de la oscilación.
+```
 
 ### 2.5. La Tríada A-R-Ã como Estructura Fundamental
 

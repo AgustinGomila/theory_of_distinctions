@@ -1011,30 +1011,35 @@ Formación de Fronteras:
          A       R       Ã
   ──→ ---────────═════════=== ⇐══
 Tensión Ontológica (subumbral):
-  ↓                    ←-- ---┐
-  │ A        R              A │
+  ↓             C      ←-- ---┐
+  │ A        R              A │    C
   └────────╖         ⇔        │ ↙
          ↗ ║                  ╘════════╗
-           ║ Ã              R        Ã ‖
-           ╚=== ==⇒                    ⇑           A       R       Ã
+      C    ║ Ã              R        Ã ‖
+           ╚=== ==⇒      C             ⇑           A       R       Ã
 Dinámica de Frontera:                       ≡ ⟷ ---────────═════════=== ⇔
-  ↓   ↑                     ←-- -------┐
-  │   │                     ──→ ───┐ A │
+  ↓   ↑                     ←-- -------┐          Recursividad ⇒ ↙↗ de C.
+  │   │            C        ──→ ───┐ A │    C
   │ A └--------╖         ⇔         │   │ ↙
   └────────╖ R ║                   │ R ╘════════╗
          ↗ ║   ║                   ╘========╗ Ã ║
-           ║ Ã ╚═══ ⇐══                     ‖   ║
+     C     ║ Ã ╚═══ ⇐══        C            ‖   ║
            ╚======= ==⇒                     ⇓   ⇑
 Umbral Crítico:
          R
          ┌╖
-        ↑│║⇑
+    C   ↑│║⇑   C
         A│║Ã
   ──→ ───┘╚═══ ⇐══
          R
   ←-- ---┐╔=== ==⇒
         ↑│║⇑
-        A│║Ã
+    C   A│║Ã   C
+         │║
   ──→ ───┘╚═══ ⇐══
              *
 ```
+
+> *Welcome, my son, welcome to the machine.
+What did you dream?
+It's alright, we told you what to dream...*
