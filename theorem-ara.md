@@ -8,12 +8,24 @@
 
 ### Continuo Único ($\mathcal{C}$)
 
-**Axioma de Ausencia Predicativa**: $\forall P, \neg P(\mathcal{C})$
+**Axioma de Ausencia Predicativa**: *No existen predicados internos no triviales definidos únicamente
+desde el continuo sin referencia a operaciones de distinción externas.*
+
+Formalmente: para cualquier propiedad $P$ definible sin referencia a algún $D\in\mathcal{D}$, $P$ es trivial
+sobre $\mathcal C$ (es decir, $P$ es verdadera o falsa para todos los puntos de $\mathcal C$).
+
+No existen predicados internos no triviales definidos únicamente
+desde el continuo sin referencia a operaciones de distinción externas.
 
 Existe un solo continuo sin predicados internos. No hay multiplicidad de continuos - solo continuidad diferenciada por
 soluciones específicas.
 
 ### Operador de Distinción ($\mathcal{D}$)
+
+La operación de distinción sobre el continuo único genera subconjuntos y fracturas específicas. Para dar sentido a la
+noción de continuidad del operador $\mathcal D$ se fija una topología adecuada en el codominio —por ejemplo la topología
+de Vietoris o la métrica de Hausdorff cuando procede— y se exige que $\mathcal D$ sea continua respecto de la topología
+elegida.
 
 **Definición**: $\mathcal{D}: \mathcal{C} \to \text{Soluciones de Continuidad}$
 
@@ -22,9 +34,13 @@ postular multiplicidad ontológica.
 
 **Axioma de Distinción Continua**: $\mathcal{D}(\mathcal{C}) \rightarrow \mathcal{O}$
 
-La operación de distinción sobre el continuo único genera necesariamente oscilación como manifestación de la distinción
-continua. La operación $\mathcal{D}$ sobre $\mathcal{C}$ debe ser continua porque cualquier "pausa" eliminaría la
-distinción misma.
+La operación de distinción sobre el continuo único genera oscilaciones como manifestación de las operaciones
+distinguidoras. Formalmente consideramos
+$\mathcal{D}:\mathcal C\to\mathcal P(\mathcal C)$ (el espacio de subconjuntos de $\mathcal C$).
+Para dar sentido a la noción de continuidad del operador $\mathcal D$ se fija una topología adecuada en el codominio
+—por ejemplo la topología de Vietoris o la métrica de Hausdorff cuando procede— y se exige que $\mathcal D$ sea continua
+respecto de la topología elegida. Esta especificación hace que la afirmación sobre continuidad tenga una base matemática
+precisa en lugar de un intento puramente metafórico.
 
 ## 2. Hipótesis de Medida
 
@@ -32,14 +48,28 @@ Se fija una medida $\mu$ definida sobre una $\sigma$-'algebra que contiene todas
 relevantes $\mathcal R_{\mathcal U}$. Asumimos, salvo que se indique lo contrario, que $\mu$ es finita y normalizada (es
 decir, opcionalmente $\mu(\mathcal C)=1$).
 
-Para evitar indeterminaciones, toda fórmula que divida por $\mu(\mathcal R_{\mathcal U}\cup\mathcal R_{\mathcal V})$
+Para garantizar coherencia entre topología y medida, se exige que para todo $D\in\mathcal D$ el conjunto $U_D$ sea
+medible (por ejemplo, boreliano) y que la $\sigma$-álgebra sobre la que actúa $\mu$ contenga la topología generada por
+la subbase $\mathcal S$.
+
+Para evitar indeterminaciones, toda fórmula que divida por
+
+$$\mu(\mathcal R_{\mathcal U}\cup\mathcal R_{\mathcal V})$$
+
 requiere la condición:
+
 $$\mu(\mathcal R_{\mathcal U}\cup\mathcal R_{\mathcal V})>0.$$
 
 Si el denominador fuese cero, la expresión se interpreta por continuidad o por convención contextual (p. ej. tomar el
 cociente como cero cuando procede).
 
 ## 3. Emergencias de la Discontinuidad
+
+Notación canónica para la recurrencia temporal:
+
+$$D_{s,n+1} = \mathcal{D}_s(D_{s,n})$$
+
+En general, escribimos índices y subíndices usando la notación $D_{s,n}$ para evitar ambigüedades.
 
 ### Espacio Topológico Generado por Distinciones
 
@@ -113,17 +143,23 @@ alinear $\mathcal{R}_{\mathcal{U}}$ con su entorno, actuando como un acto de dis
 ontológica. Formalmente:
 
 ```math
-M_{\mathcal{U}}(c, s) = \arg\min_{T_i} \left\{ C[c - T_i(c)] + C^p_i[p(T_i, c)] \right\},
+M_{\mathcal{U}}(c, s) = \arg\min_{T_i} \left\{ |C(\mathrm{repr}(c)\ \|\ \mathrm{repr}(T_i(c)))| + C^p_i[p(T_i, c)] \right\},
 ```
 
-donde $C$ es un compresor de datos y $C^p_i$ comprime los parámetros de $T_i$. Esto refleja el axioma de mínima acción
-distinguidora.
+donde $C$ es un compresor de datos y $C^p_i$ comprime los parámetros de $T_i$. En la práctica adoptamos la convención
+que $|C(\cdot)|$ denota la longitud en bits del resultado del compresor aplicado a la secuencia de bytes dada;
+y $\mathrm{repr}(\cdot)$ es una representación canónica (por ejemplo, serialización) del objeto. El operador "|"
+indica concatenación con un separador inyectivo. Esta forma deja explícito que la medida computacional empleada es la
+longitud comprimida de la concatenación de las representaciones. Como alternativa, y cuando sea más apropiado, se puede
+reemplazar el término por una distancia bien definida $d(c,T_i(c))$ del tipo métrico si la aplicación lo requiere.
+
+Esto refleja el axioma de mínima acción distinguidora.
 
 **Propiedades operacionales para $M_{\mathcal{U}}$**:
 
-- **Localidad**: La acción depende sólo de la configuración en
+* **Localidad**: La acción depende sólo de la configuración en
 
-$$\mathcal{R}_{\mathcal{U}}$$
+$\mathcal{R}_{\mathcal{U}}$
 
 y del estado interno $S_{\mathcal{U}}$.
 
@@ -134,11 +170,13 @@ y del estado interno $S_{\mathcal{U}}$.
   ontológica $\omega(\mathcal{U}, \mathcal{V})$ con sistemas fronterizos.
 - **Selectividad**: Las distinciones efectivas realizadas por
 
-$$\mathcal{U}$ \text{ sobre } $\mathcal{R}_{\mathcal{U}}$$
+$\mathcal{U} \text{ sobre } \mathcal{R}_{\mathcal{U}}$
 
 se representan por una subfamilia
 
-$${f_D}_{D\in\mathcal{D}_{\mathcal{U}}}$$
+$$
+{f_D}_{D\in\mathcal{D}_{\mathcal{U}}}
+$$
 
 de funciones indicadoras asociadas a las distinciones locales.
 
@@ -248,8 +286,6 @@ $$
 \omega(\mathcal{U},\mathcal{V}) = J_\mu(\mathcal R_{\mathcal U},\mathcal R_{\mathcal V})\cdot
 \min\!\left(1,\; \frac{\tau_{\mathrm{alg}}(\mathcal{U}:\mathcal{V})}{\max(\theta_{c,\mathcal{U}},\theta_{c,\mathcal{V}})}\right).
 $$
-
-donde
 
 $$J_{\mu}(\mathcal R_{\mathcal U},\mathcal R_{\mathcal V}) := \frac{\mu(\mathcal R_{\mathcal U}\cap\mathcal R_{\mathcal V})}{\mu(\mathcal R_{\mathcal U}\cup\mathcal R_{\mathcal V})},\quad\text{if }\mu(\mathcal R_{\mathcal U}\cup\mathcal R_{\mathcal V})>0.$$
 
@@ -437,7 +473,9 @@ capacidad de recomposición disponible.
 ### Temporalidad Emergente
 
 La temporalidad surge como distinción de estados separados por aparición:
-$$D_{s,n+1} = \mathcal{D}s(D{s,n})$$
+
+$$D_{s,n+1} = \mathcal{D}_s(D_{s,n})$$
+
 La secuencia temporal $t_s$ es el producto de la recursividad de distinciones, no su contenedor. Cada aplicación
 recursiva constituye un "momento" temporal sistémico.
 
