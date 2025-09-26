@@ -140,11 +140,11 @@ Propiedades algebraicas (observación local). Bajo la condición de indistinguib
 $\varepsilon$), la operación $\oplus$ puede asumirse asociativa y conmutativa en la vecindad considerada; dichas
 propiedades deben verificarse en cada calibración si se requiere rigor.
 
-<img src="images/russell-xry.jpeg" alt="Matemática y Lógica, forma general 'xRy' (Bertrand Russell)"  style="width:500px; height:auto; display:block; margin:0 auto;" />
-
-![img](gds6pmc7tdof1 "Matemática y Lógica, forma general 'xRy' (Bertrand Russell)")
-
 ### Propiedades Emergentes
+
+<img src="images/laws_of_form_3.png" alt="The Laws of Form (G. Spencer-Brown)"  style="width:500px; height:auto; display:block; margin:0 auto;" />
+
+![img](jrt6fxjoecof1 "The Laws of Form (G. Spencer-Brown)")
 
 #### Teorema de las Leyes de la Forma
 
@@ -238,11 +238,11 @@ la calibración local.
 ontológica en diferentes dominios. La teoría de conjuntos es una proyección estabilizada que enfoca el aspecto A (
 identidad) de la tríada A-R-Ã ($\theta = 0^\circ$).
 
-<img src="images/laws_of_form_3.png" alt="The Laws of Form (G. Spencer-Brown)"  style="width:500px; height:auto; display:block; margin:0 auto;" />
-
-![img](jrt6fxjoecof1 "The Laws of Form (G. Spencer-Brown)")
-
 ## Análisis de Axiomas
+
+<img src="images/russell-xry.jpeg" alt="Matemática y Lógica, forma general 'xRy' (Bertrand Russell)"  style="width:500px; height:auto; display:block; margin:0 auto;" />
+
+![img](gds6pmc7tdof1 "Matemática y Lógica, forma general 'xRy' (Bertrand Russell)")
 
 ### 1. Axiomas de Peano
 
