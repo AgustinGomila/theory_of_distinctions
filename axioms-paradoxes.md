@@ -80,8 +80,8 @@ reconfiguración mínima necesaria mediante el operador $\mathcal{D}$ para devol
 considerada.
 
 Definición operacional de paradoja. Una construcción es paradójica si su realización implica la existencia de una
-vecindad $U$ con $\sup_{A\in U}\tau(A)\ge\theta_c$. En tal caso, el Teorema de la Distinción garantiza que existe una
-reconfiguración mínima (Todo-o-Nada) que restaura $\tau<\theta_c$ en $U$.
+vecindad $U$ con $\sup_{A\in U}\tau(A)\ge\theta_c$. En tal caso, la TdD garantiza que existe una reconfiguración
+mínima (Todo-o-Nada) que restaura $\tau<\theta_c$ en $U$.
 
 #### Axioma de Emergencia del 0 y del 1
 
@@ -276,8 +276,8 @@ sucesor.
 
 - El número 0 emerge como configuración límite donde $\tau \to 0$, correspondiendo a un estado crítico en el continuo de
   distinción.
-- El sucesor representa la aplicación del operador $\mathcal{D}$ (Teorema de la Distinción), generando nuevas
-  estabilizaciones mediante el mecanismo de reconfiguración fractal cuando $\tau$ excede el umbral crítico.
+- El sucesor representa la aplicación del operador $\mathcal{D}$ (TdD), generando nuevas estabilizaciones mediante el
+  mecanismo de reconfiguración fractal cuando $\tau$ excede el umbral crítico.
 - El principio de inducción matemática emerge naturalmente de esta recursividad fractal, donde la transición de $k$
   a $k+1$ ocurre solo si $\tau(k, k+1)$ está por debajo del umbral crítico.
 - **Conclusión**: Los axiomas de Peano son manifestaciones directas del proceso de distinción y su carácter recursivo.
@@ -368,8 +368,7 @@ infinito, etc.
   estabilizaciones coherentes.
 + **Axioma de separación**: Garantiza que las propiedades usadas para formar subconjuntos correspondan a distinciones
   estables bajo el operador $\mathcal{D}$.
-+ **Axioma de elección**: Opera de manera consistente solo cuando $\tau < \theta_c$, como establece el Teorema de la
-  Distinción.
++ **Axioma de elección**: Opera de manera consistente solo cuando $\tau < \theta_c$, como establece la TdD.
 
 - **Conclusión**: Los axiomas de ZF emergen como restricciones naturales para mantener $\tau$ bajo
   umbral crítico, permitiendo estabilizaciones coherentes.
@@ -460,8 +459,8 @@ viceversa.
 
 **Análisis desde el marco:**
 
-- Esta paradoja puede entenderse como una autorreferencia que viola la condición de contracción local del Teorema de la
-  Distinción. La oración no completa la tríada ontológica A-R-Ã, generando una tensión τ que excede el umbral crítico.
+- Esta paradoja puede entenderse como una autorreferencia que viola la condición de contracción local de la TdD. La
+  oración no completa la tríada ontológica A-R-Ã, generando una tensión τ que excede el umbral crítico.
 - En el marco, la autorreferencia solo produce estabilizaciones coherentes cuando el operador 𝒟 satisface las
   condiciones del teorema.
 - **Solución**: La oración excede el umbral crítico de tensión ontológica ($\Delta\tau > \theta_
@@ -495,7 +494,7 @@ contiene, no debería, y si no se contiene, debería.
 - Aquiles alcanza a la tortuga cuando la secuencia de distancias converge a un punto donde 𝒟 satisface la condición de
   contracción local.
 - **Solución**: La paradoja se resuelve al reconocer que la convergencia a un punto estable corresponde a una solución
-  del Teorema de la Distinción.
+  de la TdD.
 
 ### 4. Paradoja de Banach-Tarski
 
@@ -508,8 +507,8 @@ tamaño.
   contracción local, generando partes no medibles.
 - En sistemas físicos, tales configuraciones están excluidas porque el operador de distinción físico requiere τ <
   θcrítico para estabilizaciones coherentes.
-- **Solución**: La paradoja se explica como un artefacto matemático que ocurre fuera del dominio de aplicabilidad del
-  Teorema de la Distinción.
+- **Solución**: La paradoja se explica como un artefacto matemático que ocurre fuera del dominio de aplicabilidad de la
+  Teoría.
 
 ### 5. Paradoja del Montón (Sorites)
 
@@ -518,12 +517,11 @@ entonces nunca se forma un montón.
 
 **Análisis desde el marco:**
 
-- Esta paradoja ilustra la transición entre dominios de aplicabilidad del Teorema de la Distinción. Las distinciones son
+- Esta paradoja ilustra la transición entre dominios de aplicabilidad de la TdD. Las distinciones son
   continuas, pero las estabilizaciones emergen cuando τ alcanza θcrítico, provocando saltos discretos.
 - Añadir granos aumenta gradualmente $\tau$ hasta que, en un punto crítico, la distinción "montón"
   emerge abruptamente. Este salto resuelve la paradoja, ya que la transición no es gradual sino discreta.
-- **Conclusión**: La paradoja se resuelve mediante el mecanismo de transición ontológica formalizado en el Teorema de la
-  Distinción.
+- **Conclusión**: La paradoja se resuelve mediante el mecanismo de transición ontológica formalizado en la TdD.
 
 ### 6. Paradoja de Berry
 
@@ -532,12 +530,12 @@ palabras, llevando a una contradicción.
 
 **Análisis desde el marco:**
 
-- Esta paradoja puede interpretarse como una definición que viola la condición de contracción local del Teorema de la
-  Distinción al intentar abarcar todas las definiciones posibles.
+- Esta paradoja puede interpretarse como una definición que viola la condición de contracción local de la TdD al intentar
+  abarcar todas las definiciones posibles.
 - El marco excluye tales definiciones porque corresponden a configuraciones donde 𝒟 no satisface τ < θcrítico,
   impidiendo estabilizaciones coherentes.
-- **Conclusión**: La paradoja se resuelve al reconocer que la definición opera fuera del dominio de aplicabilidad del
-  Teorema de la Distinción.
+- **Conclusión**: La paradoja se resuelve al reconocer que la definición opera fuera del dominio de aplicabilidad de la
+  TdD.
 
 ### 7. Paradoja de Curry
 
@@ -546,12 +544,11 @@ independientemente de X.
 
 **Análisis desde el marco:**
 
-- Esta paradoja corresponde a un bucle de autorreferencia que viola la condición de contracción local del Teorema de la
-  Distinción.
+- Esta paradoja corresponde a un bucle de autorreferencia que viola la condición de contracción local de la TdD.
 - En el marco, tales construcciones están excluidas porque corresponden a configuraciones donde τ ≥ θcrítico, impidiendo
   que 𝒟 genere estabilizaciones coherentes.
 - **Conclusión**: La paradoja se resuelve al reconocer que la autorreferencia opera fuera del dominio de aplicabilidad
-  del Teorema de la Distinción.
+  de la TdD.
 
 ### 8. Paradoja de Skolem
 
@@ -560,12 +557,12 @@ incontables.
 
 **Análisis desde el marco:**
 
-- Esta paradoja ilustra cómo el Teorema de la Distinción permite diferentes dominios de aplicabilidad para el operador
-  𝒟, cada uno con su propia estabilización.
+- Esta paradoja ilustra cómo la TdD permite diferentes dominios de aplicabilidad para el operador 𝒟, cada uno con su
+  propia estabilización.
 - En el marco, los modelos numerables corresponden a dominios donde 𝒟 satisface la condición de contracción local,
   mientras que la "incontabilidad" emerge como una propiedad interna del modelo.
-- **Conclusión**: La paradoja se resuelve al reconocer que el Teorema de la Distinción admite múltiples proyecciones
-  estables en diferentes dominios de aplicabilidad.
+- **Conclusión**: La paradoja se resuelve al reconocer que la TdD admite múltiples proyecciones estables en diferentes
+  dominios de aplicabilidad.
 
 ### 9. Paradoja de Burali-Forti
 
@@ -578,7 +575,7 @@ incontables.
 - En la teoría de conjuntos, esto se evita mediante axiomas que restringen las distinciones a dominios donde 𝒟 satisface
   τ < θcrítico.
 - **Conclusión**: La paradoja se resuelve al reconocer que el conjunto de todos los ordinales opera fuera del dominio de
-  aplicabilidad del Teorema de la Distinción.
+  aplicabilidad de la TdD.
 
 ## Principio Emergente
 
@@ -589,8 +586,8 @@ distinciones que el propio marco postula como emergente.
 
 **Análisis desde el marco:**
 
-El Principio de Autorreferencia Constitutiva corresponde al umbral crítico de contracción local definido en el Teorema
-de la Distinción. Cuando la tensión ontológica $\tau$ alcanza el umbral crítico $\theta_c$, el operador $\mathcal{D}$
+El Principio de Autorreferencia Constitutiva corresponde al umbral crítico de contracción local definido en TdD. Cuando
+la tensión ontológica $\tau$ alcanza el umbral crítico $\theta_c$, el operador $\mathcal{D}$
 genera la reconfiguración mínima necesaria para establecer un sistema coherente.
 
 - **Condición necesaria:** La Meta-Distinción no es una excepción, sino la condición necesaria para la emergencia de

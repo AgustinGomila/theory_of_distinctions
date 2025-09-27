@@ -140,10 +140,10 @@ R) es el acto primordial de distinción, operando dentro de esta tríada fundame
 
 Esta ley muestra que dos marcas adyacentes se **condensan** en una, reflejando la aplicación repetida de la misma
 distinción, que no genera nueva estabilización sino que refuerza la estructura triádica. Corresponde
-a $A \overset{R}{\longleftrightarrow} \tilde{A}$ aplicado dos veces, donde la tensión
-ontológica $\tau$ permanece constante. Ontológicamente, se manifiesta como el operador NOR
-recursivo: la primera aplicación ($p ↓ p = \neg p$) representa la distinción primaria (A→R), y la
-segunda ($\neg p ↓ \neg p = p$) completa el ciclo (R→Ã→A), dando origen a la lógica y aritmética.
+a $A \overset{R}{\longleftrightarrow} \tilde{A}$ aplicado dos veces, donde la tensión ontológica $\tau$ permanece
+constante. Ontológicamente, se manifiesta como el operador NOR recursivo: la primera aplicación ($p ↓ p = \neg p$)
+representa la distinción primaria (A→R), y la segunda ($\neg p ↓ \neg p = p$) completa el ciclo (R→Ã→A), dando origen a
+la lógica y aritmética.
 
 ```
 Ley de Llamada:
@@ -215,7 +215,7 @@ Satisfaciendo:
 La tensión ontológica $\tau$ emerge como la proyección estabilizada de la relación R en el proceso de distinción,
 constituyendo la medida de la diferencia que emerge naturalmente del continuo sin solución de continuidad.
 
-**Diagramas de Venn:**
+**Diagramas de Venn Ontológicos:**
 
 ```
     ____→____
@@ -374,7 +374,7 @@ Las estabilizaciones numéricas surgen como soluciones del principio variacional
 - $n=3$: Tercera solución estable, que completa la tríada ontológica fundamental
 
 Cada nueva estabilización emerge cuando $\tau$ alcanza el umbral crítico, permitiendo una nueva aplicación coherente
-del operador $\mathcal{D}$. El 1 representa la primera solución estable del Teorema de la Distinción.
+del operador $\mathcal{D}$. El 1 representa la primera solución estable de la TdD.
 
 Notación subíndice:
 
@@ -581,8 +581,8 @@ La progresión autorreferencial triádica se manifiesta en la función de Ackerm
 - 3° nivel ($2θ_c/3 ≤ τ < θ_c$): $A(2, n) = 2n + 3$ corresponde a $1_{1_1}$
 - 4° nivel ($τ ≥ θ_c$): $A(3, n) = 2^{n+3} - 3$ corresponde a $1^1_1$
 
-Esta progresión ilustra cómo el operador de distinción $\mathcal{D}$ (definido formalmente en el Teorema de la
-Distinción) genera estructuras cada vez más complejas mediante reconfiguración fractal cuando $\tau \geq \theta_c$.
+Esta progresión ilustra cómo el operador de distinción $\mathcal{D}$ (definido formalmente en la TdD) genera estructuras
+cada vez más complejas mediante reconfiguración fractal cuando $\tau \geq \theta_c$.
 
 Tras tres operaciones autorreferenciales, el sistema alcanza un umbral crítico determinado por su naturaleza triádica.
 Este umbral marca el límite de estabilización del 1, forzando una reconfiguración ontológica bajo el principio
@@ -619,8 +619,8 @@ muestra crecimiento exponencial, correspondiendo a la completitud triádica.
 
 El 2 emerge cuando la tensión ontológica interna del 1 supera el umbral crítico $\theta_c$, forzando una reconfiguración
 ontológica mediante el operador $\mathcal{D}$ bajo el principio Todo-o-Nada. Este salto no añade elementos externos,
-sino que reorganiza internamente el espacio relacional conforme al Teorema de la Distinción. El 2 constituye así una
-nueva estructura que minimiza la tensión global, mientras redefine el dominio del 1 mediante la herencia constitutiva.
+sino que reorganiza internamente el espacio relacional conforme al TdD. El 2 constituye así una nueva estructura que
+minimiza la tensión global, mientras redefine el dominio del 1 mediante la herencia constitutiva.
 
 $$\text{Si }|{1^1_1, 1^1_2, \dots, 1^n_m}| > \theta_c \text{, entonces emerge } 2$$
 
@@ -811,7 +811,7 @@ cuando $\tau < \theta_c$. Confirmando que solo las transformaciones que minimiza
 acción) se manifiestan en el continuo de distinción.
 
 Así, la doble negación corresponde a la aplicación recursiva de $\mathcal{D}$, restableciendo la estabilidad del sistema
-como solución estable del Teorema de la Distinción.
+como solución estable de la TdD.
 
 Esta equivalencia es una identidad ontológica, no una mera analogía, explicando por qué el álgebra de Boole emerge como
 proyección estabilizada del continuo con dos valores.
@@ -876,10 +876,10 @@ completa.
 > ilustran visual y auditivamente cómo surgen multiplicaciones y adiciones.
 
 Las operaciones aritméticas y sus inversas emergen como pares de reconfiguración fractal, donde cada operación
-constituye una aplicación del operador $\mathcal{D}$ que satisface las condiciones del Teorema de la Distinción. La
-operación directa incrementa la complejidad relacional, mientras que su inversa revela estructuras estables, emergiendo
-cuando el par anterior alcanza el umbral crítico de contracción. El operador de igualdad '$=$' representa la
-estabilización relacional donde $\tau(A, B) \rightarrow 0$, el estado de equilibrio óptimo en el continuo de distinción.
+constituye una aplicación del operador $\mathcal{D}$ que satisface las condiciones de la TdD. La operación directa
+incrementa la complejidad relacional, mientras que su inversa revela estructuras estables, emergiendo cuando el par
+anterior alcanza el umbral crítico de contracción. El operador de igualdad '$=$' representa la estabilización relacional
+donde $\tau(A, B) \rightarrow 0$, el estado de equilibrio óptimo en el continuo de distinción.
 
 **Adición ($a + b$):**
 
@@ -931,7 +931,7 @@ relaciones prohibidas y permitiendo nuevas estabilizaciones imposibles anteriorm
        /           \        Suma y Resta
       /      S      \       Ref:
     _|___→_______←___|_     R' ≡ +, R " ≡ -, R ≡ 1+2=3 ↔ 1-2=-1
-   / ↑ +  /  3  \ -  ↓ \    A = 1, Ã = 2, Ṙ ≡ 3 / -1
+   / ↑ +  /  3  \ -  ↓ \    A = 1, Ã = 2, Ṙ ≡ [3, -1]
   /   \R'/  -1   \R"/   \
  |  1  \|____←____|/  2  |
  ↑  A   ↓    ↔    ↓   Ã  ↑
@@ -941,7 +941,7 @@ relaciones prohibidas y permitiendo nuevas estabilizaciones imposibles anteriorm
        /           \        Multiplicación y División
       /      S      \       Ref:
     _|___→_______←___|_     R' ≡ ×, R " ≡ ÷, R ≡ 1×2=2 ↔ 1÷2=0.5
-   / ↑ ×  /  2  \ ÷  ↓ \    A = 1, Ã = 2, Ṙ ≡ 2 / 0.5
+   / ↑ ×  /  2  \ ÷  ↓ \    A = 1, Ã = 2, Ṙ ≡ [2, 0.5]
   /   \R'/  0.5  \R"/   \
  |  1  \|____←____|/  2  |
  ↑  A   ↓    ↔    ↓   Ã  ↑
@@ -951,7 +951,7 @@ relaciones prohibidas y permitiendo nuevas estabilizaciones imposibles anteriorm
        /           \        Potenciación y Radicación
       /      S      \       Ref:
     _|___→_______←___|_     R' ≡ ^, R " ≡ √, R ≡ 1²=2 ↔ ²√1=1
-   / ↑ ^  /  1  \ √  ↓ \    A = 1, Ã = 2, Ṙ ≡ 1 / 1
+   / ↑ ^  /  1  \ √  ↓ \    A = 1, Ã = 2, Ṙ ≡ [1, 1]
   /   \R'/   1   \R"/   \
  |  1  \|____←____|/  2  |
  ↑  A   ↓    ↔    ↓   Ã  ↑
@@ -969,7 +969,7 @@ operador $\mathcal{D}$:
 
 Si:
 
-$P(1)$ es verdadero (primera solución estable del Teorema de la Distinción)
+$P(1)$ es verdadero (primera solución estable de la TdD)
 $P(k) \rightarrow P(k+1)$ es verdadero (la aplicación recursiva de $\mathcal{D}$ mantiene $\tau < \theta_c$)
 
 Entonces $P(n)$ es verdadero para todo $n \in \mathbb{N}$.
@@ -992,7 +992,7 @@ Ontológicamente, esto corresponde a:
 Los números naturales emergen como soluciones estables del operador de distinción $\mathcal{D}$, no como entidades
 primitivas:
 
-- **1**: Primera solución estable del Teorema de la Distinción ($|D\mathcal{D}(A)|_{\mathrm{op}} < 1$)
+- **1**: Primera solución estable de la TdD ($|D\mathcal{D}(A)|_{\mathrm{op}} < 1$)
 - **2**: Segunda solución estable, correspondiente a $\mathcal{D}_1(A, \tilde{A})$
 - **3**: Tercera solución estable, que completa la tríada ontológica fundamental ($\mathcal{D}_2(A, \tilde{A})$)
 
