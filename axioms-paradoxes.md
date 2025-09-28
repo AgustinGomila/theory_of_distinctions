@@ -113,7 +113,7 @@ considerada.
 vecindad $U$ con $\sup_{A\in U}\tau(A)\ge\theta_c$. En tal caso, la TdD garantiza que existe una reconfiguración
 mínima (Todo-o-Nada) que restaura $\tau<\theta_c$ en $U$.
 
-> **Ejemplo natural**: En una cascada, el agua fluye continuamente pero forma remolinos estables en ciertos puntos.
+> **Ejemplo natural**: En una cascada, el agua fluye continuamente, pero forma remolinos estables en ciertos puntos.
 > Cuando las condiciones cambian, el remolino se transforma abruptamente en una nueva estructura estable, sin
 > transiciones intermedias.
 
@@ -422,7 +422,7 @@ Ley de Cruce:
 veces no genera nueva estabilización, sino que refuerza la estructura existente.
 
 > **Ejemplo natural**: En un río tranquilo, cuando dos corrientes fluyen paralelas y convergen, no se forman dos nuevas
-> corrientes sino que se unen en una sola, manteniendo el flujo continuo sin crear una nueva estructura.
+> corrientes, sino que se unen en una sola, manteniendo el flujo continuo sin crear una nueva estructura.
 
 **Análisis breve**: Esta ley corresponde a la identidad de una estabilización triádica consigo misma. La tensión
 ontológica permanece constante cuando se aplica repetidamente la misma distinción. Matemáticamente se expresa
