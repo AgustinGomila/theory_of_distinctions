@@ -418,58 +418,57 @@ Ley de Cruce:
 
 ### Ley de Llamada
 
-**Descripción simple**: Dos marcas adyacentes se condensan en una sola, reflejando que aplicar la misma distinción dos
-veces no genera nueva estabilización, sino que refuerza la estructura existente.
+**Descripción**: Dos marcas adyacentes se condensan en una sola, reflejando que aplicar la misma distinción dos veces no
+genera nueva estabilización, sino que refuerza la estructura existente.
 
 > **Ejemplo natural**: En un río tranquilo, cuando dos corrientes fluyen paralelas y convergen, no se forman dos nuevas
 > corrientes, sino que se unen en una sola, manteniendo el flujo continuo sin crear una nueva estructura.
 
-**Análisis breve**: Esta ley corresponde a la identidad de una estabilización triádica consigo misma. La tensión
-ontológica permanece constante cuando se aplica repetidamente la misma distinción. Matemáticamente se expresa
+**Análisis**: Esta ley corresponde a la identidad de una estabilización triádica consigo misma. La tensión ontológica
+permanece constante cuando se aplica repetidamente la misma distinción. Matemáticamente se expresa
 como $\tau(A^{(n)},A^{(n)})\le\varepsilon$, donde $\varepsilon$ es la tolerancia subumbral que define
 indistinguibilidad.
 
-**Conclusión simple**: La aplicación repetida de la misma distinción refuerza la estructura relacional existente sin
-crear una nueva estabilización.
+**Conclusión**: La aplicación repetida de la misma distinción refuerza la estructura relacional existente sin crear una
+nueva estabilización.
 
 ### Ley de Cruce
 
-**Descripción simple**: Cruzar dos veces una frontera cancela el cruce, equivalente a no cruzarla, correspondiendo a la
+**Descripción**: Cruzar dos veces una frontera cancela el cruce, equivalente a no cruzarla, correspondiendo a la
 completitud cíclica de la tríada ontológica.
 
 > **Ejemplo natural**: Al doblar un papel por la mitad y luego doblarlo nuevamente en la misma dirección, el papel
 > vuelve a su orientación original, mostrando cómo dos aplicaciones de la misma dirección pueden resultar en la
 > dirección opuesta.
 
-**Análisis breve**: La ley se deriva de la simetría ontológica: la doble aplicación de la distinción completa el ciclo
-A-R-Ã, retornando a la configuración original con mayor complejidad relacional. Esto explica naturalmente por
+**Análisis**: La ley se deriva de la simetría ontológica: la doble aplicación de la distinción completa el ciclo A-R-Ã,
+retornando a la configuración original con mayor complejidad relacional. Esto explica naturalmente por
 qué $(-1) \times (-1) = 1$ es una manifestación del ciclo ontológico.
 
-**Conclusión simple**: Cruzar dos veces una frontera completa el ciclo ontológico, retornando a la configuración
-original con mayor complejidad relacional.
+**Conclusión**: Cruzar dos veces una frontera completa el ciclo ontológico, retornando a la configuración original con
+mayor complejidad relacional.
 
 ### Ley de Re-entry (Autorreferencia Estabilizada)
 
-**Descripción simple**: Representa la autorreferencia que completa la tríada ontológica mediante una fractura mínima,
+**Descripción**: Representa la autorreferencia que completa la tríada ontológica mediante una fractura mínima,
 permitiendo que el sistema se incorpore a sí mismo sin paradojas.
 
 > **Ejemplo natural**: Un eco en una montaña que se escucha claramente, pero no se repite indefinidamente, mostrando
-> cómo
-> la autorreferencia puede estabilizarse cuando la tensión permanece controlada.
+> cómo la autorreferencia puede estabilizarse cuando la tensión permanece controlada.
 
-**Análisis breve**: Esta ley se deriva de la tensión ontológica crítica: se produce cuando $\tau(A) < \theta_c$. La
+**Análisis**: Esta ley se deriva de la tensión ontológica crítica: se produce cuando $\tau(A) < \theta_c$. La
 autorreferencia no es un error, sino la condición necesaria para que el observador se incorpore como parte constitutiva
 del sistema observado.
 
-**Conclusión simple**: La autorreferencia se estabiliza cuando la tensión ontológica permanece por debajo del umbral
-crítico, permitiendo que el sistema se incluya a sí mismo sin paradojas.
+**Conclusión**: La autorreferencia se estabiliza cuando la tensión ontológica permanece por debajo del umbral crítico,
+permitiendo que el sistema se incluya a sí mismo sin paradojas.
 
 ### Interpretación General
 
-**Interpretación simple**: Estas leyes no son axiomas independientes, sino proyecciones estabilizadas del proceso
-ontológico fundamental. Emergen naturalmente del principio de reconfiguración mínima, explicando por
-qué $(-1) \times (-1) = 1$ y resolviendo las paradojas lógicas mediante el umbral crítico de tensión. La autorreferencia
-no es un problema, sino la condición necesaria para que algo exista.
+**Interpretación**: Estas leyes no son axiomas independientes, sino proyecciones estabilizadas del proceso ontológico
+fundamental. Emergen naturalmente del principio de reconfiguración mínima, explicando por qué $(-1) \times (-1) = 1$ y
+resolviendo las paradojas lógicas mediante el umbral crítico de tensión. La autorreferencia no es un problema, sino la
+condición necesaria para que algo exista.
 
 # Análisis de Paradojas
 

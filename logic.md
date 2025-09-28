@@ -1022,8 +1022,14 @@ Las propiedades aritméticas fundamentales pueden entenderse como manifestacione
 operador $\mathcal{D}$:
 
 - **Conmutatividad** (a + b = b + a): Corresponde a la simetría en la aplicación del operador $\mathcal{D}$
-- **Ontológicamente**: $|D\mathcal{D}(A,B)|_{\mathrm{op}} = |D\mathcal{D}(B,A)|_{\mathrm{op}}$ para estabilizaciones
-  coherentes
+- **Ontológicamente**:
+
+$$
+|D\mathcal{D}(A,B)|_{\mathrm{op}} = |D\mathcal{D}(B,A)|_{\mathrm{op}}
+$$
+
+para estabilizaciones coherentes
+
 - **Formalmente:**
   $\tau_a \circ \tau_b = \tau_b
   \circ \tau_a$ cuando $\tau(a,b) < \text{umbral crítico}$
