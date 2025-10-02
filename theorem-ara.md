@@ -1,5 +1,10 @@
 # Teoría de Distinciones: Marco Fundamental
 
+## Convenciones
+
+1. Usamos `:=` para definiciones (p. ej. $f := g$).
+2. Usamos `=` para igualdades ya establecidas.
+
 <img src="images/theorem_ara.jpg" alt="L. Art de la conversation (René Magritte, 1963)" style="width:500px; height:auto; display:block; margin:0 auto;" />
 
 ![img](scp7auj73kqf1 "L. Art de la conversation (René Magritte, 1963)")
@@ -13,9 +18,6 @@ desde el continuo sin referencia a operaciones de distinción externas.*
 
 Formalmente: para cualquier propiedad $P$ definible sin referencia a algún $D\in\mathcal{D}$, $P$ es trivial
 sobre $\mathcal C$ (es decir, $P$ es verdadera o falsa para todos los puntos de $\mathcal C$).
-
-No existen predicados internos no triviales definidos únicamente
-desde el continuo sin referencia a operaciones de distinción externas.
 
 Existe un solo continuo sin predicados internos. No hay multiplicidad de continuos - solo continuidad diferenciada por
 soluciones específicas.
@@ -62,6 +64,23 @@ $$\mu(\mathcal R_{\mathcal U}\cup\mathcal R_{\mathcal V})>0.$$
 
 Si el denominador fuese cero, la expresión se interpreta por continuidad o por convención contextual (p. ej. tomar el
 cociente como cero cuando procede).
+
+**Proposición (No-degeneración de medida — condición suficiente).**
+
+Sea $\mu$ una medida finita definida sobre una $\sigma$-álgebra que contiene la subbase $\mathcal S$ generadora de
+la topología de $\mathcal C$. Sea $\{U_D\}_{D\in\mathcal D}$ la familia asociada a las distinciones. Si la familia
+$\{U_D\}$ cubre $\mathcal C$ (es decir $\bigcup_{D\in\mathcal D} U_D=\mathcal C$) y cada $U_D$ es medible,
+entonces las expresiones del tipo
+
+$$
+J_\mu(\mathcal R_{\mathcal U},\mathcal R_{\mathcal V})= \frac{\mu(\mathcal R_{\mathcal U}\cap\mathcal R_{\mathcal V})
+}{\mu(\mathcal R_{\mathcal U}\cup\mathcal R_{\mathcal V})}
+$$
+
+están bien definidas salvo en un conjunto de pares $(\mathcal R_{\mathcal U},\mathcal R_{\mathcal V})$ de medida nula.
+En los casos límite en que $\mu(\mathcal R_{\mathcal U}\cup\mathcal R_{\mathcal V})=0$ se adopta la convención
+operativa explícita: tomar $J_\mu(\mathcal R_{\mathcal U},\mathcal R_{\mathcal V})=0$ si procede, o bien definir el
+cociente por continuidad desde pares vecinos con denominador positivo.
 
 ## 3. Emergencias de la Discontinuidad
 
@@ -219,6 +238,39 @@ la configuración de la región diferenciada en virtud de la operación.
   algorítmica entre los estados.
 - **Doble actualización**: El acto de distinción transforma tanto $S_{\mathcal{U}}$ como $S_{\mathcal{V}}$.
 
+### Ordinalidad Emergente y Vecindad Relacional
+
+La individuación de sistemas distinguidores no presupone numeración previa ni concepto ordinal primitivo. Cada sistema
+distinguidor constituye localmente su "unidad" mediante su propia operación de distinción: $\mathcal{U}$ es
+necesariamente "uno" desde su perspectiva operativa, pues es el acto de distinción mismo que establece diferencia.
+
+**Principio de Auto-Unicidad Local:**
+$$\forall \mathcal{U} \in \mathcal{D}, \quad \mathcal{U} \equiv 1_{\mathcal{U}} \text{ (identidad operativa local)}$$
+
+La multiplicidad de sistemas distinguidores no emerge por asignación numérica externa, sino como **red de relaciones de
+vecindad topológica** en $\mathcal{C}$. Definimos:
+
+$$\text{Vecindad}(\mathcal{U}, \mathcal{V}) := \begin{cases}
+\text{frontera compartida} & \text{si } \partial \mathcal{R}_{\mathcal{U}} \cap \partial \mathcal{R}_{\mathcal{V}} \neq \emptyset \\
+\text{separados} & \text{en caso contrario}
+\end{cases}$$
+
+**Emergencia de Ordinalidad:**
+La "numeración" de sistemas distinguidores es descripción meta-nivel que registra estructura de vecindades:
+
+- "Dos distinguidores" significa: dos regiones con fronteras no-coincidentes en $\mathcal{C}$
+- "Tres distinguidores" significa: configuración triádica de vecindades mutuas
+- En general, cardinalidad emerge de topología de fronteras compartidas
+
+$$|\{\mathcal{U}_i\}| := \text{número de componentes conexas disjuntas en } \{\mathcal{R}_{\mathcal{U}_i}\}$$
+
+**Consecuencia Crítica:** No hay circularidad en hablar de "múltiples sistemas". La multiplicidad es relación espacial
+en el continuo único, no presupuesto numérico. Cada distinguidor es "su 1" localmente; la pluralidad emerge
+relacionalmente, no numeralmente.
+
+Esta estructura resuelve la aparente paradoja: ¿cómo contar distinguidores sin números previos? Respuesta: mediante
+relaciones de vecindad en $\mathcal{C}$, que son pre-numéricas (topológicas) no post-numéricas (aritméticas).
+
 ## 5. Carácter Fronterizo Fundamental de la Distinción
 
 **Principio de Co-Definición Binaria**: Toda frontera co-define necesariamente dos espacios/conjuntos:
@@ -249,7 +301,7 @@ $$\tau_s(D_i, D_j) = \text{medida de incoherencia en sistema } s$$
 La tensión ontológica $\tau$ cuantifica la novedad o inestabilidad informacional introducida por un acto de distinción.
 Sea $S$ el acto (o señal) cuya novedad queremos medir respecto de un contexto $R$. La tensión ontológica algorítmica se
 define como:
-$$\tau_{\mathrm{alg}}(S\mid R);:=;K_U(S\mid R)+O(1),$$
+$$\tau_{\mathrm{alg}}(S\mid R) := K_U(S\mid R)+O(1),$$
 donde $K_U(\cdot\mid\cdot)$ es la complejidad de Kolmogórov condicional relativa a una máquina universal $U$.
 
 **Nota metodológica**:
@@ -276,6 +328,55 @@ de mínima acción distinguidora.
 
 **Nota breve**: $K_U$ es teóricamente fundacional pero incomputable y está definida solo hasta una constante aditiva
 dependiente de $U$.
+
+### Proxies computables para $\tau$
+
+**Definición teórica (simétrica).**  
+Para dos objetos $A,B$ definimos la tensión ontológica ideal como
+
+$$
+\tau_K(A,B)\;=\;\frac{K(A\mid B)+K(B\mid A)}{K(A,B)},
+$$
+
+donde $K(\cdot\mid\cdot)$ es la complejidad de Kolmogórov condicional relativa a una máquina universal $U$. Esta
+forma resalta la simetría relacional y la normalización respecto a la complejidad conjunta.
+
+**Proxy computable (NCD).**  
+En implementaciones prácticas usamos la *Normalized Compression Distance* (NCD) como proxy robusto y comprobado:
+
+$$
+\mathrm{NCD}(x,y)=\frac{C(xy)-\min\{C(x),C(y)\}}{\max\{C(x),C(y)\}},
+$$
+
+donde $C(\cdot)$ es la longitud en bytes del objeto comprimido por un compresor real (p. ej. lzma, zstd). Definimos el
+proxy operativo
+
+$$
+\tau_{\mathrm{proxy}}(x,y):=\mathrm{NCD}(x,y).
+$$
+
+**Advertencias:** depende del compresor y de la longitud/serialización de las entradas; documentar el esquema de
+serialización usado (JSON canónico, binario, etc.) y probar sensibilidad al compresor.
+
+**Extensión triádica.**  
+Para representar explícitamente la estructura $A–R–\tilde A$ proponemos la forma triádica
+
+$$
+\tau_{\mathrm{tri}}(A,R,\tilde A)
+\;=\;
+\frac{K(A\mid R,\tilde A)+K(R\mid A,\tilde A)+K(\tilde A\mid A,R)}{K(A,R,\tilde A)}.
+$$
+
+En práctica, puede aproximarse mediante compresiones conjuntas serializadas de $(A,R,\tilde A)$ y sus particiones para
+capturar la complejidad relacional de R.
+
+**Selección operativa de $\theta_c$.**  
+Calcular $\tau_{\mathrm{proxy}}$ sobre una muestra representativa de pares del sistema y elegir $\theta_c$ por uno
+de estos métodos:
+
+- Percentil $p$ (ej. 95\%) de la distribución de pares no-relacionados; o
+- Detección automática de codo (kneedle/elbow) sobre la función de conectividad/clústeres en función de $\tau$.  
+  Documentar el método usado y reportar sensibilidad (pruebas con varios percentiles/compresores).
 
 ## 7. Grado de Interferencia Ontológica
 
@@ -682,3 +783,13 @@ estructura específica desde continuidades potenciales a través de operaciones 
 
 El marco no reduce estos fenómenos a una fórmula simple, sino que identifica la estructura operativa común que permite
 su diversidad específica.
+
+---
+**Protocolo experimental para NCD.**
+
+- **Compresor:** usar lzma o zstd (anotar nombre y versión del compresor en el experimento).
+- **Serialización:** `json.dumps(obj, sort_keys=True, separators=(',', ':'), ensure_ascii=False).encode('utf-8')`.
+- **Tamaño mínimo:** las entradas muy cortas distorsionan NCD; preferir >200 bytes; si es necesario, aplicar padding
+  reproducible (p. ej. sufijo fijo determinista).
+- **Pruebas de sensibilidad:** calcular NCD con al menos dos compresores y reportar la desviación; incluir en el
+  apéndice los parámetros usados.
