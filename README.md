@@ -47,7 +47,7 @@ cada parte en el orden que aquí se presenta. El **último archivo** muestra el 
 
 ### Reflexiones Prácticas
 
-* **[reflexion-1.md](reflexion-1.md): Sobre perros y caballos / Sobre gatos, plantas y luz**  
+* **[Sobre perros y caballos / Sobre gatos, plantas y luz](reflexion-1.md):**  
   Este documento explora dos perspectivas reflexivas interconectadas. La primera parte examina la distinción inicial
   entre objetos aparentemente diferentes (perro/caballo), mostrando cómo las particularidades esenciales definen las
   diferencias y cómo la escala determina nuestra percepción de la realidad. Explora la co-definición de los absolutos:
@@ -55,21 +55,21 @@ cada parte en el orden que aquí se presenta. El **último archivo** muestra el 
   habitación con una planta, un gato y la luz del sol, revelando cómo estas mismas fuerzas operan en múltiples escalas
   de la existencia humana y conectan lo individual con lo universal.
 
-* **[reflexion-2.md](reflexion-2.md): Nuestra ventana al mundo**  
+* **[Nuestra ventana al mundo](reflexion-2.md):**  
   Este documento explora la subjetividad inherente a la percepción humana y cómo cada individuo construye su propia
   realidad a través de marcos de referencia únicos. Analiza cómo nuestras experiencias y emociones filtran la
   información, creando lenguajes internos que definen lo que consideramos real. El texto también examina los límites de
   la comunicación y cómo las palabras funcionan como "escalones" que permiten traducir conceptos abstractos a términos
   concretos para cerrar distancias entre perspectivas diferentes.
 
-* **[reflexion-3.md](reflexion-3.md): Nuestra existencia es un juego de espejos en múltiples dimensiones**  
-  Este documento desarrolla la tríada ontológica fundamental E-S-T, mostrando cómo opera en diferentes escalas del
-  universo. Analiza cómo las mismas dinámicas operan desde lo cuántico hasta lo cósmico, explicando que la física se
-  convierte en química al cambiar la escala del espacio, y cómo los sistemas humanos (como civilizaciones) obedecen a
-  patrones similares a los sistemas cósmicos. Describe el nudo trébol como metáfora de la tríada E-S-T, donde cada
-  componente define a los otros a través de interacciones cíclicas.
+* **[Nuestra existencia es un juego de espejos en múltiples dimensiones.md](reflexion-3.md):**  
+  Este documento desarrolla la tríada ontológica fundamental E-S-T (A-R-Ã para Energía, Espacio y Tiempo), mostrando
+  cómo opera en diferentes escalas del universo. Analiza cómo las mismas dinámicas operan desde lo cuántico hasta lo
+  cósmico, explicando que la física se convierte en química al cambiar la escala del espacio, y cómo los sistemas
+  humanos (como civilizaciones) obedecen a patrones similares a los sistemas cósmicos. Describe el nudo trébol como
+  metáfora de la tríada E-S-T, donde cada componente define a los otros a través de interacciones cíclicas.
 
-* **[reflexion-4.md](reflexion-4.md): El hilo dialéctico del pensamiento humano**  
+* **[El hilo dialéctico del pensamiento humano](reflexion-4.md):**  
   Este documento examina la historia del pensamiento humano desde Yajnavalkya hasta Buda, mostrando cómo grandes
   pensadores han buscado principios unificadores que expliquen la diversidad del mundo. Analiza cómo cada sistema de
   pensamiento surge de preguntas que requieren respuestas coherentes, siguiendo el mismo movimiento primordial:
@@ -77,7 +77,7 @@ cada parte en el orden que aquí se presenta. El **último archivo** muestra el 
   las escalas de la existencia humana (infancia, adolescencia, juventud, adultez, vejez) para mostrar cómo los mismos
   patrones se repiten en diferentes niveles de la experiencia humana.
 
-* **[frame-unicode.md](frame-unicode.md): La estructura fundamental**  
+* **[La estructura fundamental](frame-unicode.md):**  
   Desarrolla la tríada ontológica fundamental E-S-T, mostrando cómo opera en diferentes escalas. Explora la emergencia
   de la primera estructura física y las escalas de Planck. Realiza aproximaciones con tradiciones sapienciales,
   geometría de nudos, corrientes filosóficas y teorías establecidas de la física.
@@ -86,13 +86,13 @@ cada parte en el orden que aquí se presenta. El **último archivo** muestra el 
 
 ### Marco Teórico
 
-* **[logic.md](logic.md): Emergencia de la Aritmética**  
+* **[Emergencia de la Aritmética](logic.md):**  
   Explica cómo las operaciones lógicas y aritméticas emergen del proceso de distinción. Detalla cómo surgen los números
   y las operaciones mediante reconfiguraciones fractales del continuo, resolviendo la paradoja de "por qué menos por
   menos da más". El documento muestra cómo las operaciones aritméticas no son meras manipulaciones cuantitativas, sino
   transformaciones ontológicas que reconfiguran la estructura relacional del sistema.
 
-* **[axioms-paradoxes.md](axioms-paradoxes.md): Axiomatización del Marco**  
+* **[Axiomatización del Marco](axioms-paradoxes.md):**  
   Presenta los primitivos ontológicos (continuo único, operador de distinción), define conceptos fundamentales (tensión
   ontológica, umbral crítico, relación estabilizada) y formula axiomas emergentes. Resuelve paradojas lógicas y
   matemáticas mediante el principio "lo que no está permitido, —generalmente— está prohibido". Incluye un análisis
@@ -100,28 +100,29 @@ cada parte en el orden que aquí se presenta. El **último archivo** muestra el 
 
 ```
 Ley de Llamada:
-         A       R       Ã
-   ←→ ---────────═════════=== ⇐⇒
-
-  ↓                   ↓                   ↓
-  │ A        R        │ A        R        │ A        R
-  └────────╖        ⇔ └────────╖        ≡ └────────╖
-         ↗ ║                 ↗ ║                 ↗ ║
-           ║ Ã                 ║ Ã                 ║ Ã
-           ╚=== ==⇒            ╚=== ==⇒            ╚=== ==⇒
+                    ↓                   ↓                   ↓
+                    │ A        R        │ A        R        │ A        R
+ ───┐ ───┐   ───┐   └────────╖          └────────╖          └────────╖
+  a │  a │ =  a │ ≡        ↗ ║        ⇔        ↗ ║        ≡        ↗ ║
+                             ║ Ã                 ║ Ã                 ║ Ã
+                             ╚=== ==⇒            ╚=== ==⇒            ╚=== ==⇒
 Ley de Cruce:
-       A       R       Ã
-  ←→ ---────────═════════=== ⇐⇒
-
-  ↓                   ←-- ---┐
-  │ A        R             A │                  A       R       Ã
-  └────────╖        ⇔        │ ↙        ≡ ←→ ---────────═════════=== ⇐⇒
-         ↗ ║                 ╘════════╗
-           ║ Ã             R        Ã ‖   Re-entry es consecuencia
-           ╚=== ==⇒                   ⇑   de la oscilación.
+                    ↓                   ←-- ---┐
+ ───────┐           │ A        R             A │
+ ───┐   │           └────────╖                 │ ↙                A       R       Ã
+  a │ a │ = •     ≡        ↗ ║        ⇔        ╘════════╗ ≡ ←→ ---────────═════════=== ⇐⇒
+                             ║ Ã             R        Ã ‖
+                             ╚=== ==⇒                   ⇑
+Re-entry:
+                    ↓                   ←-- ---┐
+ ───────┐           │ A                      A │ ↙                       R
+ ───┐   │           └────╖ ↙ R                 ╘═══╕ ↙            A     ╒╗       Ã
+  a │ b │         ≡    ↗ ╙───╖        ⇔        R ↗ ╘════╗ ≡ ←→ ---──────┘╙┐╔═══════=== ⇐⇒
+ └──────┘                  ↗ ║ Ã                      Ã ‖                 └╜
+                             ╚=== ==⇒                   ⇑      Re-entry ⇒ oscilación ↗↙
 ```
 
-* **[venn-diagrams.md](venn-diagrams.md): Diagramas de Venn Ontológicos**  
+* **[Diagramas de Venn Ontológicos](venn-diagrams.md):**  
   Ilustra visualmente cómo las estructuras matemáticas emergen del continuo de distinción. Muestra los diagramas que
   capturan la dinámica de la tríada fundamental A-R-Ã, revelando cómo surgen operaciones aritméticas y los números. Los
   diagramas visualizan procesos dinámicos en lugar de categorías estáticas, mostrando cómo la variedad matemática emerge
@@ -145,7 +146,7 @@ Discreto:
    \____←_\_____/_→____/
         _____→_____
        /           \        Ref:
-      /      S      \       R, R', R" ≡ Relaciones
+      /      S      \       R, R', R" ≡ Relaciones    
     _|___→_______←___|_     S ≡ Complemento
    / ↑    /     \    ↓ \    Ṙ ≡ Relación Estabilizada
   /   \R'/   Ṙ   \R"/   \
@@ -155,10 +156,11 @@ Discreto:
    \____←_\_____/_→____/
 ```
 
-* **[theorem-ara.md](theorem-ara.md): Teoría de Distinciones**  
-  Explora el marco en términos formales, definiendo sistemas distinguidores y distinguidos. Establece la estructura
-  triádica universal A-R-Ã y explica la tensión ontológica como medida de inestabilidad introducida por cualquier
-  distinción. Este documento proporciona la formalización matemática del marco ontológico.
+* **[Teoría de Distinciones](pointless-topology.md):**  
+  Este documento presenta una formalización lógica y matemática de las reflexiones informales originales. El objetivo es
+  mantener rigor, desambiguar términos y cerrar brechas de coherencia sin introducir consideraciones experimentales. Las
+  nociones informales (Continuo C, Distinción D, triada A–R–Ã, etc.) se traducen a operadores y estructuras en el
+  lenguaje de frames/locales, retículas y filtros primos.
 
 ## Características clave del marco
 
@@ -171,7 +173,7 @@ Discreto:
   emergencia natural del proceso ontológico primario.
 
 * **Explica la recursividad de la realidad**  
-  Cada sistema es una frontera que co-defina necesariamente dos sistemas: un interior y un exterior. La propagación
+  Cada sistema es una frontera que co-define necesariamente dos sistemas: un interior y un exterior. La propagación
   automática de distinciones es lo que crea la complejidad que observamos.
 
 * **Resuelve paradojas desde principios ontológicos**  

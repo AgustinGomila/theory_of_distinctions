@@ -161,6 +161,8 @@ siempre negándose a ser capturada por completo.
 
 # Los ciclos de la existencia humana
 
+<img src="images/reflection-iii-3.png" alt="Waterfall (M.C. Escher, 1961)" style="width:500px; height:auto; display:block; margin:0 auto;" />
+
 Este viaje termina en la autorreflexión del tiempo interior. Mirarse a uno mismo con otra perspectiva, preguntarse qué
 dicen estas escalas de nosotros y cómo participamos en los patrones que constituyen la realidad.
 

@@ -136,7 +136,7 @@ que el acto de medir (T) las define. Medir no es observar pasivamente: es partic
 
 # Cambio cualitativo
 
-<img src="images/reflection-iii-3.png" alt="Waterfall (M.C. Escher, 1961)" style="width:500px; height:auto; display:block; margin:0 auto;" />
+<img src="images/reflection-iii-3.jpg" alt="Concentric Rinds (M.C. Escher, 1953)" style="width:500px; height:auto; display:block; margin:0 auto;" />
 
 # El arte de cambiar la escala de la mirada
 

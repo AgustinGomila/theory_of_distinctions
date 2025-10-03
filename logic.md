@@ -156,15 +156,12 @@ la lógica y aritmética.
 
 ```
 Ley de Llamada:
-       A       R       Ã
-  ⟷ ---────────═════════=== ⇔
-      
-  ↓                   ↓                   ↓
-  │ A        R        │ A        R        │ A        R
-  └────────╖        ⇔ └────────╖        ≡ └────────╖
-         ↗ ║                 ↗ ║                 ↗ ║
-           ║ Ã                 ║ Ã                 ║ Ã
-           ╚=== ==⇒            ╚=== ==⇒            ╚=== ==⇒
+                    ↓                   ↓                   ↓
+                    │ A        R        │ A        R        │ A        R
+ ───┐ ───┐   ───┐   └────────╖          └────────╖          └────────╖
+  a │  a │ =  a │ ≡        ↗ ║        ⇔        ↗ ║        ≡        ↗ ║
+                             ║ Ã                 ║ Ã                 ║ Ã
+                             ╚=== ==⇒            ╚=== ==⇒            ╚=== ==⇒
 ```
 
 #### Ley de Cruce: (( )) =
@@ -178,15 +175,12 @@ qué $(-1) \times (-1) = 1$ es una manifestación del ciclo ontológico, no un c
 
 ```
 Ley de Cruce:
-       A       R       Ã
-  ⟷ ---────────═════════=== ⇔
-  
-  ↓                   ←-- ---┐
-  │ A        R             A │                  A       R       Ã
-  └────────╖        ⇔        │ ↙        ≡ ⟷ ---────────═════════=== ⇔
-         ↗ ║                 ╘════════╗
-           ║ Ã             R        Ã ‖   Re-entry es consecuencia
-           ╚=== ==⇒                   ⇑   de la oscilación.
+                ↓                   ←-- ---┐
+ ───────┐       │ A        R             A │
+ ───┐   │       └────────╖                 │ ↙                A       R       Ã
+  a │ a │ = • ≡        ↗ ║        ⇔        ╘════════╗ ≡ ←→ ---────────═════════=== ⇐⇒
+                         ║ Ã             R        Ã ‖      Re-entry ⇒ oscillation ↗↙
+                         ╚=== ==⇒                   ⇑
 ```
 
 ### 2.5. La Tríada A-R-Ã como Estructura Fundamental
@@ -227,27 +221,65 @@ constituyendo la medida de la diferencia que emerge naturalmente del continuo si
 **Diagramas de Venn Ontológicos:**
 
 ```
-    ____→____
-   /         \   C
-  /           \   :C ≡ Continuo
- ↑      A      ↓  :←/↑_↓\→ = D ≡ Distinción continua
-  \           /   :A = Conjunto ≡ Discreto
-   \____←____/
-    ____→______←____
-   /      /  \      \
-  /      /    \      \   :A = ┬ ≡ TODO
- ↑   A  ↓  R   ↓  Ã   ↑  :R = A∩Ã
-  \      \    /      /   :Ã = ┴ ≡ NADA
-   \____←_\__/_→____/
+Continuo:
+          C       ↑
+                 /          Ref:
+     _____→_____/    C      C ≡ Continuo
+                \           /_→\
+          C      \          ↑||↓ ≡ Distinción continua
+                  ↓         \←_/
+     _____→_____       __
+                \     /
+                 \   /
+          C       | |
+                  ↓ ↓
+                 /          ℰ ≡ Emergencia
+          ←_____/           ℳ ≡ Mínima Acción
+     _____→_____     __←_   Ү ≡ Cierre/Continencia
+    /           \   /       ╳ ≡ Condiciones de Frontera
+   /             \ /        • ≡ Discreto
+  |       •       Ү   •
+  ↑               ↓         R ≡ ↔ (Tensión/Relación) / A∩Ã
+   \             / \        A ↔ Ã (Opuestos)
+    \_____←_____/   \__→_
+     _____→_____   ____←_   ℰ la Mínima Acción (ℳ)
+    /           \ /         ℰ lo Discreto
+   /             ╳          ℰ el mecanismo Todo-o-Nada
+  |       A     |↔|   Ã     ℰ la Simetría
+  ↑             ↓R↓
+   \             ╳
+    \_____←_____/ \____→_
+     _____→_____ ______←_
+    /           ╳
+   /           / \
+  |       A   | ↔ |   Ã
+  ↑           ↓ R ↓
+   \           \ /
+    \_____←_____╳______→_
+Sistemas Distinguidor y Distinguido:
+    _____→_______←_____
+   /      /     \      \    Ref:
+  /      /       \      \   ↔ ≡ Continuo (Contextual)
+ |   A  |    ↔    |   Ã  |  A ≡ Identidad, Ã ≡ Transformación
+ ↑      ↓    R    ↓      ↑  ARÃ ≡ Sistema Distinguido
+  \      \       /      /
+   \____←_\_____/_→____/
         _____→_____
-       /           \
-      /      S      \
-    _|___→_______←___|_     :R = ↔ ≡ A∩Ã ≡ Continuo
-   / ↑ ∞  /  ¦  \  0 ↓ \    :A = ┬, Ã = ┴
-  /   \R'/   Ṙ   \R"/   \   :R' = ∞ ≡ A∩C, R" = 0 ≡ Ã∩C
- |  ┬  \|____←____|/  ┴  |  :S = Complemento ≡ Observador
- ↑  A   ↓    ↔    ↓   Ã  ↑  :Ṙ = ¦ ≡ A∩C∩Ã ≡ ALGO (Relación Estabilizada)
-  \      \   R   /      /
+       /           \        Ref:
+      /             \       S ≡ Distinguidor (Complemento)
+     |       S       |
+     ↑               ↓
+      \             /
+       \_____←_____/
+        _____→_____
+       /           \        Ref:
+      /      S      \       R ≡ ↔ / A∩Ã R' ≡ ∞ / A∩S, R" ≡ 0 / Ã∩S
+    _|___→_______←___|_     Ṙ ≡ Relación Estabilizada / A∩S∩Ã
+   / ↑ ∞  /  ℕ  \ 0  ↓ \    ┬ ≡ TODO, ┴ ≡ NADA
+  /   \R'/   Ṙ   \R"/   \
+ |  ┬  \|____←____|/  ┴  |  ℰ de +|-
+ ↑  A   ↓    ↔    ↓   Ã  ↑  ℰ el Cero y el Infinito
+  \      \   R   /      /   ℰ los Números
    \____←_\_____/_→____/
 ```
 
@@ -614,11 +646,11 @@ manifestará con el 3 como "firma ontológica mínima para materializar cualquie
 confirma que _"el tres engendra todos los seres"_, mostrando cómo A(3,n) representa el primer nivel donde la función
 muestra crecimiento exponencial, correspondiendo a la completitud triádica.
 
+## 5. Emergencia del 2 y Resignificación Recursiva
+
 <img src="images/distinción-lógica-y-matemáticas-ii.jpg" alt="Path of Life III (Maurits Cornelis Escher, 1966)" style="width:500px; height:auto; display:block; margin:0 auto;" />
 
 ![img](ttick5hj28mf1 "Path of Life III (Maurits Cornelis Escher, 1966)")
-
-## 5. Emergencia del 2 y Resignificación Recursiva
 
 ### 5.1. Condición de Emergencia del 2
 

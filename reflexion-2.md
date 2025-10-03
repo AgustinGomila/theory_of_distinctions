@@ -74,6 +74,20 @@ traducción: el *«dolor»* para un médico y un paciente, o el *«código»* pa
 incluso en la traducción perfecta, algo siempre se pierde: el marco del otro nunca es idéntico al propio. Así, los
 marcos de referencia no solo filtran la realidad, sino que limitan el alcance del entendimiento.
 
+> Me pregunté: *¿Podemos evitar hacer proyecciones sobre la realidad?*
+
+Miré a mi alrededor y observé cómo la luz recorría la habitación, subiendo lentamente por mis piernas. Mi sombra se
+proyectó en la pared, revelando el contorno del espacio que ocupaba, así como el del gato y la planta. Reflexioné que
+desde el lugar que ocupo y cómo observo sus relaciones, dependen mis pensamientos y acciones. La **perspectiva**, el
+punto de vista, es crucial para relacionarnos con el entorno.
+
+> Reflexioné: *¿Por qué, inevitablemente, resistimos los cambios?*
+
+Pensé que cualquier sistema busca consumir la menor energía posible, ya que acumularla es complejo para todo ser vivo.
+Los ritos y dogmas son difíciles de romper, como la inercia de un objeto en movimiento. Aceptar nuevos conceptos implica
+reevaluar los antiguos para **mantener coherencia**, por lo que resulta más fácil rechazarlos. Reconocer esta
+resistencia nos permite darnos tiempo para reflexionar sobre la realidad que nos rodea.
+
 # Comunicar una reflexión
 
 # La elección de las palabras

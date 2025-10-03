@@ -47,7 +47,7 @@ each part in the order presented here. The **last file** shows the most abstract
 
 ### Practical Reflections
 
-* **[reflexion-1.md](reflexion-1.md): On dogs and horses / On cats, plants and light**  
+* **[On dogs and horses / On cats, plants and light](reflexion-1.md):**  
   This document explores two interconnected reflective perspectives. The first part examines the initial distinction
   between apparently different objects (dog/horse), showing how essential particularities define differences and how
   scale determines our perception of reality. It explores the co-definition of absolutes: ALL/NOTHING. The second part
@@ -55,28 +55,28 @@ each part in the order presented here. The **last file** shows the most abstract
   sunlight, revealing how these same forces operate at multiple scales of human existence and connect the individual
   with the universal.
 
-* **[reflexion-2.md](reflexion-2.md): Our window to the world**  
+* **[Our window to the world](reflexion-2.md):**  
   This document explores the inherent subjectivity of human perception and how each individual constructs their own
   reality through unique reference frames. It analyzes how our experiences and emotions filter information, creating
   internal languages that define what we consider real. The text also examines the limits of communication and how words
   function as "stepping stones" that allow translating abstract concepts into concrete terms to bridge distances between
   different perspectives.
 
-* **[reflexion-3.md](reflexion-3.md): Our existence is a game of mirrors in multiple dimensions**
-  This document develops the fundamental ontological triad E-S-T, showing how it operates at different scales of the
-  universe. It analyzes how the same dynamics operate from the quantum to the cosmic, explaining how physics becomes
-  chemistry when changing the scale of space, and how human systems (such as civilizations) obey patterns similar to
-  cosmic systems. It describes the trefoil knot as a metaphor for the E-S-T triad, where each component defines the
-  others through cyclic interactions.
+* **[Our existence is a game of mirrors in multiple dimensions](reflexion-3.md):**
+  This document develops the fundamental ontological triad E-S-T (A-R-Ã for Energy, Space and Time), showing how it
+  operates at different scales of the universe. It analyzes how the same dynamics operate from the quantum to the
+  cosmic, explaining how physics becomes chemistry when changing the scale of space, and how human systems (such as
+  civilizations) obey patterns similar to cosmic systems. It describes the trefoil knot as a metaphor for the E-S-T
+  triad, where each component defines the others through cyclic interactions.
 
-* **[reflexion-4.md](reflexion-4.md): The dialectical thread of human thought**  
+* **[The dialectical thread of human thought](reflexion-4.md):**  
   This document examines the history of human thought from Yajnavalkya to Buddha, showing how great thinkers have sought
   unifying principles that explain the diversity of the world. It analyzes how each system of thought arises from
   questions requiring coherent answers, following the same primordial movement: separating (expanding vision), relating
   elements, and shaping new understanding. The text also explores the scales of human existence (childhood, adolescence,
   youth, adulthood, old age) to show how the same patterns repeat at different levels of human experience.
 
-* **[frame-unicode.md](frame-unicode.md): The Fundamental Structure**  
+* **[The Fundamental Structure](frame-unicode.md):**  
   Develops the fundamental ontological triad E-S-T, showing how it operates at different scales. Explores the emergence
   of the first physical structure and Planck scales. Makes approximations with wisdom traditions, knot geometry,
   philosophical currents, and established theories of physics.
@@ -85,13 +85,13 @@ each part in the order presented here. The **last file** shows the most abstract
 
 ### Theoretical Framework
 
-* **[logic.md](logic.md): Emergence of Arithmetic**  
+* **[Emergence of Arithmetic](logic.md):**  
   Explains how logical and arithmetic operations emerge from the process of distinction. Details how numbers and
   operations arise through fractal reconfigurations of the continuum, resolving the paradox of "why minus times minus
   equals plus." The document shows how arithmetic operations are not merely quantitative manipulations, but ontological
   transformations that reconfigure the relational structure of the system.
 
-* **[axioms-paradoxes.md](axioms-paradoxes.md): Axiomatization of the Framework**  
+* **[Axiomatization of the Framework](axioms-paradoxes.md):**  
   Explore the ontological primitives (single continuum, distinction operator), defines fundamental concepts (
   ontological tension, critical threshold, stabilized relation), and formulates emergent axioms. Resolves logical and
   mathematical paradoxes through the principle "what is not permitted, —generally— is prohibited." Includes a detailed
@@ -99,28 +99,29 @@ each part in the order presented here. The **last file** shows the most abstract
 
 ```
 Law of Calling:
-         A       R       Ã
-   ←→ ---────────═════════=== ⇐⇒
-
-  ↓                   ↓                   ↓
-  │ A        R        │ A        R        │ A        R
-  └────────╖        ⇔ └────────╖        ≡ └────────╖
-         ↗ ║                 ↗ ║                 ↗ ║
-           ║ Ã                 ║ Ã                 ║ Ã
-           ╚=== ==⇒            ╚=== ==⇒            ╚=== ==⇒
+                    ↓                   ↓                   ↓
+                    │ A        R        │ A        R        │ A        R
+ ───┐ ───┐   ───┐   └────────╖          └────────╖          └────────╖
+  a │  a │ =  a │ ≡        ↗ ║        ⇔        ↗ ║        ≡        ↗ ║
+                             ║ Ã                 ║ Ã                 ║ Ã
+                             ╚=== ==⇒            ╚=== ==⇒            ╚=== ==⇒
 Law of Crossing:
-        A       R       Ã
-  ←→ ---────────═════════=== ⇐⇒
-
-  ↓                   ←-- ---┐
-  │ A        R             A │                  A       R       Ã
-  └────────╖        ⇔        │ ↙        ≡ ←→ ---────────═════════=== ⇐⇒
-         ↗ ║                 ╘════════╗
-           ║ Ã             R        Ã ‖   Re-entry is a consequence
-           ╚=== ==⇒                   ⇑   of oscillation.
+                    ↓                   ←-- ---┐
+ ───────┐           │ A        R             A │
+ ───┐   │           └────────╖                 │ ↙                A       R       Ã
+  a │ a │ = •     ≡        ↗ ║        ⇔        ╘════════╗ ≡ ←→ ---────────═════════=== ⇐⇒
+                             ║ Ã             R        Ã ‖
+                             ╚=== ==⇒                   ⇑
+Re-entry:
+                    ↓                   ←-- ---┐
+ ───────┐           │ A                      A │ ↙                       R
+ ───┐   │           └────╖ ↙ R                 ╘═══╕ ↙            A     ╒╗       Ã
+  a │ b │         ≡    ↗ ╙───╖        ⇔        R ↗ ╘════╗ ≡ ←→ ---──────┘╙┐╔═══════=== ⇐⇒
+ └──────┘                  ↗ ║ Ã                      Ã ‖                 └╜
+                             ╚=== ==⇒                   ⇑      Re-entry ⇒ oscillation ↗↙
 ```
 
-* **[venn-diagrams.md](venn-diagrams.md): Ontological Venn Diagrams**  
+* **[Ontological Venn Diagrams](venn-diagrams.md):**  
   Visually illustrates how mathematical structures emerge from the continuum of distinction. Shows diagrams capturing
   the dynamics of the fundamental triad A-R-Ã, revealing how arithmetic operations and numbers arise. The diagrams
   visualize dynamic processes rather than static categories, showing how mathematical variety emerges from fundamental
@@ -154,10 +155,11 @@ Discrete:
    \____←_\_____/_→____/
 ```
 
-* **[theorem-ara.en.md](theorem-ara.en.md): Distinction Theory**  
-  Presents the framework in formal terms, defining distinguishing and distinguished systems. Establishes the universal
-  triadic structure A-R-Ã and explains ontological tension as a measure of instability introduced by any distinction.
-  This document provides the mathematical formalization of the ontological framework.
+* **[Distinction Theory](pointless-topology.md):**  
+  This document presents a logical and mathematical formalization of the original informal reflections. The aim is to
+  maintain rigor, disambiguate terms, and close coherence gaps without introducing experimental considerations. The
+  informal notions (Continuum C, Distinction D, triad A–R–Ã, etc.) are translated into operators and structures in the
+  language of frames/locales, lattices, and prime filters.
 
 ## Key Characteristics of the Framework
 
