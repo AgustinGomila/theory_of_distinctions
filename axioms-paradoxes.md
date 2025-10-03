@@ -24,6 +24,23 @@ completa, con frontera crítica determinada por $\theta_c$.
 > **Ejemplo natural**: Un río que encuentra una roca genera naturalmente dos corrientes que fluyen a ambos lados,
 > creando una distinción sin que existieran previamente dos aguas separadas.
 
+### Sobre el Estatus de los Axiomas en Este Marco
+
+Los axiomas analizados aquí no son postulados primitivos, sino **cristalizaciones estabilizadas** del proceso de
+distinción. Emergen cuando el operador $\mathcal{D}$ alcanza configuraciones de mínima tensión ($\tau < \theta_c$) que
+se mantienen coherentes bajo iteración.
+
+Su precisión en dominios matemáticos específicos no es contingente, sino **estructuralmente necesaria**: capturan
+exactamente aquellas configuraciones que el proceso de distinción estabiliza. Sin embargo, su naturaleza discreta
+implica limitación constitutiva - son completos dentro de su dominio (lo estabilizable) pero necesariamente parciales
+respecto al continuo total.
+
+Por tanto, cuando analizamos si un axioma "está permitido":
+
+- No evaluamos verdad abstracta, sino coherencia con el proceso de distinción
+- Preguntamos: ¿mantiene este axioma $\tau < \theta_c$ en su dominio de aplicación?
+- Reconocemos que todo axioma tiene frontera de aplicabilidad determinada por umbrales críticos
+
 ## Distinciones fundamentales emergentes
 
 ```
@@ -254,13 +271,45 @@ tanto, está permitido.
 > **Ejemplo natural**: En un río tranquilo, el agua fluye claramente en una dirección o en la contraria; no existe un
 > estado intermedio definido cuando se mide en un momento específico.
 
-**Análisis desde el marco**: La LET no es un axioma primitivo, sino una proyección estabilizada de la tríada ontológica
-cuando la frontera R es estable. Emerge cuando la tensión ontológica $\tau(p, \neg p)$ es baja y el ciclo A-R-Ã se
-completa. En sistemas dinámicos o cuánticos, donde R es inestable, la LET falla porque la distinción entre A y Ã no está
-bien definida; la tensión ontológica es alta y el sistema no se estabiliza en una dicotomía binaria.
+**Análisis desde el marco**:
 
-**Conclusión**: La LET es válida solo en dominios de baja tensión ontológica. En el marco, su aplicabilidad está
-determinada por $\tau$; si $\tau > \theta_c$, la LET no se proyecta.
+La LET se malinterpreta cuando se lee como "prohibición de terceros términos". Correctamente entendida, expresa la
+estructura triádica fundamental:
+
+$$p \overset{R}{\longleftrightarrow} \neg p$$
+
+donde:
+
+- $p$ y $\neg p$ son términos al nivel-objeto (resultados de distinción estabilizada)
+- $R$ es el proceso-meta que genera y sostiene la distinción
+- $R$ "ocupa el tercero" pero en dimensión ontológica diferente, no como término excluido sino como **mediador
+  constitutivo**
+
+**Por qué no puede haber "tercer valor" al nivel de $p/¬p$:**
+
+El "tercero" ya está ocupado por $R$ (la frontera/relación que hace posible la distinción misma). No puede haber tercer
+término *al mismo nivel* porque la distinción binaria emerge precisamente de la mediación triádica. Intentar añadir un
+tercer valor tipo-$p$ sería confundir niveles ontológicos.
+
+**Casos donde LET "falla":**
+
+1. **Lógicas multivaluadas**: Operan en régimen donde $\tau \approx \theta_c$ y $R$ no se ha estabilizado completamente.
+   Los valores intermedios ($\{0.5, \text{"indeterminado"}\}$) representan **visibilidad de $R$** en proceso, no "
+   terceros prohibidos".
+
+2. **Mecánica cuántica (superposición)**: $|\psi\rangle = \alpha|0\rangle + \beta|1\rangle$ es $R$ observable antes de
+   colapso. La medición estabiliza $R$ en uno de los términos definidos, confirmando estructura triádica.
+
+3. **Paradojas autorreferenciales**: Surgen de intentar tratar $R$ (autorreferencia) como si fuera término tipo-$p$. La
+   paradoja señala que $R$ y $p$ no pueden ocupar el mismo nivel.
+
+**Conclusión**: LET no es axioma primitivo sino **teorema emergente** de la estructura triádica de distinción. Su
+validez depende del régimen de tensión ontológica:
+
+- Cuando $\tau < \theta_c$ y $R$ es implícito → LET se proyecta (lógica clásica)
+- Cuando $\tau \approx \theta_c$ y $R$ es visible → aparente "falla" de LET (sistemas dinámicos)
+
+La estructura real es siempre triádica; la binariedad lógica es su proyección estabilizada.
 
 ## 5. Teoremas de Incompletitud de Gödel
 
@@ -490,9 +539,14 @@ de la TdD. La oración no completa la tríada ontológica A-R-Ã, generando una 
 el marco, la autorreferencia solo produce estabilizaciones coherentes cuando el operador 𝒟 satisface las condiciones del
 teorema.
 
-**Conclusión**: La oración excede el umbral crítico de tensión ontológica ($\Delta\tau > \theta_{\text{crítico}}$) y,
-por tanto, está prohibida por el principio de mínima acción. No se estabiliza como proyección lógica coherente; es
-excluida del dominio de lo permitido.
+**Conclusión**: La oración intenta operar $R$ (autorreferencia) como si fuera término tipo-$p$, generando confusión de
+niveles ontológicos. Esto eleva $\tau$ más allá de $\theta_c$ porque la distinción no puede completar el ciclo A-R-Ã
+coherentemente. La paradoja no "está prohibida" arbitrariamente - simplemente no se estabiliza como proyección
+coherente. Es análoga a intentar que un conjunto se contenga a sí mismo: la operación genera tensión infinita y no
+produce estabilización.
+
+La autorreferencia *puede* estabilizarse (ver Ley de Re-entry) cuando $\tau < \theta_c$, pero la paradoja del mentiroso
+específicamente viola esta condición al intentar colapsar niveles ontológicos distintos.
 
 ## 2. Paradoja de Russell
 
