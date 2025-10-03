@@ -82,6 +82,8 @@ infinito, girando sobre sí mismos para crear nuevas simetrías.
 
 # La paradoja de los marcos de referencia
 
+<img src="images/reflection-iii-2.jpg" alt="Relativity (Maurits Cornelis Escher, 1953)" style="width:500px; height:auto; display:block; margin:0 auto;" />
+
 # La perspectiva
 
 > *Me pregunté: ¿Cómo puede el mismo universo ser tan distinto según desde dónde lo miremos?*
@@ -133,6 +135,8 @@ que el acto de medir (T) las define. Medir no es observar pasivamente: es partic
 **observador y observado crean realidad** en conjunto.
 
 # Cambio cualitativo
+
+<img src="images/reflection-iii-3.png" alt="Waterfall (M.C. Escher, 1961)" style="width:500px; height:auto; display:block; margin:0 auto;" />
 
 # El arte de cambiar la escala de la mirada
 
@@ -222,6 +226,8 @@ cruce donde **Energía**, **Espacio** y **Tiempo** se entrelazan, tejiendo nuevo
 revolución no nacerá de una herramienta, sino de quien mire la arena y reconozca en cada grano la estructura del cosmos.
 
 # El nudo fundamental
+
+<img src="images/reflection-iii-4.jpg" alt="Knots (M.C. Escher, 1965)" style="width:500px; height:auto; display:block; margin:0 auto;" />
 
 # Descripción del nudo
 
@@ -404,6 +410,8 @@ huella de esas interacciones recursivas, donde **cada efecto se convierte en cau
 en un ciclo sin principio ni fin.
 
 # No-linealidad como motor de complejidad
+
+<img src="images/reflection-iii-5.jpg" alt="Regular Division of the Plane (M.C. Escher, 1953)" style="width:500px; height:auto; display:block; margin:0 auto;" />
 
 > *Me pregunté: ¿Por qué cada nivel agrega complejidad?*
 
