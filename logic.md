@@ -845,6 +845,8 @@ confirmando el principio relacional.
 Esto resuelve la paradoja "¿Por qué menos por menos da más?" como manifestación del proceso ontológico que completa el
 ciclo A-R-Ã.
 
+* **[rule_of_signs.md](rule_of_signs.md): Demostración de la Regla de Signos**
+
 ### 7.2. La Ley de Exclusión del Tercero como Inclusión Constitutiva
 
 La Ley de Exclusión del Tercero (LET), formulada tradicionalmente como $p \vee \neg p$, se malinterpreta

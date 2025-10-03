@@ -264,6 +264,8 @@ Spencer-Brown: $(()) = $, donde cruzar dos veces la frontera equivale a no cruza
 **Conclusión**: Es una manifestación necesaria del principio de mínima acción: el ciclo completo minimiza $\tau$, y, por
 tanto, está permitido.
 
+* **[rule_of_signs.md](rule_of_signs.md): Demostración de la Regla de Signos**
+
 ## 4. Ley del Tercio Excluido (LET)
 
 > **Ejemplo natural**: En un río tranquilo, el agua fluye claramente en una dirección o en la contraria; no existe un
