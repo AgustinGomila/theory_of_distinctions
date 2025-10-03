@@ -783,13 +783,3 @@ estructura específica desde continuidades potenciales a través de operaciones 
 
 El marco no reduce estos fenómenos a una fórmula simple, sino que identifica la estructura operativa común que permite
 su diversidad específica.
-
----
-**Protocolo experimental para NCD.**
-
-- **Compresor:** usar lzma o zstd (anotar nombre y versión del compresor en el experimento).
-- **Serialización:** `json.dumps(obj, sort_keys=True, separators=(',', ':'), ensure_ascii=False).encode('utf-8')`.
-- **Tamaño mínimo:** las entradas muy cortas distorsionan NCD; preferir >200 bytes; si es necesario, aplicar padding
-  reproducible (p. ej. sufijo fijo determinista).
-- **Pruebas de sensibilidad:** calcular NCD con al menos dos compresores y reportar la desviación; incluir en el
-  apéndice los parámetros usados.

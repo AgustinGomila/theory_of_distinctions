@@ -100,8 +100,8 @@ cada parte en el orden que aquí se presenta. El **último archivo** muestra el 
 
 ```
 Ley de Llamada:
-       A       R       Ã
-  ⟷ ---────────═════════=== ⇔
+         A       R       Ã
+   ←→ ---────────═════════=== ⇐⇒
 
   ↓                   ↓                   ↓
   │ A        R        │ A        R        │ A        R
@@ -111,11 +111,11 @@ Ley de Llamada:
            ╚=== ==⇒            ╚=== ==⇒            ╚=== ==⇒
 Ley de Cruce:
        A       R       Ã
-  ⟷ ---────────═════════=== ⇔
+  ←→ ---────────═════════=== ⇐⇒
 
   ↓                   ←-- ---┐
   │ A        R             A │                  A       R       Ã
-  └────────╖        ⇔        │ ↙        ≡ ⟷ ---────────═════════=== ⇔
+  └────────╖        ⇔        │ ↙        ≡ ←→ ---────────═════════=== ⇐⇒
          ↗ ║                 ╘════════╗
            ║ Ã             R        Ã ‖   Re-entry es consecuencia
            ╚=== ==⇒                   ⇑   de la oscilación.
@@ -133,25 +133,25 @@ Continuo:
                  /          Ref:
      _____→_____/    C      C ≡ Continuo
                 \           /_→\
-          C      \          ↑||↓ ≡ Distinción continua (Dᶜ)
+          C      \          ↑||↓ ≡ Distinción continua
                   ↓         \←_/
-Discreto:                
+Discreto:
     _____→_______←_____
    /      /     \      \    Ref:
   /      /       \      \   ↔ ≡ Continuo (Contextual)
  |   A  |    ↔    |   Ã  |  A ≡ Identidad, Ã ≡ Transformación
  ↑      ↓    R    ↓      ↑
-  \      \       /      /   ℰ la Simetría
+  \      \       /      /
    \____←_\_____/_→____/
         _____→_____
-       /           \
-      /      S      \       Ref:
-    _|___→_______←___|_     R' ≡ ∞, R" ≡ 0
-   / ↑ ∞  /  ¦  \ 0  ↓ \    S ≡ Complemento
-  /   \R'/   Ṙ   \R"/   \   Ṙ = ¦ ≡ ALGO (Relación Estabilizada)
+       /           \        Ref:
+      /      S      \       R, R', R" ≡ Relaciones
+    _|___→_______←___|_     S ≡ Complemento
+   / ↑    /     \    ↓ \    Ṙ ≡ Relación Estabilizada
+  /   \R'/   Ṙ   \R"/   \
  |     \|____←____|/     |
- ↑  A   ↓    ↔    ↓   Ã  ↑  ℰ de +|-
-  \      \   R   /      /   ℰ el Cero y el Infinito
+ ↑  A   ↓    ↔    ↓   Ã  ↑
+  \      \   R   /      /
    \____←_\_____/_→____/
 ```
 

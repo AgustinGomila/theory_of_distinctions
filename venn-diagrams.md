@@ -64,7 +64,6 @@ Continuo:
   ↑           ↓ R ↓
    \           \ /
     \_____←_____╳______→_
-            ***
 ```
 
 ## Sistemas Distinguidor y Distinguido
@@ -95,7 +94,6 @@ Discreto:
  ↑  A   ↓    ↔    ↓   Ã  ↑  ℰ los Números
   \      \   R   /      /
    \____←_\_____/_→____/
-            ***
 ```
 
 ## El Infinito y lo Indeterminado
@@ -132,7 +130,6 @@ Infinito:
  ↑  A   ↓    ↔    ↓   Ã  ↑
   \      \   R   /      /
    \____←_\_____/_→____/
-            ***
 ```
 
 ## El Cero y las Operaciones
@@ -169,7 +166,6 @@ Cero:
  ↑  A   ↓    ↔    ↓   Ã  ↑
   \      \   R   /      /
    \____←_\_____/_→____/
-            ***
 ```
 
 ## El Número Uno
@@ -269,7 +265,6 @@ Cero:
  ↑  A   ↓    ↔    ↓   Ã  ↑
   \      \   R   /      /
    \____←_\_____/_→____/
-            ***
 ```
 
 ## El Número Dos
@@ -463,7 +458,6 @@ Cero:
  ↑  A   ↓    ↔    ↓   Ã  ↑
   \      \   R   /      /
    \____←_\_____/_→____/
-            ***
 ```
 
 ## El Número Tres
@@ -687,7 +681,6 @@ Cero:
  ↑  A   ↓    ↔    ↓   Ã  ↑
   \      \   R   /      /
    \____←_\_____/_→____/
-            ***
 ```
 
 ## El Número Cuatro
@@ -820,7 +813,6 @@ Cero:
  ↑  A   ↓    ↔    ↓   Ã  ↑
   \      \   R   /      /
    \____←_\_____/_→____/
-            ***
 ```
 
 ## Algunas Híperoperaciones
@@ -889,7 +881,6 @@ Cero:
  ↑  A   ↓    ↔    ↓   Ã  ↑
   \      \   R   /      /
    \____←_\_____/_→____/
-            ***
 ```
 
 ## Los Signos
@@ -926,7 +917,6 @@ Cero:
  ↑  A   ↓    ↔    ↓   Ã  ↑
   \      \   R   /      /
    \____←_\_____/_→____/
-            ***
 ```
 
 ## Algunas Funciones Complejas
@@ -994,7 +984,6 @@ Cero:
  ↑  A   ↓    ↔    ↓   Ã  ↑
   \      \   R   /      /
    \____←_\_____/_→____/
-            ***
 ```
 
 ## El Principio Autorreferencial
@@ -1103,5 +1092,4 @@ Umbral Crítico:
           C    A│║Ã    C
                 │║
          ──→ ───┘╚═══ ⇐══
-            ***
 ```
