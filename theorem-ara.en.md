@@ -777,13 +777,3 @@ emerges from potential continuities through distinguishing operations.
 
 The framework does not reduce these phenomena to a simple formula but identifies the common operational structure that
 allows their specific diversity.
-
----
-**Experimental Protocol for NCD.**
-
-- **Compressor:** Use lzma or zstd (note the compressor name and version in the experiment).
-- **Serialization:** `json.dumps(obj, sort_keys=True, separators=(',', ':'), ensure_ascii=False).encode('utf-8')`.
-- **Minimum Size:** Very short inputs distort NCD; prefer >200 bytes; if necessary, apply reproducible padding (e.g.,
-  fixed deterministic suffix).
-- **Sensitivity Tests:** Calculate NCD with at least two compressors and report the deviation; include the parameters
-  used in the appendix.

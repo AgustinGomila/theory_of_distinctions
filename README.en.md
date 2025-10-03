@@ -62,7 +62,7 @@ each part in the order presented here. The **last file** shows the most abstract
   function as "stepping stones" that allow translating abstract concepts into concrete terms to bridge distances between
   different perspectives.
 
-* **[reflexion-3.md](reflexion-3.md): Our existence is a game of mirrors in multiple dimensions**  
+* **[reflexion-3.md](reflexion-3.md): Our existence is a game of mirrors in multiple dimensions**
   This document develops the fundamental ontological triad E-S-T, showing how it operates at different scales of the
   universe. It analyzes how the same dynamics operate from the quantum to the cosmic, explaining how physics becomes
   chemistry when changing the scale of space, and how human systems (such as civilizations) obey patterns similar to
@@ -99,8 +99,8 @@ each part in the order presented here. The **last file** shows the most abstract
 
 ```
 Law of Calling:
-       A       R       Ã
-  ⟷ ---────────═════════=== ⇔
+         A       R       Ã
+   ←→ ---────────═════════=== ⇐⇒
 
   ↓                   ↓                   ↓
   │ A        R        │ A        R        │ A        R
@@ -109,12 +109,12 @@ Law of Calling:
            ║ Ã                 ║ Ã                 ║ Ã
            ╚=== ==⇒            ╚=== ==⇒            ╚=== ==⇒
 Law of Crossing:
-       A       R       Ã
-  ⟷ ---────────═════════=== ⇔
+        A       R       Ã
+  ←→ ---────────═════════=== ⇐⇒
 
   ↓                   ←-- ---┐
   │ A        R             A │                  A       R       Ã
-  └────────╖        ⇔        │ ↙        ≡ ⟷ ---────────═════════=== ⇔
+  └────────╖        ⇔        │ ↙        ≡ ←→ ---────────═════════=== ⇐⇒
          ↗ ║                 ╘════════╗
            ║ Ã             R        Ã ‖   Re-entry is a consequence
            ╚=== ==⇒                   ⇑   of oscillation.
@@ -132,7 +132,7 @@ Continuum:
                  /          Ref:
      _____→_____/    C      C ≡ Continuum
                 \           /_→\
-          C      \          ↑||↓ ≡ Continuous distinction (Dᶜ)
+          C      \          ↑||↓ ≡ Continuous distinction
                   ↓         \←_/
 Discrete:
     _____→_______←_____
@@ -140,17 +140,17 @@ Discrete:
   /      /       \      \   ↔ ≡ Continuum (Contextual)
  |   A  |    ↔    |   Ã  |  A ≡ Identity, Ã ≡ Transformation
  ↑      ↓    R    ↓      ↑
-  \      \       /      /   ℰ the Symmetry
+  \      \       /      /
    \____←_\_____/_→____/
         _____→_____
        /           \
       /      S      \       Ref:
-    _|___→_______←___|_     R' ≡ ∞, R" ≡ 0
-   / ↑ ∞  /  ¦  \ 0  ↓ \    S ≡ Complement
-  /   \R'/   Ṙ   \R"/   \   Ṙ = ¦ ≡ SOMETHING (Stabilized Relation)
+    _|___→_______←___|_     R, R', R" ≡ Relations
+   / ↑    /     \    ↓ \    S ≡ Complement
+  /   \R'/   Ṙ   \R"/   \   Ṙ ≡ Stabilized Relation
  |     \|____←____|/     |
- ↑  A   ↓    ↔    ↓   Ã  ↑  ℰ of +|-
-  \      \   R   /      /   ℰ the Zero and Infinity
+ ↑  A   ↓    ↔    ↓   Ã  ↑
+  \      \   R   /      /
    \____←_\_____/_→____/
 ```
 

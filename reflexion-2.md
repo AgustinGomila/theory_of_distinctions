@@ -1,8 +1,8 @@
 # Nuestra ventana al mundo
 
-<img src="images/reflection-ii.jpg" alt="Lacondition humaine (René Magritte, 1935)" style="width:500px; height:auto; display:block; margin:0 auto;" />
+<img src="images/reflection-ii.jpg" alt="La condition humaine (René Magritte, 1935)" style="width:500px; height:auto; display:block; margin:0 auto;" />
 
-![img](3lollc3wglgf1 "Lacondition humaine (René Magritte, 1935)")
+![img](3lollc3wglgf1 "La condition humaine (René Magritte, 1935)")
 
 # La subjetividad de la percepción
 
@@ -168,6 +168,8 @@ cualquier relato.
 
 # El peso de la reflexión honesta
 
+<img src="images/reflection-ii-3.jpg" alt="Arquitectura au clair de lune (René Magritte, 1956)" style="width:500px; height:auto; display:block; margin:0 auto;" />
+
 # Futuros y consecuencias
 
 > Me pregunté: *¿Por qué reflexionar con honestidad cambia lo que hacemos?*
@@ -269,6 +271,8 @@ frente a lo que había ignorado: un mundo que existe independientemente de mis d
 honesta es un **viaje hacia futuros** donde humanos, plantas y animales coexisten sin anularse.
 
 # La condición humana: Reflejo de los sistemas cósmicos
+
+<img src="images/reflection-ii-2.jpg" alt="La condition humaine (René Magritte, 1935)" style="width:500px; height:auto; display:block; margin:0 auto;" />
 
 # Hacia una síntesis
 
