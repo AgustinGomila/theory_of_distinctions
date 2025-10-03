@@ -10,18 +10,27 @@
 
 El proceso primario de distinción opera sin solución de continuidad entre TODO (plenitud ontológica) y NADA (ausencia
 ontológica), generando lógica y matemáticas como proyecciones estabilizadas. Este proceso obedece al principio
-fundamental: "lo que no está permitido, —generalmente— está prohibido", donde cada distinción proyecta la tríada
+fundamental: _"lo que no está permitido, —generalmente— está prohibido"_, donde cada distinción proyecta la tríada
 ontológica A-R-Ã.
 
-Es crucial entender que:
+**Sobre el estatus de las matemáticas en este marco:**
 
-- El marco no postula axiomas matemáticos, sino que explica su emergencia
-- La notación matemática utilizada es un recurso descriptivo, no una característica del proceso ontológico fundamental
-- Las analogías físicas ilustran la universalidad del proceso, pero no pretenden ser modelos físicos formales
+Las matemáticas no son herramientas externas aplicadas al proceso ontológico, sino **cristalizaciones** del proceso
+mismo cuando alcanza configuraciones de mínima tensión mediante $\tau < \theta_c$. Su precisión descriptiva es
+estructuralmente necesaria: capturan exactamente aquello que el proceso de distinción estabiliza.
 
-Este enfoque evita la circularidad de usar matemáticas para fundamentar las matemáticas, situando el proceso de
-distinción como fundamento previo a toda formalización matemática. Las matemáticas emergen como proyecciones
-estabilizadas de este proceso, no como su fundamento.
+Sin embargo, su naturaleza discreta implica limitación constitutiva: las matemáticas son completas dentro de su
+dominio (lo estabilizable) pero necesariamente parciales respecto al continuo total. Esta parcialidad no es deficiencia,
+sino consecuencia de su modo de emergencia.
+
+Por tanto, cuando empleamos notación matemática aquí:
+
+- No fundamentamos matemáticas circularmente
+- Registramos formalmente cómo el proceso pre-matemático se auto-organiza en estructuras discretas
+- Las matemáticas son **efecto observable** (discretizaciones), no **causa generativa** (operación de distinción)
+
+El marco explica la emergencia de axiomas matemáticos desde el proceso de distinción, no los postula. Las analogías
+físicas ilustran universalidad del proceso, pero no pretenden ser modelos físicos formales.
 
 ## 1. Introducción: El Continuo de Distinción como Fundamento
 
@@ -836,36 +845,84 @@ confirmando el principio relacional.
 Esto resuelve la paradoja "¿Por qué menos por menos da más?" como manifestación del proceso ontológico que completa el
 ciclo A-R-Ã.
 
-### 7.2. Emergencia Ontológica de la Ley de Exclusión de Tercero
+### 7.2. La Ley de Exclusión del Tercero como Inclusión Constitutiva
 
-> **Ejemplo natural:** El hielo en agua muestra la Ley de Exclusión de Tercero: a temperatura constante, el agua está
-> claramente en estado líquido o sólido, sin estados intermedios definidos, manifestando la exclusión de un "tercer
-> estado" en condiciones estables.
+La Ley de Exclusión del Tercero (LET), formulada tradicionalmente como $p \vee \neg p$, se malinterpreta
+sistemáticamente cuando se lee como prohibición general de "terceros términos". Esta lectura genera aparentes conflictos
+con lógicas multivaluadas, lógica difusa, y contextos cuánticos. La reinterpretación desde la Teoría de Distinciones
+resuelve estas tensiones mostrando que LET expresa una estructura ontológica más profunda.
 
-La Ley de Exclusión de Tercero (LET), formulada como $p \vee \neg p$, no es un axioma lógico primitivo, sino la
-proyección estabilizada de la tríada ontológica fundamental en el dominio proposicional. Su emergencia se explica
-mediante el principio de mínima acción lógica: cuando la tensión ontológica $\tau$ alcanza su umbral
-crítico, el sistema resuelve esta tensión mediante una "solución mínima de distinción".
+#### 7.2.1 Principio de Inclusión Constitutiva
 
-Es crucial entender que:
+**Tesis fundamental:** Toda distinción binaria $(p, \neg p)$ requiere constitutivamente un mediador relacional $R$ que *
+*no es del mismo tipo** que los términos distinguidos, sino su condición de posibilidad.
 
-- R (la relación) no es un "tercer término" excluido, sino el mediador constitutivo que hace posible la distinción
-  binaria misma
-- En la estabilización lógica, R se vuelve implícito en la distinción A/Ã, manteniéndose como puente dinámico en el
-  continuo
+$$p \overset{R}{\longleftrightarrow} \neg p$$
 
-Esta reinterpretación resuelve la paradoja: "el tercero ya está ocupado". R no puede ser excluido porque es la condición
-de posibilidad de toda distinción binaria. La verdadera LET ontológica establece: "No puede haber distinción binaria sin
-el mediador relacional R que la constituye."
+donde:
 
-La tensión ontológica $\tau(p \vee \neg p, \text{continuo})$ mide la distancia entre la
-estabilización lógica y el flujo continuo, confirmando que la lógica clásica es una proyección estabilizada del proceso
-ontológico. Así, la LET no limita la realidad, sino que representa el umbral de estabilización necesario para que las
-distinciones se manifiesten como estructuras lógicas coherentes.
+- $p$ y $\neg p$ son términos al **nivel-objeto** (resultados de distinción)
+- $R$ es el **proceso-meta** que genera y sostiene la distinción
+- $R$ "ocupa el tercero" pero en dimensión ontológica diferente
 
-Esta perspectiva explica por qué la LET falla en sistemas altamente dinámicos (como la mecánica cuántica): no por "
-terceros términos", sino porque la frontera R se vuelve inestable, revelando la naturaleza constitutiva de la tríada
-completa.
+**Formulación precisa:**
+$$\text{LET}_{\text{correcta}}: \quad \forall p \in \text{Proposiciones}, \; \exists! R \text{ tal que } p \overset{R}{\longleftrightarrow} \neg p \land R \not\in \{p, \neg p\}$$
+
+La exclusión no es de "terceros en general", sino de **terceros al mismo nivel** que $p$ y $\neg p$. El "tercero" ($R$)
+ya está incluido constitutivamente como mediador, no puede ser excluido porque es condición de que haya distinción
+binaria.
+
+#### 7.2.2 Resolución de Aparentes Conflictos
+
+**1. Lógicas Multivaluadas:**
+No violan LET sino que operan en régimen donde $R$ no se ha estabilizado completamente. Los valores
+intermedios ($\{0.5, \text{"indeterminado"}, \mu\}$) representan **visibilidad de $R$** en proceso, no "terceros
+prohibidos". Cuando $\tau(p, R) < \theta_c$, $R$ se vuelve implícito y recuperamos binariedad clásica.
+
+**2. Mecánica Cuántica (Superposición):**
+La superposición $|\psi\rangle = \alpha|0\rangle + \beta|1\rangle$ no es "estado intermedio prohibido" sino $R$
+observable antes de estabilización. La medición colapsa $R$ en uno de los términos definidos ($|0\rangle$
+o $|1\rangle$), confirmando estructura triádica: potencialidades + mediador + actualización.
+
+**3. Paradojas Autorreferenciales:**
+Surgen de confundir niveles ontológicos. "Esta proposición es falsa" intenta tratar $R$ (auto-referencia) como si fuera
+término tipo-$p$. La paradoja señala que $R$ y $p$ no pueden ocupar el mismo nivel, confirmando la estructura que LET
+preserva.
+
+#### 7.2.3 Universalidad de la Estructura
+
+Si LET expresa la estructura triádica fundamental $A \overset{R}{\longleftrightarrow} \tilde{A}$, entonces aplica
+universalmente:
+
+- **En lógica:** Proposiciones binarias co-definidas por negación relacional
+- **En física:** Estados complementarios (partícula/onda) co-definidos por medición
+- **En matemática:** Pertenencia ($x \in S$) co-definida por frontera del conjunto
+- **En cognición:** Conceptos co-definidos por contraste diferencial
+- **En sistemas:** Distinguidor/distinguido co-definidos por frontera compartida
+
+En cada dominio, la aparente binariedad emerge de mediación triádica constitutiva.
+
+#### 7.2.4 Reformulación Ontológica de LET
+
+**Versión estándar (inadecuada):**
+> "De $p$ y $\neg p$, necesariamente uno es verdadero – no hay tercera opción"
+
+**Versión ontológica (correcta):**
+> "Toda distinción binaria $(p, \neg p)$ emerge de y requiere un mediador $R$ que no es tercero excluido sino tercero
+> constitutivo – el tercero ya está ocupado por el proceso de distinción mismo"
+
+Esta reformulación:
+
+- Unifica lógica con estructura ontológica triádica ($A$-$R$-$\tilde{A}$)
+- Explica por qué LET parece "fallar" en contextos dinámicos (visibilidad de $R$)
+- Muestra que binariedad lógica es proyección estabilizada de procesualidad triádica
+- Resuelve tensión entre lógica clásica y sistemas complejos
+
+**Consecuencia metateórica:**
+LET no es axioma primitivo, sino **teorema emergente** de la estructura triádica de distinción. Su aparente
+inevitabilidad en lógica clásica refleja que operamos típicamente en régimen donde $\tau < \theta_c$ y $R$ es implícito.
+Contextos donde $\tau \approx \theta_c$ (cuántica, vaguedad, paradojas) revelan $R$ explícitamente, mostrando la
+estructura triádica subyacente.
 
 ## 8. Matemática de la Acción Lógica
 

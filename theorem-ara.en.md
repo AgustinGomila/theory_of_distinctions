@@ -1,5 +1,10 @@
 # Distinction Theory: Fundamental Framework
 
+## Conventions
+
+1. We use `:=` for definitions (eg $f := g$).
+2. We use `=` for established equality.
+
 ![🇪🇸](https://flagcdn.com/w20/ar.png) [🇪🇸](theorem-ara.md)
 
 <img src="images/theorem_ara.jpg" alt="L. Art de la conversation (René Magritte, 1963)" style="width:500px; height:auto; display:block; margin:0 auto;" />
@@ -60,6 +65,23 @@ $$\mu(\mathcal{R}_{\mathcal{U}}\cup\mathcal{R}_{\mathcal{V}})>0.$$
 If the denominator were zero, the expression is interpreted by continuity or by contextual convention (e.g., taking the
 quotient as zero when appropriate).
 
+**Proposition (Non-degeneracy of measure — sufficient condition).**
+
+Let $\mu$ be a finite measure defined on a $\sigma$-algebra that contains the subbase $\mathcal S$ generating the
+topology of $\mathcal C$. Let $\{U_D\}_{D\in\mathcal D}$ be the family associated with the distinctions. If the
+family $\{U_D\}$ covers $\mathcal C$ (i.e., $\bigcup_{D\in\mathcal D} U_D=\mathcal C$) and each $U_D$ is measurable,
+then expressions of the form
+
+$$
+J_\mu(\mathcal R_{\mathcal U},\mathcal R_{\mathcal V})= \frac{\mu(\mathcal R_{\mathcal U}\cap\mathcal R_{\mathcal V})
+}{\mu(\mathcal R_{\mathcal U}\cup\mathcal R_{\mathcal V})}
+$$
+
+are well-defined except on a set of pairs $(\mathcal R_{\mathcal U},\mathcal R_{\mathcal V})$ of null measure. In the
+limit cases where $\mu(\mathcal R_{\mathcal U}\cup\mathcal R_{\mathcal V})=0$, we adopt the explicit operational
+convention: take $J_\mu(\mathcal R_{\mathcal U},\mathcal R_{\mathcal V})=0$ when appropriate, or define the quotient by
+continuity from neighboring pairs with positive denominator.
+
 ## 3. Emergences of Discontinuity
 
 Canonical notation for temporal recurrence:
@@ -117,7 +139,7 @@ that separates each distinct pair, yielding $T_0$.
 
 ## 4. Distinguishing and Distinguished Systems
 
-# Distinguisher System
+### Distinguisher System
 
 **Definition**: A distinguisher system (or simply distinguisher) is denoted by $\mathcal{U}$ and is the triple:
 
@@ -212,6 +234,40 @@ the configuration of the differentiated region by virtue of the operation.
   independence between the states.
 - **Dual updating**: The act of distinction transforms both $S_{\mathcal{U}}$ and $S_{\mathcal{V}}$.
 
+### Emergent Ordinality and Relational Neighborhood
+
+The individuation of distinguishing systems does not presuppose prior numeration or a primitive ordinal concept. Each
+distinguishing system constitutes its own "unity" locally through its own operation of distinction: $\mathcal{U}$ is
+necessarily "one" from its operational perspective, since it is the act of distinction itself that establishes
+difference.
+
+**Principle of Local Self-Unity:**
+$$\forall \mathcal{U} \in \mathcal{D}, \quad \mathcal{U} \equiv 1_{\mathcal{U}} \text{ (local operational identity)}$$
+
+The multiplicity of distinguishing systems does not emerge through external numerical assignment, but as a **network of
+topological neighborhood relations** in $\mathcal{C}$. We define:
+
+$$\text{Neighborhood}(\mathcal{U}, \mathcal{V}) := \begin{cases}
+\text{shared boundary} & \text{if } \partial \mathcal{R}_{\mathcal{U}} \cap \partial \mathcal{R}_{\mathcal{V}} \neq \emptyset \\
+\text{separated} & \text{otherwise}
+\end{cases}$$
+
+**Emergence of Ordinality:**
+The "numeration" of distinguishing systems is a meta-level description that records the structure of neighborhoods:
+
+- "Two distinguishers" means: two regions with non-coinciding boundaries in $\mathcal{C}$
+- "Three distinguishers" means: triadic configuration of mutual neighborhoods
+- In general, cardinality emerges from the topology of shared boundaries
+
+$$|\{\mathcal{U}_i\}| := \text{number of disjoint connected components in } \{\mathcal{R}_{\mathcal{U}_i}\}$$
+
+**Critical Consequence:** There is no circularity in speaking of "multiple systems." Multiplicity is a spatial relation
+in the single continuum, not a numerical presupposition. Each distinguisher is "its 1" locally; plurality emerges
+relationally, not numerically.
+
+This structure resolves the apparent paradox: how to count distinguishers without prior numbers? Answer: through
+neighborhood relations in $\mathcal{C}$, which are pre-numerical (topological) not post-numerical (arithmetic).
+
 ## 5. Fundamental Boundary Character of Distinction
 
 **Principle of Binary Co-Definition:** Every boundary necessarily co-defines two spaces/sets:
@@ -268,6 +324,55 @@ principle of minimal distinguishing action.
 
 **Brief note:** $K_U$ is theoretically foundational but non-computable and defined only up to an additive constant
 dependent on $U$.
+
+### Computable Proxies for $\tau$
+
+**Theoretical Definition (Symmetric).**  
+For two objects $A,B$, we define the ideal ontological tension as
+
+$$
+\tau_K(A,B)\;=\;\frac{K(A\mid B)+K(B\mid A)}{K(A,B)},
+$$
+
+where $K(\cdot\mid\cdot)$ is the conditional Kolmogorov complexity relative to a universal machine $U$. This form
+highlights relational symmetry and normalization with respect to joint complexity.
+
+**Computable Proxy (NCD).**  
+In practical implementations, we use the *Normalized Compression Distance* (NCD) as a robust and well-tested proxy:
+
+$$
+\mathrm{NCD}(x,y)=\frac{C(xy)-\min\{C(x),C(y)\}}{\max\{C(x),C(y)\}},
+$$
+
+where $C(\cdot)$ is the byte length of the object compressed by a real compressor (e.g., lzma, zstd). We define the
+operational proxy
+
+$$
+\tau_{\mathrm{proxy}}(x,y):=\mathrm{NCD}(x,y).
+$$
+
+**Caveats:** It depends on the compressor and the length/serialization of inputs; document the serialization scheme
+used (canonical JSON, binary, etc.) and test sensitivity to the compressor.
+
+**Triadic Extension.**  
+To explicitly represent the $A–R–\tilde A$ structure, we propose the triadic form
+
+$$
+\tau_{\mathrm{tri}}(A,R,\tilde A)
+\;=\;
+\frac{K(A\mid R,\tilde A)+K(R\mid A,\tilde A)+K(\tilde A\mid A,R)}{K(A,R,\tilde A)}.
+$$
+
+In practice, this can be approximated using joint compressions of serialized $(A,R,\tilde A)$ and their partitions to
+capture the relational complexity of R.
+
+**Operational Selection of $\theta_c$.**  
+Calculate $\tau_{\mathrm{proxy}}$ over a representative sample of pairs from the system and choose $\theta_c$ using one
+of these methods:
+
+- Percentile $p$ (e.g., 95%) of the distribution of non-related pairs; or
+- Automatic elbow detection (kneedle/elbow method) on the connectivity/clustering function as a function of $\tau$.  
+  Document the method used and report sensitivity (tests with various percentiles/compressors).
 
 ## 7. Degree of Ontological Interference
 
@@ -672,3 +777,13 @@ emerges from potential continuities through distinguishing operations.
 
 The framework does not reduce these phenomena to a simple formula but identifies the common operational structure that
 allows their specific diversity.
+
+---
+**Experimental Protocol for NCD.**
+
+- **Compressor:** Use lzma or zstd (note the compressor name and version in the experiment).
+- **Serialization:** `json.dumps(obj, sort_keys=True, separators=(',', ':'), ensure_ascii=False).encode('utf-8')`.
+- **Minimum Size:** Very short inputs distort NCD; prefer >200 bytes; if necessary, apply reproducible padding (e.g.,
+  fixed deterministic suffix).
+- **Sensitivity Tests:** Calculate NCD with at least two compressors and report the deviation; include the parameters
+  used in the appendix.
