@@ -264,6 +264,8 @@ Spencer-Brown: $(()) = $, donde cruzar dos veces la frontera equivale a no cruza
 **Conclusión**: Es una manifestación necesaria del principio de mínima acción: el ciclo completo minimiza $\tau$, y, por
 tanto, está permitido.
 
+* **[rule_of_signs.md](rule_of_signs.md): Demostración de la Regla de Signos**
+
 ## 4. Ley del Tercio Excluido (LET)
 
 > **Ejemplo natural**: En un río tranquilo, el agua fluye claramente en una dirección o en la contraria; no existe un
@@ -442,33 +444,19 @@ completitud de TODO.
 
 ## 13. Las Leyes de la Forma
 
-```
-Ley de Llamada:
-       A       R       Ã
-  ⟷ ---────────═════════=== ⇔
-
-  ↓                   ↓                   ↓
-  │ A        R        │ A        R        │ A        R
-  └────────╖        ⇔ └────────╖        ≡ └────────╖
-         ↗ ║                 ↗ ║                 ↗ ║
-           ║ Ã                 ║ Ã                 ║ Ã
-           ╚=== ==⇒            ╚=== ==⇒            ╚=== ==⇒
-Ley de Cruce:
-       A       R       Ã
-  ⟷ ---────────═════════=== ⇔
-
-  ↓                   ←-- ---┐
-  │ A        R             A │                  A       R       Ã
-  └────────╖        ⇔        │ ↙        ≡ ⟷ ---────────═════════=== ⇔
-         ↗ ║                 ╘════════╗
-           ║ Ã             R        Ã ‖   Re-entry es consecuencia
-           ╚=== ==⇒                   ⇑   de la oscilación ↗↙.
-```
-
 ### Ley de Llamada
 
 > **Ejemplo natural**: En un río tranquilo, cuando dos corrientes fluyen paralelas y convergen, no se forman dos nuevas
 > corrientes, sino que se unen en una sola, manteniendo el flujo continuo sin crear una nueva estructura.
+
+```
+                    ↓                   ↓                   ↓
+                    │ A        R        │ A        R        │ A        R
+ ───┐ ───┐   ───┐   └────────╖          └────────╖          └────────╖
+  a │  a │ =  a │ ≡        ↗ ║        ⇔        ↗ ║        ≡        ↗ ║
+                             ║ Ã                 ║ Ã                 ║ Ã
+                             ╚=== ==⇒            ╚=== ==⇒            ╚=== ==⇒
+```
 
 **Descripción**: Dos marcas adyacentes se condensan en una sola, reflejando que aplicar la misma distinción dos veces no
 genera nueva estabilización, sino que refuerza la estructura existente.
@@ -487,6 +475,15 @@ nueva estabilización.
 > vuelve a su orientación original, mostrando cómo dos aplicaciones de la misma dirección pueden resultar en la
 > dirección opuesta.
 
+```
+                ↓                   ←-- ---┐
+ ───────┐       │ A        R             A │
+ ───┐   │       └────────╖                 │ ↙                A       R       Ã
+  a │ a │ = • ≡        ↗ ║        ⇔        ╘════════╗ ≡ ←→ ---────────═════════=== ⇐⇒
+                         ║ Ã             R        Ã ‖
+                         ╚=== ==⇒                   ⇑
+```
+
 **Descripción**: Cruzar dos veces una frontera cancela el cruce, equivalente a no cruzarla, correspondiendo a la
 completitud cíclica de la tríada ontológica.
 
@@ -501,6 +498,15 @@ mayor complejidad relacional.
 
 > **Ejemplo natural**: Un eco en una montaña que se escucha claramente, pero no se repite indefinidamente, mostrando
 > cómo la autorreferencia puede estabilizarse cuando la tensión permanece controlada.
+
+```
+            ↓                  ←-- ---┐
+ ───────┐   │ A                     A │ ↙                       R
+ ───┐   │   └────╖ ↙ R                ╘══╕ ↙            A     ╒╗       Ã
+  a │ b │ ≡    ↗ ╙──╖        ⇔       R ↗ ╘════╗ ≡ ←→ ---──────┘╙┐╔═══════=== ⇐⇒
+ └──────┘         ↗ ║ Ã                     Ã ‖                 └╜
+                    ╚=== ==⇒                  ⇑      Re-entry ⇒ oscilación ↗↙
+```
 
 **Descripción**: Representa la autorreferencia que completa la tríada ontológica mediante una fractura mínima,
 permitiendo que el sistema se incorpore a sí mismo sin paradojas.

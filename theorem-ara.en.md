@@ -26,11 +26,6 @@ differentiated continuity through specific solutions.
 
 ### Distinction Operator ($\mathcal{D}$)
 
-The distinction operation on the single continuum generates specific subsets and fractures. To give meaning to the
-notion of continuity of the operator $\mathcal{D}$, an appropriate topology is fixed on the codomain—for example the
-Vietoris topology or the Hausdorff metric when applicable—and it is required that $\mathcal{D}$ be continuous with
-respect to the chosen topology.
-
 **Definition**: $\mathcal{D}: \mathcal{C} \to \text{Solutions of Continuity}$
 
 Pure activity that creates continuity solutions—specific fractures that generate operational differences without

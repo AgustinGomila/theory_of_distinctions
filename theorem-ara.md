@@ -24,11 +24,6 @@ soluciones específicas.
 
 ### Operador de Distinción ($\mathcal{D}$)
 
-La operación de distinción sobre el continuo único genera subconjuntos y fracturas específicas. Para dar sentido a la
-noción de continuidad del operador $\mathcal D$ se fija una topología adecuada en el codominio —por ejemplo la topología
-de Vietoris o la métrica de Hausdorff cuando procede— y se exige que $\mathcal D$ sea continua respecto de la topología
-elegida.
-
 **Definición**: $\mathcal{D}: \mathcal{C} \to \text{Soluciones de Continuidad}$
 
 Pura actividad que crea soluciones de continuidad - fracturas específicas que generan diferencias operativas sin
