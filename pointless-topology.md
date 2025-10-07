@@ -436,8 +436,9 @@ Un filtro $\mathfrak{p} \subseteq \mathcal{L}$ es **$\epsilon$-primo relativo a 
 
 1) $\mathfrak{p}$ es primo (si $a\vee b\in\mathfrak p$ entonces $a\in\mathfrak p$ o $b\in\mathfrak p$), y
 2) en la representación
-   puntual, $\mu(\{y\in\mathcal L: \widetilde A(y)\in\mathfrak p \wedge A(y)\notin\mathfrak p\})>1-\epsilon$. La versión
-   punto-libre requiere trabajar con valuaciones sobre sublocales.
+   puntual, $\mu(\{y\in\mathcal L: \widetilde A(y)\in\mathfrak p \wedge A(y)\notin\mathfrak p\})>1-\epsilon$.
+
+La versión punto-libre requiere trabajar con valuaciones sobre sublocales.
 
 **Relación $\prec_w$ (bien dentro débil).** Dada en la Def.3.1: expresa aproximación interior y es la herramienta
 técnica que garantiza que todo elemento es el join de "buenas aproximaciones" desde dentro.
