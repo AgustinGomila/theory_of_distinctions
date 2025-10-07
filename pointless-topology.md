@@ -434,8 +434,8 @@ puede corresponder a medidas de Borel mediante la representación de valuations.
 **Filtro $\epsilon$-primo.** (Definición formal repetida para referencia): Sea $\mu$ una valuación sobre $\mathcal{L}$.
 Un filtro $\mathfrak{p} \subseteq \mathcal{L}$ es **$\epsilon$-primo relativo a $(\widetilde{A}, A)$** si: (
 
-1) $\mathfrak{p}$ es primo (si $a\vee b\in\mathfrak p$ entonces $a\in\mathfrak p$ o $b\in\mathfrak p$), y (2) en la
-   representación
+1) $\mathfrak{p}$ es primo (si $a\vee b\in\mathfrak p$ entonces $a\in\mathfrak p$ o $b\in\mathfrak p$), y
+2) en la representación
    puntual, $\mu(\{y\in\mathcal L: \widetilde A(y)\in\mathfrak p \wedge A(y)\notin\mathfrak p\})>1-\epsilon$. La versión
    punto-libre requiere trabajar con valuaciones sobre sublocales.
 
