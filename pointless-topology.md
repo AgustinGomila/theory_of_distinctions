@@ -1,10 +1,6 @@
-# Teoría de Distinciones — Formalización A–R–Ã
+# Teoría de Distinciones — Formalización A—R—Ã
 
-Nota. En lo que sigue trabajamos con *frames* entendidos como complete Heyting algebras; por tanto la implicación
-interna $(-\to-)$ existe y $a^*:=a\to\bot$ define el pseudo-complemento. Si algún resultado no requiere $(-\to-)$, se
-indicará explícitamente.
-
-<img src="images/theorem_ara.jpg" alt="L. Art de la conversation (René Magritte, 1963)" style="width:500px; height:auto; display:block; margin:0 auto;" />
+<img src="/images/theorem_ara.jpg" alt="L. Art de la conversation (René Magritte, 1963)" style="width:500px; height:auto; display:block; margin:0 auto;" />
 
 ![img](scp7auj73kqf1 "L. Art de la conversation (René Magritte, 1963)")
 
@@ -36,87 +32,40 @@ frontera $R$. Precisamente:
 - $A:\mathcal L\to\mathcal L$ es monótono, deflacionario ($A(x)\le x$) e idempotente (operador interior).
 - $\widetilde A:\mathcal L\to\mathcal L$ es monótono, inflationario (
   $x\le\widetilde A(x)$
-  ) e idempotente; si además preserva meets finitos se denomina *nucleus* (en el sentido de la teoría de locales) y
-  genera un sublocale.
+  ) e idempotente; si además
+  preserva meets finitos se denomina *nucleus* (en el sentido de la teoría de locales) y genera un sublocale.
 - $R(x):=\widetilde A(x)\wedge (A(x)\to\bot)$, donde $\to$ denota la implicación interna del frame; recordamos que la
   fórmula que usa $\to$ requiere la existencia de implicación interna en la estructura (es decir, trabajamos con el
-  residual/implicación del frame cuando se aplica).
+  residual/implicación del frame cuando se aplica). **Nota técnica**: Esta definición asume que $\mathcal{L}$ es un
+  Heyting frame (admite implicación interna). En contextos ortomodulares (sistemas cuánticos), se debe
+  usar $R(x):=\widetilde A(x)\wedge A(x)^\perp$ donde $^\perp$ denota el complemento ortogonal.
 
 Esta formulación distingue con claridad la naturaleza interior/closure de los operadores y permite una versión
-punto‑libre (empleando núcleos/congruencias) cuando no se asuman puntos suficientes.
+punto–libre (empleando núcleos/congruencias) cuando no se asuman puntos suficientes.
 
-### Lema (existencia de congruencia / nucleus mínima separadora)
-
-Sea $\mathcal L$ un *frame* y sean $p,q\in\mathcal L$. Supongamos que existe al menos una congruencia $\theta$
-sobre $\mathcal L$ tal que
-
-$$
-[p]_\theta \neq [q]_\theta \text{.}
-$$
-
-Entonces la intersección
-
-$$
-\Theta := \bigcap\{\theta'\mid \theta'\text{ es congruencia y }[p]_{\theta'}\neq[q]_{\theta'}\}
-$$
-
-es una congruencia (la menor) que separa $p$ y $q$; es decir,
-
-$$
-[p]_\Theta\neq[q]_\Theta \text{.}
-$$
-
-Por la correspondencia estándar entre congruencias y núcleos (nuclei) en la teoría de locales, existe asimismo un
-*nucleus* $j_\Theta$ mínimo tal que
-$j_\Theta(p)\neq j_\Theta(q)$.
-
-**Prueba.** La intersección de cualquier familia de relaciones de equivalencia que son congruencias vuelve a ser una
-relación de equivalencia que respeta las operaciones de retícula (meet, join) —es decir, una congruencia— porque las
-propiedades que definen una congruencia se verifican componente a componente y se conservan por intersección.
-Sea
-
-$$
-\mathcal C:=\{\theta'\mid [p]_{\theta'}\neq[q]_{\theta'}\} \text{, }
-$$
-
-no vacía por hipótesis; entonces $\Theta=\bigcap \mathcal C$ es una congruencia.
-
-Si por absurdo
-
-$$
-[p]_\Theta=[q]_\Theta \\
-\text{ entonces para todo } \\
-\theta'\in\mathcal C \\
-\text{ tendríamos } \\
-[p]_{\theta'}=[q]_{\theta'}
-$$
-
-(pues la identificación en $\Theta$ implicaría identificación en cada
-congruencia que contiene a $\Theta$), lo cual contradice la definición de $\mathcal C$. Por tanto,
-
-$$
-[p]_\Theta\neq[q]_\Theta \\
-\text{ y } \\
-\Theta
-$$
-
-es la menor congruencia con esa propiedad por construcción.
-
-Finalmente, la correspondencia entre congruencias y núcleos (véase la literatura estándar sobre locales / frames)
-establece un isomorfismo orden-preservante entre el retículo de congruencias de \$\\mathcal L\$ y el retículo de núcleos
-de \$\\mathcal L\$. Bajo esa correspondencia, a \$\\Theta\$ le corresponde un nucleus \$j_\\Theta\$ y la propiedad de
-separar \$p\$ y \$q\$ se traslada a \$j_\\Theta(p)\\neq j_\\Theta(q)\$. Esto concluye la prueba.
-
-**Triada A–R–Ã**: Tres fases irreductibles que componen la acción de una distinción:
+**Triada A—R—Ã**: Tres fases irreductibles que componen la acción de una distinción:
 
 - $A$: Apertura/expansión — interpretada como un operador interior $A: \mathcal{L} \to \mathcal{L}$ con $A(x) \leq x$.
 - $\widetilde{A}$ ("Ã"): Cierre/confinamiento — interpretada como un nucleus o
   closure $\widetilde{A}: \mathcal{L} \to \mathcal{L}$ con $x \leq \widetilde{A}(x)$.
 - $R$: Curvatura/frontera/tensión — región intermedia definida algebraicamente
-  como $R(x) := \widetilde{A}(x) \wedge (A(x) \to \bot)$.
+  como $R(x) := \widetilde{A}(x) \wedge (A(x) \to \bot)$ (en frames Heyting)
+  o $R(x) := \widetilde{A}(x) \wedge A(x)^\perp$ (en contextos ortomodulares).
 
 **Punto emergente**: Un filtro primo $\mathfrak{p} \subseteq \mathcal{L}$ que satisface condiciones de separación
 respecto de $A,\widetilde{A},R$ y modela la resolución finita de la tensión.
+
+**Filtro $\epsilon$-primo** (Definición formal): Sea $\mu$ una valuación sobre $\mathcal{L}$. Un
+filtro $\mathfrak{p} \subseteq \mathcal{L}$ es **$\epsilon$-primo relativo a $(\widetilde{A}, A)$** si:
+
+1. $\mathfrak{p}$ es primo: para todo $a, b \in \mathcal{L}$, si $a \vee b \in \mathfrak{p}$
+   entonces $a \in \mathfrak{p}$ o $b \in \mathfrak{p}$.
+2. (Versión espacial) En la representación
+   puntual, $\mu(\{y \in \mathcal{L} : \widetilde{A}(y) \in \mathfrak{p} \wedge A(y) \notin \mathfrak{p}\}) > 1 - \epsilon$.
+
+**Nota**: La versión punto-libre de esta noción requiere trabajar con valuaciones sobre el retículo de
+núcleos/sublocales y se desarrolla mediante la teoría de representación de valuaciones (ver Alvarez-Manilla et al. en
+referencias).
 
 **Valuación $\mu$**: Una continuous valuation en el sentido de la teoría de locales, compatible con la estructura del
 frame bajo hipótesis de regularidad débil. La racionalidad de $\mu$ se justifica mediante su extensión a marcos
@@ -146,21 +95,24 @@ dentro débil) tal que:
 3. Para todo $x \neq \bot$, $\bigvee \{ y : y \prec_w x \} = x$.
 4. La relación es compatible con los operadores: $y \prec_w x \Rightarrow A(y) \prec_w A(x)$.
 
-(Nota: si en alguna parte se usa implicación interna $\to$, se asume que el frame admite dicha operación — esto es
-estándar en marcos/Heyting frames.)
+**Nota técnica**: Cuando se usa implicación interna $\to$ en este documento, se asume que el frame es Heyting (admite
+dicha operación). Esto es estándar en marcos/Heyting frames.
 
 **Definición 3.2 (Operadores $A$ y $\widetilde{A}$)**. Defínense dos operadores monótonos sobre $\mathcal{L}$:
 
 - $A: \mathcal{L} \to \mathcal{L}$ tal que para todo $x \in \mathcal{L}$, $A(x) \leq x$ y $A$ es
   idempotente: $A(A(x)) = A(x)$.
 - $\widetilde{A}: \mathcal{L} \to \mathcal{L}$ tal que para todo $x \in \mathcal{L}$, $x \leq \widetilde{A}(x)$
-  y $\widetilde{A}$ es idempotente. Si $\widetilde{A}$ preserva meets finitos lo llamaremos *nucleus*.
+  y $\widetilde{A}$ es idempotente. Si $\widetilde{A}$ preserva meets finitos, es un nucleus.
 
 Se exige la relación ordenada $A \leq \text{Id}_{\mathcal{L}} \leq \widetilde{A}$.
 
-**Definición 3.3 (Frontera/Curvatura $R$)**. Para todo $x \in \mathcal{L}$
-definimos $R(x) := \widetilde{A}(x) \wedge (A(x) \to \bot)$, donde $A(x) \to \bot$ es el pseudo-complemento de $A(x)$
-en $\mathcal{L}$.
+**Definición 3.3 (Frontera/Curvatura $R$)**.
+
+- (Frames Heyting) Para todo $x \in \mathcal{L}$ definimos $R(x) := \widetilde{A}(x) \wedge (A(x) \to \bot)$,
+  donde $A(x) \to \bot$ es el pseudo-complemento de $A(x)$ en $\mathcal{L}$.
+- (Contextos ortomodulares) En sistemas cuánticos y retículos ortomodulares,
+  definimos $R(x) := \widetilde{A}(x) \wedge A(x)^\perp$, donde $A(x)^\perp$ es el complemento ortogonal de $A(x)$.
 
 **Observación**. En frames booleanos, $A(x) \to \bot$ coincide con el complemento de $A(x)$, por lo que $R(x)$ es la
 diferencia entre $\widetilde{A}(x)$ y $A(x)$. En frames débilmente regulares, el pseudo-complemento está bien definido y
@@ -171,17 +123,16 @@ la relación $y \prec_w x$ proporciona una noción geométrica de aproximación 
 **Axioma D1 (Acción sobre el continuo)**. La Distinción se expresa por el par $(A,\widetilde{A})$ actuando
 sobre $\mathcal{L}$ con $A \leq \text{Id}_{\mathcal{L}} \leq \widetilde{A}$ y $R$ definido como en 3.3.
 
-**Axioma D2 (No-colapso triádico)**. Existe $x\in\mathcal L$ y existe una congruencia no trivial $\theta$
-sobre $\mathcal L$ tal que
+**Axioma D2 (No-colapso triádico débil — versión existencial)**. Existen $x \in \mathcal{L}$ y una congruencia no
+trivial $\theta$ sobre $\mathcal{L}$ tales que:
 
 $$
-[A(x)]_\theta \neq [\widetilde A(x)]_\theta \\
-\text{ y }\\
-[R(x)]_\theta \neq [\bot]_\theta \\
-\text{.}
+[A(x)]_\theta \neq [\widetilde{A}(x)]_\theta \quad\text{y}\quad [R(x)]_\theta \neq [\bot]_\theta.
 $$
 
-para toda congruencia no trivial $\theta$.
+**Nota explicativa**: Esta formulación existencial captura que hay al menos una separación realizable mediante alguna
+congruencia/nucleus. Una versión más fuerte (que requeriría justificación adicional) exigiría que la separación se
+mantenga para toda congruencia de una clase específica (por ejemplo, núcleos que conmutan con $\widetilde{A}$).
 
 **Axioma D3 (Separación puntual — formulación condicionada)**. Sea $\mathcal L$ un frame débilmente regular.
 
@@ -189,15 +140,15 @@ para toda congruencia no trivial $\theta$.
   construcciones de representación), entonces: si existe $x\in\mathcal L$ con $R(x)\neq\bot$, existe un filtro
   primo $\mathfrak p$ tal que $\widetilde A(x)\in\mathfrak p$ y $A(x)\notin\mathfrak p$.
 
-- (Versión punto‑libre) Si no se asume spatialidad, la propiedad equivalente se puede expresar en términos de
+- (Versión punto–libre) Si no se asume spatialidad, la propiedad equivalente se puede expresar en términos de
   congruencias/núcleos: existe una congruencia no trivial $\theta$ (o un nucleus que induce un sublocale propio) con
 
 $$
-[\widetilde A(x)]_\theta \neq [A(x)]_\theta \text{.}
+[\widetilde A(x)]_\theta \neq [A(x)]_\theta.
 $$
 
 (Comentario: la versión que invoca filtros primos requiere hipótesis adicionales sobre $\mathcal L$ —sobriedad, base
-contable, o condiciones que garanticen la existencia de suficientes puntos—; la formulación punto‑libre evita dicha
+contable, o condiciones que garanticen la existencia de suficientes puntos—; la formulación punto–libre evita dicha
 hipótesis al trabajar con núcleos/congruencias.)
 
 **Axioma D4 (Valuación cuántica)**. Para sistemas cuánticos, $\mu(x) = \text{Tr}(\rho P_x)$ donde $P_x$ es el proyector
@@ -217,28 +168,34 @@ débilmente regular.
 **Lema 5.1 (Tensión y no trivialidad)**. Si existe $x \in \mathcal{L}$ con $R(x) \neq \bot$, entonces la aplicación de
 la distinción produce una región no trivial donde la apertura y el cierre discrepan.
 
-*Prueba*. Por definición $R(x) = \widetilde{A}(x) \wedge (A(x) \to \bot)$. Si esto no es $\bot$, por definición de meet
-y pseudo-complemento, la apertura y cierre no se solapan en ese elemento.
+*Prueba*. Por definición $R(x) = \widetilde{A}(x) \wedge (A(x) \to \bot)$ (en frames Heyting)
+o $R(x) = \widetilde{A}(x) \wedge A(x)^\perp$ (en contextos ortomodulares). Si esto no es $\bot$, por definición de meet
+y pseudo-complemento (resp. complemento ortogonal), la apertura y cierre no se solapan en ese elemento.
 
 **Teorema 5.2 (Emergencia aproximada — versión condicionada)**. Sea $\mathcal L$ un frame débilmente regular y *
 *espacial** (por ejemplo sober con base contable adecuada). Sea $\mu$ una valuación continua sobre $\mathcal L$ que
 satisface las condiciones de regularidad necesarias (p. ej. regularidad interna y acotamiento por compactos cuando
-corresponda). Entonces, para todo $\epsilon>0$ existe un filtro primo (o un filtro $\epsilon$-primo en la versión
-medible) $\mathfrak p_\epsilon$ tal que:
+corresponda). Entonces, para todo $\epsilon>0$ existe un filtro $\epsilon$-primo (en el sentido definido en la
+Sección 2) $\mathfrak p_\epsilon$ tal que:
 
 $$
 \mu(\{x : \widetilde{A}(x) \in \mathfrak p_\epsilon \wedge A(x) \notin \mathfrak p_\epsilon\}) > 1 - \epsilon.
 $$
 
 *Esbozo de prueba.* Bajo spatialidad y base contable, la valuación continua se aproxima por joins de abiertos que
-admiten puntos que separan las imágenes. Aplicando la representación puntual (Stone/Stone–Zariski para locales en el
+admiten puntos que separan las imágenes. Aplicando la representación puntual (Stone/Stone—Zariski para locales en el
 régimen espacial) y tomando un ultrafiltro/ Zorn en la familia de conjuntos que contienen $\widetilde A(x)$ pero
 evitan $A(x)$, se construye un filtro primo $\mathfrak p_\epsilon$ que satisface la desigualdad anterior.
 
-Si no se desea suponer spatialidad, existe una versión punto‑libre: se obtiene una congruencia/nucleus que separa los
+_(Observación técnica: la construcción de ultrafiltros puede emplear Zorn / Axiom of Choice; si se evita AC, sustituir
+por la
+hipótesis de compactitud o sobriedad necesaria.)_
+
+**Versión punto-libre**: Si no se desea suponer spatialidad, existe una formulación alternativa: se obtiene una
+congruencia/nucleus que separa los
 equivalentes de $\widetilde A(x)$ y $A(x)$ en una forma que puede interpretarse como "filtro $\epsilon$-primo" en la
 retícula de sublocales; esta versión requiere replantear la medida/valuación en términos de valuations sobre
-sublocales (ver apéndice).
+sublocales (ver apéndice y referencias: Alvarez-Manilla et al., Edalat).
 
 **Teorema 5.3 (Extensión probabilística racional)**. Sea $\mathcal{L}$ un frame débilmente regular finito y $\mu$ una
 valuación continua en $\mathcal{L}$. Entonces $\mu$ se extiende a una función de probabilidad $\mathbb{P}$ en un álgebra
@@ -251,7 +208,7 @@ obtiene la extensión $\mathbb{P}$. La racionalidad se sigue del Teorema del Dut
 
 ## 6. Interpretación Ontológica: TODO, NADA y ALGO
 
-<img src="images/laws_of_form_2.png" alt="Laws of Form (G. Spencer-Brown)" style="width:500px; height:auto; display:block; margin:0 auto;" />
+<img src="/images/laws_of_form_2.png" alt="Laws of Form (G. Spencer-Brown)" style="width:500px; height:auto; display:block; margin:0 auto;" />
 
 ![img](b8p1yhyiyyqf1 "Laws of Form (G. Spencer-Brown)")
 
@@ -300,17 +257,16 @@ satisface $\mathcal{L}/\theta_j \cong \text{Fix}(j)$.
 
 ### 8.3 Formalización del Axioma D2
 
-El Axioma D2 se expresa como: existe al menos un $x \in \mathcal{L}$ tal que para toda congruencia no trivial $\theta$
-sobre la $\Sigma$-álgebra $\mathcal{L}$ se cumple
+El Axioma D2 (versión existencial corregida) se expresa como: existen $x \in \mathcal{L}$ y una congruencia no
+trivial $\theta$ sobre la $\Sigma$-álgebra $\mathcal{L}$ tales que se cumple
 
 $$
-[A(x)]_\theta \neq [\widetilde{A}(x)]_\theta \\
-\text{ y } \\
-[R(x)]_\theta \neq [\bot]_\theta \\
-\text{.}
+[A(x)]_\theta \neq [\widetilde{A}(x)]_\theta
+\text{ y }
+[R(x)]_\theta \neq [\bot]_\theta.
 $$
 
-## 9. Extensiones Measure-Theóricas y Probabilísticas
+## 9. Extensiones Medida-Teóricas y Probabilísticas
 
 ### 9.1 Valuaciones en Frames Débilmente Regulares
 
@@ -322,85 +278,13 @@ función $\mu: \mathcal{L} \to \mathbb{R}^+$ que satisface:
 - Modularidad: $\mu(x) + \mu(y) = \mu(x \vee y) + \mu(x \wedge y)$
 - Continuidad: Para todo conjunto dirigido $D \subseteq \mathcal{L}$, $\mu(\sup D) = \sup_{d \in D} \mu(d)$
 
-**Teorema 9.2 (extensión única de una valuación continua a medida de Borel).**  
-Sea $\mathcal L$ un *frame* espacial (óptimamente: sobrio) con base numerable y sea $\mu$ una valuación continua
-sobre $\mathcal L$ que sea regular y σ-finita. Denotando por $X:=\mathrm{pt}(\mathcal L)$ el espacio puntual asociado y
-por $\mathcal B(X)$ la σ-álgebra de Borel en $X$, la valuación $\mu$ se extiende de forma única a una medida σ-aditiva
-regular $\overline{\mu}$ definida sobre $\mathcal B(X)$ tal que para toda apertura $u\in\mathcal L$ (vista como abierto
-de $X$) se tiene $\overline{\mu}(u)=\mu(u)$.
+**Teorema 9.2 (Extensión a medida — versión espacial)**. Si $\mathcal{L}$ es débilmente regular, espacial, y existe una
+base contable, y $\mu$ es una
+valuación continua acotada, entonces $\mu$ se extiende de manera única a una medida de Borel
+en $\text{pt}(\mathcal{L})$ (el espacio de puntos de $\mathcal{L}$).
 
-**Prueba.** La demostración sigue la ruta estándar que conecta valuaciones punto-libre y teoremas de extensión tipo
-Carathéodory / Edalat:
-
-1. **Representación puntual y base numerable.** Por hipótesis $\mathcal L$ es espacial y posee base numerable; por tanto
-   el espacio puntual $X=\mathrm{pt}(\mathcal L)$ tiene una topología con base numerable entregada por los abiertos
-   correspondientes a elementos de $\mathcal L$. Es esencial que la familia de abiertos derivados de $\mathcal L$ genere
-   la topología de $X$.
-
-2. **Construcción de la medida externa.** Definimos una medida externa $\mu^*$ sobre todos los subconjuntos de $X$ por
-
-$$
-\mu^*(E):=\inf\{\mu(U) : U\in\mathcal L, E\subseteq \widehat U\},
-$$
-
-donde $\widehat U\subseteq X$ es el abierto puntual asociado a $U\in\mathcal L$. La función $\mu^*$ es una medida
-externa (monótona y contablemente subaditiva) porque $\mu$ es una valuación continua y por las propiedades de la
-representación puntual.
-
-3. **Medida de Carathéodory y mensurabilidad de los abiertos.** Aplicando el criterio de Carathéodory, todo abierto
-   puntualmente representable $\widehat U$ es Carathéodory-mensurable relativo a
-
-   $\mu^*$, pues para tales abiertos la definición de
-
-   $\mu^*$ coincide con
-
-   $\mu$ y las desigualdades de subaditividad se tornan iguales sobre las coberturas abiertas (aquí se usa la
-   continuidad y regularidad de
-
-   $\mu$). En consecuencia la σ-álgebra de Carathéodory contiene a todos los abiertos generados por
-
-   $\mathcal L$, y por tanto contiene a la σ-álgebra de Borel
-
-   $\mathcal B(X)$.
-
-4. **Extensión y regularidad.** La restricción de
-
-   $\mu^*$ a la σ-álgebra de Carathéodory produce una medida σ-aditiva que extiende
-
-   $\mu$ sobre abiertos. La regularidad (externa e interna) de
-
-   $\overline{\mu}$ en espacios sobrios y con base numerable se obtiene a partir de la regularidad de la valuación
-
-   $\mu$ y de la representación puntual: en particular, para cualquier Borel
-
-   $B$ se puede aproximar desde fuera por abiertos provenientes de
-
-   $\mathcal L$ y desde dentro por conjuntos compactos relativos cuando se dispone de local compactness en los casos
-   necesarios; cuando sólo se dispone de sobriedad y base numerable la regularidad externa sigue de la definición de
-
-   $\mu^*$.
-
-5. **Unicidad.** La unicidad de la extensión viene de la σ-finitud/regularidad: si $\nu$ es otra medida σ-aditiva
-   coincidente con $\mu$ en los abiertos de la base, entonces por σ-finitud la medida está determinada por su valor en
-   una π-sistema generador (por ejemplo, la base enumerada), lo que fuerza $\nu=\overline{\mu}$ en la σ-álgebra
-   generada. Esta línea de argumento es estándar en teoremas de extensión tipo Carathéodory y en trabajos de Edalat
-   sobre valuaciones.
-
-Por tanto existe y es única una medida σ-aditiva regular $\overline{\mu}$ sobre $\mathcal B(X)$ que
-extiende $\mu$. $\square$
-
-**Observaciones.**
-
-- Si se desea una formulación que evite la hipótesis de base numerable, conviene reemplazarla por condiciones de
-  regularidad más fuertes (p. ej. local compactness y medidas Radon) y seguir la literatura especializada (Edalat,
-  Lawson–Ngo, etc.).
-- Para refinamientos de unicidad (sin σ-finitud) es preciso considerar propiedades adicionales de determinación por
-  π-sistemas o condiciones de regularidad extrema.
-
-**Hipótesis adicionales.** Para la extensión única de una valuación continua $\mu$ a una medida de Borel en la
-representación puntual se exige, típicamente: (i) $\mathcal L$ espacial o sobria con base numerable; (ii) $\mu$ regular
-y σ-finita (o condiciones alternativas que garanticen determinación por π-sistemas). Estas condiciones siguen el
-tratamiento estándar en la literatura punto-libre/constructiva.
+**Nota**: La extensión a medida requiere la hipótesis de spatialidad y base contable. Para la formulación punto-libre,
+se requiere trabajar con valuaciones sobre el retículo de sublocales (ver Alvarez-Manilla et al.).
 
 ### 9.2 Integral de Edalat y Medida de Información
 
@@ -413,14 +297,19 @@ recorre particiones finitas por elementos regulares.
 **Definición 9.4 (Frame efectivamente dado)**. Un frame débilmente regular $\mathcal{L}$ es efectivamente dado si tiene
 una base contable $\{b_n\}_{n\in\mathbb{N}}$ con relaciones $b_m \prec_w b_n$ decidibles.
 
-**Teorema 9.5**. Si $\mathcal{L}$ es efectivamente dado y los operadores $A$, $\widetilde{A}$ son computables,
-entonces $\mu$, $I$ y la probabilidad condicional son computables.
+**Teorema 9.5 (Computabilidad)**. Si $\mathcal{L}$ es efectivamente dado y los operadores $A$, $\widetilde{A}$ son
+computables,
+entonces $\mu$, $I$ y la probabilidad condicional son computables en el sentido de las representaciones Type-2 de
+Weihrauch.
 
-**Modelo computacional (precisión).** Cuando enunciamos que ciertos operadores o funciones son computables empleamos el
-marco *Type-2* de representaciones: suponemos una base numerable decidible para $\mathcal L$, representación por índices
-de opens y operadores computables definidos como funciones efectivas sobre tales índices. Sin esta precisión la noción
-de "computable" resulta ambigua; véase la literatura sobre análisis computable (Edalat, Weihrauch) y trabajos
-constructivos en pointfree topology para detalles.
+**Representaciones**: cada elemento de la base contable se indexa por ${n\in\mathbb{N}}$; los
+operadores $A,\widetilde A$ son computables sobre esos índices; las valuaciones se representan por aproximaciones
+racionales crecientes; con estas representaciones, las funciones resultantes son Type-2 computables (ver Edalat,
+Weihrauch).
+
+**Nota**: La construcción explícita de los algoritmos se basa en aproximaciones mediante la base contable decidible y el
+cálculo de la integral de Edalat por aproximaciones superiores/inferiores. Ver Edalat y referencias sobre domain theory
+computacional para detalles técnicos de implementación.
 
 ## 10. Ejemplos Canónicos
 
@@ -443,11 +332,11 @@ regular pues $X$ es métrico.
 
 **Frame**: $\mathcal{L} =$ Subespacios cerrados de $\mathbb{C}^2$ (retículo ortomodular)
 
-**Operadores triádicos**:
+**Operadores triádicos** (notación ortomodular):
 
 - $A(S) = \text{span}\{|0\rangle\}$ si $S$ contiene $|0\rangle$, si no $\bot$
 - $\widetilde{A}(S) = \text{clausura de evolución temporal de } S$
-- $R(S) = \widetilde{A}(S) \wedge A(S)^\perp$
+- $R(S) = \widetilde{A}(S) \wedge A(S)^\perp$ (usando complemento ortogonal)
 
 **Valuación cuántica**: $\mu(S) = \text{Tr}(\rho P_S)$ donde $P_S$ es el proyector sobre $S$
 
@@ -469,7 +358,7 @@ estructuras no booleanas.
 
 - $A(\rho) = \Pi_{\text{clásico}}(\rho)$: proyección al subespacio clásico
 - $\widetilde{A}(\rho) = \mathcal{E}(\rho)$: evolución unitaria + decoherencia
-- $R(\rho) = \widetilde{A}(\rho) - A(\rho)$: superposición coherente residual
+- $R(\rho) = \widetilde{A}(\rho) \wedge A(\rho)^\perp$: superposición coherente residual (usando complemento ortogonal)
 
 Donde la emergencia de propiedades clásicas corresponde a puntos en el frame de subespacios.
 
@@ -506,7 +395,7 @@ general y topológicamente natural.
 
 # Referencias
 
-- Edalat, A. "A generalisation of Henstock–Kurzweil integral to compact metric spaces" (preprint, 2025).
+- Edalat, A. "A generalisation of Henstock—Kurzweil integral to compact metric spaces" (preprint, 2025).
 - Di Gianantonio, P. & Edalat, A., "A Domain-Theoretic Framework for Conditional Probability and Bayesian Updating in
   Programming" (2025).
 - Lawson, J. D. & Lu, B., "Riemann and Edalat integration on domains" (2003).
@@ -521,34 +410,34 @@ general y topológicamente natural.
 
 **Frame / Locale.** Un *frame* $\mathcal L$ es una retícula completa que admite joins arbitrarios y meets finitos,
 satisfaciendo la distributividad infinita: $x \wedge \bigvee_i y_i = \bigvee_i (x \wedge y_i)$. Un *locale* es la misma
-noción tomada en el contexto punto‑libre.
+noción tomada en el contexto punto–libre.
 
-**Nucleus.** Un *nucleus* en un frame es un operador monótono $j:\mathcal L\to\mathcal L$ que es
-inflationario (
-
+**Nucleus.** Un *nucleus* en un frame es un operador monótono
+$j:\mathcal L\to\mathcal L$ que es inflationario (
 $x\le j(x)$
-
 ), idempotente (
-
 $j(j(x))=j(x)$
-
 ) y preserva meets finitos. Los núcleos corresponden a sublocales.
 
 **Operador interior (tipo A).** Un operador $A$ que satisface $A(x)\le x$ e $A(A(x))=A(x)$ se interpreta como un
 interior o apertura efectiva.
 
 **Implicación interna.** En marcos/Heyting frames existe un operador residual $\to$ tal
-que $a\wedge b \le c \iff a \le (b\to c)$. Cuando se usa la expresión $A(x)\to\bot$ se emplea este residual.
+que $a\wedge b \le c \iff a \le (b\to c)$. Cuando se usa la expresión $A(x)\to\bot$ se emplea este residual. **Nota**:
+Esta operación no existe en retículos ortomodulares generales; en esos contextos se debe usar el complemento
+ortogonal $^\perp$.
 
 **Valuación continua.** Una valuación $\mu$ sobre un frame es una función monótona que satisface additividad modular
 para joins dirigidos y cuya continuidad se refiere a conservar ciertos límites dirigidos; bajo hipótesis de spatialidad
 puede corresponder a medidas de Borel mediante la representación de valuations.
 
-**Filtro $\epsilon$-primo.** En este documento usamos "filtro $\epsilon$-primo" para denotar, de forma informal, un
-filtro $\mathfrak p$ que capta con medida mayor que $1-\epsilon$ el conjunto de elementos que separan $\widetilde A(x)$
-y $A(x)$. En la versión estricta: un filtro $\mathfrak p$ tal que $\mu(\{y: y\in \mathfrak p\})>1-\epsilon$ y que
-satisface propiedades de primalidad relativas (si $a\vee b\in\mathfrak p$ entonces $a\in\mathfrak p$
-o $b\in\mathfrak p$).
+**Filtro $\epsilon$-primo.** (Definición formal repetida para referencia): Sea $\mu$ una valuación sobre $\mathcal{L}$.
+Un filtro $\mathfrak{p} \subseteq \mathcal{L}$ es **$\epsilon$-primo relativo a $(\widetilde{A}, A)$** si: (
+
+1) $\mathfrak{p}$ es primo (si $a\vee b\in\mathfrak p$ entonces $a\in\mathfrak p$ o $b\in\mathfrak p$), y (2) en la
+   representación
+   puntual, $\mu(\{y\in\mathcal L: \widetilde A(y)\in\mathfrak p \wedge A(y)\notin\mathfrak p\})>1-\epsilon$. La versión
+   punto-libre requiere trabajar con valuaciones sobre sublocales.
 
 **Relación $\prec_w$ (bien dentro débil).** Dada en la Def.3.1: expresa aproximación interior y es la herramienta
 técnica que garantiza que todo elemento es el join de "buenas aproximaciones" desde dentro.
@@ -557,12 +446,12 @@ técnica que garantiza que todo elemento es el join de "buenas aproximaciones" d
 
 - **Stone duality y representación para locales/espectros.** La representación puntual (es decir, asociar
   puntos/ultrafiltros a elementos del frame) exige hipótesis: espacialidad o sobriedad y condiciones de base contable
-  cuando se desea una representación medible. Consulte Johnstone, *Stone Spaces*, y trabajos sobre Stone–Zariski para
+  cuando se desea una representación medible. Consulte Johnstone, *Stone Spaces*, y trabajos sobre Stone—Zariski para
   locales.
 
 - **Extensión de valuaciones a medidas.** La extensión de valuaciones a medidas (teorema tipo Carathéodory /
   representación de valuations) requiere hipótesis de regularidad y, en general, condicionales como spatialidad o bases
-  contables y, para medidas σ‑aditivas, hipótesis tipo σ‑finitud. Véanse trabajos de Edalat sobre valuations y Lawson &
+  contables y, para medidas σ–aditivas, hipótesis tipo σ–finitud. Véanse trabajos de Edalat sobre valuations y Lawson &
   Lu sobre representación de measures en dominios.
 
 - **Gleason (1957).** La representación de medidas cuánticas por trazas (estado density matrices) está garantizada, bajo
