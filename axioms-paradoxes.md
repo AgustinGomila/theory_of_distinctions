@@ -4,6 +4,10 @@
 
 ![img](ycprnb3xbcof1 "Rippled surface (M.C. Escher, 1950)")
 
+> Nota: _"Los términos 'tensión ontológica' y 'umbral crítico' corresponden formalmente en el marco matemático a la
+región intermedia $R$ medida por la valuación $\mu$ y al parámetro $\epsilon$ en la definición de filtro $\epsilon$
+-primo, respectivamente. Esta correspondencia se desarrolla rigurosamente en la formalización topológica sin puntos."_
+
 ## Primitivos Ontológicos
 
 ### Continuo Ontológico ($\mathcal{C}$)

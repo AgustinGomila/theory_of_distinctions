@@ -6,6 +6,10 @@
 
 ![img](qwm4rwku18mf1 "Knot (M.C. Escher, 1966)")
 
+> Nota: _"Los términos 'tensión ontológica' y 'umbral crítico' corresponden formalmente en el marco matemático a la
+región intermedia $R$ medida por la valuación $\mu$ y al parámetro $\epsilon$ en la definición de filtro $\epsilon$
+-primo, respectivamente. Esta correspondencia se desarrolla rigurosamente en la formalización topológica sin puntos."_
+
 ## 0. El Continuo Antes de su Solución
 
 El proceso primario de distinción opera sin solución de continuidad entre TODO (plenitud ontológica) y NADA (ausencia
@@ -87,6 +91,17 @@ operando bajo el principio Todo-o-Nada que determina 'lo que no está permitido,
 significa que el continuo solo permite aquellas distinciones que mantienen la coherencia del sistema, prohibiendo
 aquellas que exceden umbrales críticos de tensión.
 
+#### Axioma D1 (Acción sobre el continuo)
+
+La Distinción se expresa mediante el par $(A, \widetilde{A})$ actuando sobre $\mathcal{L}$
+con $A \leq \text{Id}_{\mathcal{L}} \leq \widetilde{A}$, generando la tríada operacional fundamental A-R-Ã. Aquí, $A$
+representa la apertura/expansión (operador interior), $\widetilde{A}$ el cierre/confinamiento (nucleus), y $R$ la región
+intermedia que captura la tensión ontológica entre ambos. Esta relación triádica constituye el mecanismo mediante el
+cual la tensión entre los extremos ontológicos (TODO y NADA) se transforma en estructuras discernibles, permitiendo la
+emergencia de entidades finitas a partir del continuo $\mathcal{L}$, modelado como un frame débilmente regular. La
+tensión ontológica $\tau$ emerge como la proyección estabilizada de la relación R, definiendo el gradiente de coherencia
+relacional entre A y Ã, con su valor mínimo (pero no cero) correspondiendo a los puntos de estabilización óptima.
+
 ### 2.2. La Tensión Ontológica
 
 > **Ejemplo natural:** Una telaraña completa muestra tensión ontológica: cada hilo mantiene un equilibrio precario entre
@@ -105,6 +120,9 @@ estabilización ontológica. En esencia, la $\tau$ define la coherencia interna 
 relacional. Su carácter asintótico constituye un proceso continuo de distinción, formando la base de la herencia
 constitutiva donde cada nueva estabilización incorpora las anteriores. En resumen, es el **rango subumbral donde las
 distinciones se asimilan internamente sin proyección observable**.
+
+> Nota: _"Tensión ontológica ($\tau$): Deriva directamente del acto de distinción $\mathcal{D}$ y corresponde
+formalmente a $R(x) = \widetilde{A}(x) \wedge (A(x) \to \bot)$ en el marco de frames débilmente regulares."_
 
 ### 2.3. La Transición Ontológica
 
@@ -132,6 +150,9 @@ Este esquema se invierte en sentido descendente para las operaciones inversas.
 
 En resumen: cuando las soluciones locales agotan la capacidad de mantener $\tau<\theta_c$, la acción mínima disponible
 es un salto reconfigurador que produce nuevas estabilizaciones discretas emergentes.
+
+> Nota: _"Umbral crítico ($\theta_c$): Corresponde al parámetro $\epsilon$ en la definición de filtro $\epsilon$-primo,
+donde la valuación $\mu$ mide que la región intermedia $R$ excede el límite de estabilidad."_
 
 ### 2.4. Las Leyes de la Forma como Manifestaciones Triádicas
 
