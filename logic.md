@@ -6,10 +6,6 @@
 
 ![img](qwm4rwku18mf1 "Knot (M.C. Escher, 1966)")
 
-> Nota: _"Los términos 'tensión ontológica' y 'umbral crítico' corresponden formalmente en el marco matemático a la
-región intermedia $R$ medida por la valuación $\mu$ y al parámetro $\epsilon$ en la definición de filtro $\epsilon$
--primo, respectivamente. Esta correspondencia se desarrolla rigurosamente en la formalización topológica sin puntos."_
-
 ## 0. El Continuo Antes de su Solución
 
 El proceso primario de distinción opera sin solución de continuidad entre TODO (plenitud ontológica) y NADA (ausencia
@@ -171,7 +167,7 @@ R) es el acto primordial de distinción, operando dentro de esta tríada fundame
 Esta ley muestra que dos marcas adyacentes se **condensan** en una, reflejando la aplicación repetida de la misma
 distinción, que no genera nueva estabilización sino que refuerza la estructura triádica. Corresponde
 a $A \overset{R}{\longleftrightarrow} \tilde{A}$ aplicado dos veces, donde la tensión ontológica $\tau$ permanece
-constante. Ontológicamente, se manifiesta como el operador NOR recursivo: la primera aplicación ($p ↓ p = \neg p$)
+constante. Ontológicamente, se manifiesta como el operador XOR: la primera aplicación ($p ↓ p = \neg p$)
 representa la distinción primaria (A→R), y la segunda ($\neg p ↓ \neg p = p$) completa el ciclo (R→Ã→A), dando origen a
 la lógica y aritmética.
 

@@ -252,6 +252,36 @@ trébol $3_1$. En este modelo, cada lóbulo del trébol representa la preeminenc
 no trivialidad topológica indica la necesidad de núcleos/congruencias de estructura no-simple para estabilizar la
 órbita.
 
+#### Marca → Nucleus / Eigenform
+
+**Definición (informal → formal).** Sea $\mathcal{L}$ un frame completo (o retículo completo) que representa las
+regiones/propiedades. Definimos la **Marca** (operador de distinción) como un operador
+monotónico $M:\mathcal L\to\mathcal L$ con $M\circ M=M$ (idempotente). Si además $M$ preserva finite meets entonces
+puede tomarse como *nucleus* o cierre.
+
+Un **eigenform** en este contexto es un elemento $x\in\mathcal L$ tal que $M(x)=x$ (punto fijo). Por el teorema de
+Knaster–Tarski, todo operador monotónico sobre un retículo completo tiene puntos fijos (existen mínimos y máximos puntos
+fijos), lo que da una base matemática para la existencia de objetos emergentes a partir de iteración de distinciones.
+
+#### Nudo trébol como Auto-mutualidad.
+
+**Definición (espacial).** Sea (Y) el espacio de parámetros y $\gamma:S^1\to Y$ una órbita periódica de la dinámica.
+Sea $\iota:Y\to\mathbb R^3$ una inmersión continua. Decimos que $\gamma$ tiene *auto-mutualidad tipo trébol* si la curva
+cerrada $\iota\circ\gamma$ es isotópica al nudo trébol $3_1$.
+
+**Proposición (esquemática).** Si $\iota\circ\gamma$ es isotópica a $3_1$ entonces:
+
+1. La clase isotópica de $\iota\circ\gamma$ es invariante topológica frente a isotopías pequeñas.
+2. Las invariantes de nudo (número de cruce mínimo, polinomios de Alexander/Jones, grupo del complemento) proporcionan
+   etiquetas invariantes para la órbita periódica.
+3. Por tanto, la topología del soporte actúa como *descriptor robusto* de la estabilidad emergente de $I(x)$.
+
+**Versión punto-libre (esbozo).** Si no se asume representación espacial, la presencia de auto-mutualidad puede
+declararse por la existencia de una familia finita ${u_i}\subset\mathcal L$ que cubre una tubular neighbourhood
+algebraizada de la órbita y tal que las relaciones de intersección y no-separabilidad entre los $u_i$ inducen la
+presentación del grupo del nudo $3_1$ en el subretículo generado por ${u_i}$. Esto permite trabajar íntegramente en
+lenguaje de núcleos/sublocales sin inmersión explícita.
+
 ### 6.4 Programa formal mínimo
 
 1. Definir flujos/iteraciones $\Phi^A_t,\Phi^R_t,\Phi^{\widetilde A}_t$ en $\mathcal L$ o, cuando proceda, en la

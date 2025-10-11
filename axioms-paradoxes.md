@@ -4,10 +4,6 @@
 
 ![img](ycprnb3xbcof1 "Rippled surface (M.C. Escher, 1950)")
 
-> Nota: _"Los términos 'tensión ontológica' y 'umbral crítico' corresponden formalmente en el marco matemático a la
-región intermedia $R$ medida por la valuación $\mu$ y al parámetro $\epsilon$ en la definición de filtro $\epsilon$
--primo, respectivamente. Esta correspondencia se desarrolla rigurosamente en la formalización topológica sin puntos."_
-
 ## Primitivos Ontológicos
 
 ### Continuo Ontológico ($\mathcal{C}$)
@@ -710,3 +706,21 @@ respuesta, sino que generas distinciones hasta que, tras tres operaciones autorr
 umbral crítico. Entonces, una configuración se estabiliza y emerge como tu comprensión. Las demás posibilidades quedan
 subumbral, pero siguen siendo parte del proceso. Así es como algo surge de la nada: mediante distinciones que, al
 alcanzar su equilibrio óptimo, inevitablemente se distinguen como comprensión.
+
+---
+
+> - **Notas.** Supongamos una valuación normalizada $\mu:\mathcal L\to[0,1]$ (es decir, $\mu(1)=1$),
+    donde $1$ representa el Todo ontológico del frame, y que cuantifica la presencia relacional de elementos del frame.
+> - Definimos la región intermedia $R:=\widetilde A(x)\wedge (A(x)\to\bot)$ (o, en contextos
+    ortomodulares, $R:=\widetilde A(x)\wedge A(x)^\perp$).
+> - La **tensión ontológica** se identifica con $\tau := 1 - \mu(R)$ (valor adimensional en $[0,1]$); la
+    normalización $\mu(1)=1$ garantiza que $\tau$ tome valores en ese intervalo y permite interpretar $\tau$ como grado
+    relativo de “no-presencia” de la región intermedia frente al Todo.
+> - El **umbral crítico** $\theta_c\in[0,1]$ se relaciona con el parámetro $\epsilon$ de los filtros $\epsilon$-primos
+    mediante $\epsilon = 1-\theta_c$. Con estas convenciones, la condición $\tau<\theta_c$ es equivalente
+    a $\mu(R) > 1-\theta_c$, que es análoga (en forma) a la desigualdad usada en la definición puntual-traducción de
+    filtros $\epsilon$-primos.
+> - **Nota técnica:** para que estas expresiones sean formales conviene suponer además que $\mu$ es una valuación
+    normalizada y continua (o que se extiende a una medida regular sobre $\mathrm{pt}(\mathcal L)$ cuando se emplee la
+    representación puntual). La formalización rigurosa de la equivalencia entre $\tau<\theta_c$ y la existencia de
+    filtros $\epsilon$-primos bajo hipótesis precisas se desarrolla en la sección técnica correspondiente.
